@@ -169,7 +169,7 @@ select {
 }
 .top-phone {
  float: left;
- background: url(/img/top_phone.png) left no-repeat;
+ background: url(/tvereza.pro/img/top_phone.png) left no-repeat;
  line-height: 40px;
  padding-left: 30px;
 }
@@ -340,11 +340,11 @@ html[xmlns] .slides {display: block;}
 }
 .flex-prev {
  left: -90px;
- background: #fff url(/img/prev.png) center no-repeat;
+ background: #fff url(/tvereza.pro/img/prev.png) center no-repeat;
 }
 .flex-next {
  right: -90px;
- background: #fff url(/img/next.png) center no-repeat;
+ background: #fff url(/tvereza.pro/img/next.png) center no-repeat;
 }
 .flexslider:hover .flex-direction-nav li a {
  opacity: 1;
@@ -430,11 +430,11 @@ html[xmlns] .slides {display: block;}
 }
 #prev {
  left: -90px;
- background: #fff url(/img/prev.png) center no-repeat;
+ background: #fff url(/tvereza.pro/img/prev.png) center no-repeat;
 }
 #next {
  right: -90px;
- background: #fff url(/img/next.png) center no-repeat;
+ background: #fff url(/tvereza.pro/img/next.png) center no-repeat;
 }
 #slider-wrap:hover #prev {
  left: 20px;
@@ -534,9 +534,9 @@ a.title-more {
  background-repeat: no-repeat;
 }
 
-.s-icon-1 {background-image: url(/img/s-icon-1.png);}
-.s-icon-2 {background-image: url(/img/s-icon-2.png);}
-.s-icon-3 {background-image: url(/img/s-icon-3.png);}
+.s-icon-1 {background-image: url(/tvereza.pro/img/s-icon-1.png);}
+.s-icon-2 {background-image: url(/tvereza.pro/img/s-icon-2.png);}
+.s-icon-3 {background-image: url(/tvereza.pro/img/s-icon-3.png);}
 .service h3 {
  margin: 0;
  padding: 20px 0;
@@ -677,7 +677,7 @@ a.more3:hover {
  padding-left: 24px;
  line-height: 16px;
  height: 16px;
- background: url(/img/comm.png) left no-repeat;
+ background: url(/tvereza.pro/img/comm.png) left no-repeat;
  font-size: 14px;
  text-decoration: none !important;
  color: #a7a7a7 !important;
@@ -710,12 +710,12 @@ a.more3:hover {
  color: #fff;
  cursor: pointer;
  border-radius: 3px;
- background-image: url(/img/a-not-active.png);
+ background-image: url(/tvereza.pro/img/a-not-active.png);
  background-position: right;
  background-repeat: no-repeat;
 }
 .accordion li.a-active > h4 {
- background-image: url(/img/a-active.png);
+ background-image: url(/tvereza.pro/img/a-active.png);
 }
 .a-descr {
  padding: 10px;
@@ -785,18 +785,18 @@ a.more3:hover {
  background-repeat: no-repeat;
 }
 .prev-arrow a {
- background-image: url(/img/prev2.png);
+ background-image: url(/tvereza.pro/img/prev2.png);
  margin-right: 3px;
 }
 .next-arrow a {
- background-image: url(/img/next2.png);
+ background-image: url(/tvereza.pro/img/next2.png);
 }
 .prev-arrow a:hover {
- background-image: url(/img/prev2-hover.png);
+ background-image: url(/tvereza.pro/img/prev2-hover.png);
  margin-right: 3px;
 }
 .next-arrow a:hover {
- background-image: url(/img/next2-hover.png);
+ background-image: url(/tvereza.pro/img/next2-hover.png);
 }
 #clients {
  padding: 50px 0;
@@ -862,9 +862,9 @@ footer > .overflow-hidden a {
  margin: 0;
  display: inline;
 }
-.small-contact > span.small-mail {background-image: url(/img/s-mail.png);}
-.small-contact > span.small-tel {background-image: url(/img/s-tel.png);}
-.small-contact > span.small-adr {background-image: url(/img/s-adr.png);}
+.small-contact > span.small-mail {background-image: url(/tvereza.pro/img/s-mail.png);}
+.small-contact > span.small-tel {background-image: url(/tvereza.pro/img/s-tel.png);}
+.small-contact > span.small-adr {background-image: url(/tvereza.pro/img/s-adr.png);}
 
 #search {
  margin-top: 20px;
@@ -906,7 +906,7 @@ footer > .overflow-hidden a {
  cursor: pointer;
  background-position: center;
  background-repeat: no-repeat;
- background-image: url(/img/go-top.png);
+ background-image: url(/tvereza.pro/img/go-top.png);
  background-color: #4b4c4d;
  transition: all .3s ease;
 }
@@ -939,7 +939,7 @@ a.home-page {
  float: left;
  width: 24px;
  height: 70px;
- background: url(/img/home-page.png) center no-repeat;
+ background: url(/tvereza.pro/img/home-page.png) center no-repeat;
  margin-right: 7px;
 }
 .with-margin {
@@ -1113,7 +1113,7 @@ em {
  color: #fff;
 }
 .quote1 {
- background: url(/img/quote1.png) left top no-repeat;
+ background: url(/tvereza.pro/img/quote1.png) left top no-repeat;
  text-indent: 25px;
  display: block;
 }
@@ -1158,7 +1158,7 @@ textarea.m-form-input {
  margin-bottom: 20px !important;
 }
 .block-title span {
- background-image: url(/img/block-title.png) !important;
+ background-image: url(/tvereza.pro/img/block-title.png) !important;
 }
 
 .block-title2 {
@@ -1166,16 +1166,16 @@ textarea.m-form-input {
  margin-bottom: 5px !important;
 }
 .block-title2 span {
- background-image: url(/img/line4.png) !important;
+ background-image: url(/tvereza.pro/img/line4.png) !important;
 }
 
 .block-cnt {
  overflow: hidden;
 }
 
-.block-cnt .small-contact > span.small-mail {background-image: url(/img/s-mail-white.png);}
-.block-cnt .small-contact > span.small-tel {background-image: url(/img/s-tel-white.png);}
-.block-cnt .small-contact > span.small-adr {background-image: url(/img/s-adr-white.png);}
+.block-cnt .small-contact > span.small-mail {background-image: url(/tvereza.pro/img/s-mail-white.png);}
+.block-cnt .small-contact > span.small-tel {background-image: url(/tvereza.pro/img/s-tel-white.png);}
+.block-cnt .small-contact > span.small-adr {background-image: url(/tvereza.pro/img/s-adr-white.png);}
 
 .categories {
  height: 50px;
@@ -1275,7 +1275,7 @@ textarea.commFl {
 }
 .block-cnt li, .block-cnt .catsTd {
  padding: 5px 0 5px 20px;
- background: url(/img/list2.png) left no-repeat;
+ background: url(/tvereza.pro/img/list2.png) left no-repeat;
 }
 .block-cnt .catsTable {
  border-spacing: 0;
@@ -1433,7 +1433,7 @@ aside .eTag:hover {
  float: right;
  width: 50px;
  height: 50px;
- background: url(/img/ss-panel.png) center no-repeat;
+ background: url(/tvereza.pro/img/ss-panel.png) center no-repeat;
  cursor: pointer;
  transition: all 2s ease;
 }
@@ -1525,24 +1525,24 @@ aside .eTag:hover {
 #ss-background span:nth-child(9n) {
  margin-right: 0;
 }
-#background_01 {background: url(/img/background_01.png);}
-#background_02 {background: url(/img/background_02.png);}
-#background_03 {background: url(/img/background_03.png);}
-#background_04 {background: url(/img/background_04.png);}
-#background_05 {background: url(/img/background_05.png);}
-#background_06 {background: url(/img/background_06.png);}
-#background_07 {background: url(/img/background_07.png);}
-#background_08 {background: url(/img/background_08.png);}
-#background_09 {background: url(/img/background_09.png);}
-#background_10 {background: url(/img/background_10.png);}
-#background_11 {background: url(/img/background_11.png);}
-#background_12 {background: url(/img/background_12.png);}
-#background_13 {background: url(/img/background_13.png);}
-#background_14 {background: url(/img/background_14.png);}
-#background_15 {background: url(/img/background_15.png);}
-#background_16 {background: url(/img/background_16.png);}
-#background_17 {background: url(/img/background_17.png);}
-#background_18 {background: url(/img/background_18.png);}
+#background_01 {background: url(/tvereza.pro/img/background_01.png);}
+#background_02 {background: url(/tvereza.pro/img/background_02.png);}
+#background_03 {background: url(/tvereza.pro/img/background_03.png);}
+#background_04 {background: url(/tvereza.pro/img/background_04.png);}
+#background_05 {background: url(/tvereza.pro/img/background_05.png);}
+#background_06 {background: url(/tvereza.pro/img/background_06.png);}
+#background_07 {background: url(/tvereza.pro/img/background_07.png);}
+#background_08 {background: url(/tvereza.pro/img/background_08.png);}
+#background_09 {background: url(/tvereza.pro/img/background_09.png);}
+#background_10 {background: url(/tvereza.pro/img/background_10.png);}
+#background_11 {background: url(/tvereza.pro/img/background_11.png);}
+#background_12 {background: url(/tvereza.pro/img/background_12.png);}
+#background_13 {background: url(/tvereza.pro/img/background_13.png);}
+#background_14 {background: url(/tvereza.pro/img/background_14.png);}
+#background_15 {background: url(/tvereza.pro/img/background_15.png);}
+#background_16 {background: url(/tvereza.pro/img/background_16.png);}
+#background_17 {background: url(/tvereza.pro/img/background_17.png);}
+#background_18 {background: url(/tvereza.pro/img/background_18.png);}
 #ss-default, #ss-change {
  display: block;
  margin-top: 15px;
