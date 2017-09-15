@@ -1,47 +1,495 @@
+
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Олександр Данилюк</title>
-		<meta name="description" content="Персональний сайт Олександра Данилюка" />
-		<meta name="keywords" content="Данилюк, Саша, сайт" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
-		<link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Spectral:200" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<script>document.documentElement.className = 'js';</script>
-	</head>
-	<body class="demo-1 loading">
-		
-		<main>
-			<div class="content content--intro">
-				<div class="frame">
-				</div>
-				<div class="content__inner">
-					<h2 class="content__title">Tvereza</h2>
-					<h3 class="content__subtitle">pro</h3>
-					<a href="#" class="enter">enter</a>
-				</div>
-				<div class="shape-wrap">
-					<svg class="shape" width="100%" height="100vh" preserveAspectRatio="none" viewBox="0 0 1440 800" xmlns:pathdata="http://www.codrops.com/">
-						<path d="M -44,-50 C -52.71,28.52 15.86,8.186 184,14.69 383.3,22.39 462.5,12.58 638,14 835.5,15.6 987,6.4 1194,13.86 1661,30.68 1652,-36.74 1582,-140.1 1512,-243.5 15.88,-589.5 -44,-50 Z" pathdata:id="M -44,-50 C -137.1,117.4 67.86,445.5 236,452 435.3,459.7 500.5,242.6 676,244 873.5,245.6 957,522.4 1154,594 1593,753.7 1793,226.3 1582,-126 1371,-478.3 219.8,-524.2 -44,-50 Z"></path>
-					</svg>
-				</div>
-			</div><!-- /content -->
-			<div class="content content--fixed">
-				<div class="content__inner">
-					<nav class="menu">
-						<a class="menu__item" href="#">Spring/Summer 2018</a>
-						<a class="menu__item" href="#">Autumn/Winter 2018</a>
-					</nav>
-				</div>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Проект «Твереза Україна»</title>
+ <link type="text/css" rel="StyleSheet" href="/_st/my.css" />
+ <!--[if lt IE 9]>
+ <script>
+ var e = ("header,nav,article,aside,section,footer").split(',');
+ for (var i = 0; i < e.length; i++) {
+ document.createElement(e[i]);
+ }
+ </script> 
+ <![endif]-->
+ 
+	<link type="text/css" rel="stylesheet" href="/.s/src/base.css" />
+	<link type="text/css" rel="stylesheet" href="/.s/src/layer6.css" />
+	<link rel="stylesheet" href="/.s/src/moder_panel/moder_panel_new.css" />
+
+	<script type="text/javascript" src="/.s/src/jquery-1.7.2.js"></script>
+	
+	<script type="text/javascript" src="/.s/src/uwnd.js?2"></script>
+<script type="text/javascript" src="//s68.ucoz.net/cgi/uutils.fcg?a=uSD&ca=2&ug=4&r=0.227422670629608"></script>
+	<script type="text/javascript">
+		window.ulb = {photoPage: "Перейти на сторінку з фотографією.",closeBtn: "Закрити", error: "Запитаний контент не може бути завантажений&lt;br/&gt;Будь ласка, спробуйте пізніше.", next: "Уперед", prev: "Попередній", btnPlay: "Розпочати слайдшоу", btnToggle: "Змінити розмір"}
+	</script>
+	<link type="text/css" rel="stylesheet" href="/.s/src/ulightbox/ulightbox.css" />
+	<script type="text/javascript" src="/.s/src/ulightbox/ulightbox.js"></script>
+	<script type="text/javascript">var umoder_panel_params = { confirm_activate: 'Ви дійсно хочете активувати цей матеріал?', confirm_delete: 'Ви підтверджуєте видалення?', ssid: 'gYHbo4xv'}</script>
+	<script type="text/javascript" src="/.s/src/moder_panel/moder_scripts.js"></script>
+
+	<script type="text/javascript" async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=uk"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			if ($(element).is(':empty') ) grecaptcha.render(element, {sitekey:element.getAttribute('data-sitekey'), theme:element.getAttribute('data-theme'), size:element.getAttribute('data-size') });
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlockL{display:none; }
+</style><script src="//ucounter.ucoz.net/?src=ss2&data=Mjo5OjM4OjEwOTo1MzoyMjoyOTo5Mjo2Nzo3MzozMTo0Mzo0OToyOTo2MjoxOjUxOjgwOjEyNDo5NTozMDo0OjI6MTU6MTAyOjMzOjUyOjg0Ojg3OjgwOjExNjo4MTo1MTozODoyNToxODo3Nzo3MjoxMDoxMjQ6OTk6ODg6ODI6OTU6MTAyOjA6MTE1Ojk1OjMwOjg6NDozODo3NDo2MDo0OToyOTo5MjoxNDozMjo4NzozNjo5NTozMDo4OjQ6Mzg6OTM6Mzk6NjE6ODQ6MjA6MTE6NjE6NzI6MTAzOjI0OjE6MTQ6MjM6Mzg6Nzc6NTk6MTA5Ojg4Ojg0Ojg4OjEwMzo3OjExMzo3Mjo5MDo4MTo3Mjo5NTo3NDozMzozNjo1NDowOjEyOjYyOjcwOjEyNDo3Mzo3NToxODoyNToxMzoxMDI6NDI6NDk6Nzo2Ojg1OjExNjo2NTo0MDoxMzo1MDoyMzoyNDoxNjo5MzoxMTc6MTE4OjI2Ojg6Mjg6MTM6ODY6MzU6MTM6MTE6OTI6ODY6MTA6ODA6NjA6MTU6NToxNToxNToxMTE6NzE6NDI6OTU6MzA6ODo0OjM4OjkxOjU2OjYzOjI2OjkyOjg4&r64=aHR0cDovL3R2ZXJlemEuYXQudWEvbG9hZC8=&cid=A1B100&cb=0.473094468371226" async></script>
+
+</head>
+ <body id="mainContainer">
+ 
+ <script src="/js/settings.js"></script>
+ <script src="/js/ss.js"></script>
+ 
+ <script src="/js/ui.js"></script>
+ <script>
+ $(function() {
+ $('.flexslider').flexslider({
+ controlNav: false,
+ directionNav: false
+ });
+ });
+ </script> 
+ <div id="container">
+ 
+ <!--LiveInternet counter--><script type="text/javascript"><!--
+ new Image().src = "//counter.yadro.ru/hit?r"+
+ escape(document.referrer)+((typeof(screen)=="undefined")?"":
+ ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+ ";h"+escape(document.title.substring(0,80))+
+ ";"+Math.random();//--></script><!--/LiveInternet-->
+ 
+ <div id="top">
+ <div class="cnt">
+ <div class="top-phone2">
+ <i>Projectus</i> &mdash; кинутий вперед
+ </div>
+ 
+ <div class="top-flag">
+ <img title="Українська" src="/design/usr/Ukraine-Flag.png" alt="" />
+ <a href="/index/0-3" title="Русский"><img src="/design/usr/Russian-Federation-Flag.png" alt="" /></a>
+ </div>
+ 
+ </div>
+ </div>
+ <header>
+ <div class="cnt">
+ <h1 class="logo">Проект «Твереза Україна»</h1>
+ <nav>
+ <!-- <sblock_menu> -->
+ <!-- <bc> --><div id="uMenuDiv1" class="uMenuV" style="position:relative;"><ul class="uMenuRoot">
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/load"><span>Файли</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li>
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/board"><span>Робота</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li>
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/blog"><span>Замітки</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li>
+<li><div class="umn-tl"><div class="umn-tr"><div class="umn-tc"></div></div></div><div class="umn-ml"><div class="umn-mr"><div class="umn-mc"><div class="uMenuItem"><a href="/forum"><span>Форум</span></a></div></div></div></div><div class="umn-bl"><div class="umn-br"><div class="umn-bc"><div class="umn-footer"></div></div></div></div></li></ul></div><script type="text/javascript">$(function(){_uBuildMenu('#uMenuDiv1',0,document.location.href+'/','uMenuItemA','uMenuArrow',2500);})</script><!-- </bc> -->
+ <!-- </sblock_menu> -->
+ </nav>
+ </div>
+ </header>
+ 
+ 
+ 
+ <!-- <middle> -->
+ <!-- <body> -->
+ <section id="slider-wrap">
+ <div id="slider">
+ <div class="flexslider">
+ <ul class="slides">
+ <li style="background-image:url(/slider/fon-240.jpg);">
+ <div class="cnt">
+ <div class="slide-left">
+ <h2>Форма</h2>
+ <div class="slide-descr">«Інформація творить чудеса, вона має здатність втілюватися в реальність.<br><br>Концентрація ресурсу на цілі гарантує результат, головне — не збитися з цілі»</div>
+ <div class="slide-buttons">
+ </div>
+ </div>
+ <div class="slide-right">
+ <img src="/slider/1.png" alt="">
+ </div>
+ </div> 
+ </li>
+ 
+ <li style="background-image:url(/slider/fon-241.jpg);">
+ <div class="cnt">
+ <div class="slide-left">
+ <h2>Форма</h2>
+ <div class="slide-descr">«Тверезий розум здатен зробити набагато більше, творити набагато креативніше, мислити набагато глобальніше. Ми не теоретики, ми віддаємо перевагу послідовним практичним діям»</div>
+ <div class="slide-buttons">
+ </div>
+ </div>
+ <div class="slide-right">
+ <img src="/slider/2-2.png" alt="">
+ </div>
+ </div>
+ </li>
+ 
+ <li style="background-image:url(/slider/fon-242.jpg);">
+ <div class="cnt">
+ <div class="slide-left">
+ <h2>Сходження</h2>
+ <div class="slide-descr">«Одне знаємо точно — в багатьох своїх розробках ми помиляємося, і це нормально. Зате у нас є шанс вчасно визнати свої помилки і зробити з цього висновки»</div>
+ <div class="slide-buttons">
+ </div>
+ </div>
+ <div class="slide-right">
+ <img src="/slider/3.png" alt="">
+ </div>
+ </div>
+ </li>
+ </ul>
+ </div> 
+ </div>
+ </section> 
+ <div class="info-block">
+ Ми раді вітати вас на сайті проекту «Твереза Україна»
+ </div>
+ <section class="h-service">
+ <h2 class="title1 title-center">
+ <span>Тут можна</span>
+ </h2>
+ <div class="cnt overflow-hidden">
+ <div class="service">
+ <img src="/design/korobka.png" alt="">
+ <h3>Читати Проект</h3>
+ Тут Ви можете прочитати або завантажити на комп'ютер найновішу версію проекту «Твереза Україна». Поточна версія - 1.0<br>
+ <a class="more3" href="/1.0.htm">Читати</a>
+ </div>
+ <div class="service">
+ <img src="/design/stakan.png" alt="">
+ <h3>Стати розробником</h3>
+ Живете тверезо і непроти займатися проектуванням? Ласкаво просимо до роботи над проектом «Твереза Україна»<br>
+ <a class="more3" href="/index/stati_rozrobnikom/0-16">Долучитись</a>
+ </div>
+ <div class="service">
+ <img src="/design/raketa.png" alt="">
+ <h3>Уточнити дії</h3>
+ Якщо Ви ознайомилися з Проектом, то при бажанні вже можна розпочати дії, кудись вступати зовсім не обов'язково<br>
+ <a class="more3" href="/index/utochniti_diji/0-15">Уточнити</a>
+ </div>
+ </div>
+ </section>
+ 
+ <div class="cnt overflow-hidden">
+ <div class="l-block">
+ <h2 class="title1"><span>Доречні запитання</span></h2>
+ <ul class="accordion">
+ <li>
+ <h4>Де я?</h4>
+ <div class="a-descr">
+ Ви зайшли на сайт проекту «Твереза Україна». Тут знайомляться з Проектом всі бажаючі, долучаються до його розробки, отримують допомогу і консультацію щодо даної проектної діяльності.
+ </div>
+ </li>
+ <li>
+ <h4>Що за проект?</h4>
+ <div class="a-descr">
+ Проект покликаний отверезити Україну, тобто виховати в її громадян тверезий світогляд. Щоб жити тверезо в країні стало такою ж нормою, як чистити зуби або мити руки перед їжею.
+ </div>
+ </li>
+ <li>
+ <h4>Ви хто?</h4>
+ <div class="a-descr">
+ Ми добровольці, що взялись втілити тверезу Україну в життя. Ні за яких обставин не вживаємо алкогольних сумішей, тютюну та інших наркотиків, і не пригощаємо ними інших.
+ </div>
+ </li>
+ <li>
+ <h4>Причому тут я?</h4>
+ <div class="a-descr">
+ Якщо Ви житель України, то скоріш за все, Проект в якійсь мірі торкнеться і Вашого життя. А от ким Ви будете у цьому проекті, залежить від подальших Ваших дій, зокрема на даному сайті.
+ </div>
+ </li>
+ </ul>
+ </div>
+ 
+ <div class="r-block">
+ <h2 class="title1"><span>Прогрес</span></h2>
+ <ul class="progress-bars">
+ <li><span data-pct="10">Отверезнення&nbsp;України</span></li>
+ </ul>* ;-)
+ </div>
+ 
+ <!-- </middle> -->
+ </div> 
+ <footer>
+ <div class="cnt overflow-hidden">
+ <!--U1DRIGHTER1Z--><!-- <block5> -->
+<div class="f-block">
+ <h2 class="f-block-title"><!-- <bt> -->Процес<!-- </bt> --></h2>
+ <div class="f-block-cnt">
+ <!-- <bc> -->
+ Активацію виконавців (п.1. Глобального плану) розпочато. Наразі ми: 
+<ul>
+ <li>читаємо Проект;
+ <li>рекламуємо його і розповсюджуємо серед тверезників.
+</ul>
+Дещо, що потрібно для розповсюдження беремо на сайті, меню «Файли».
+ <!-- </bc> -->
+ </div>
+</div>
+<!-- </block5> -->
+
+<!-- <block6> -->
+<div class="f-block">
+ <h2 class="f-block-title"><!-- <bt> -->Контакти<!-- </bt> --></h2>
+ <div class="f-block-cnt">
+ <!-- <bc> -->
+ <div class="small-contact">
+ <span class="small-mail"></span>
+ <h5>E-mail</h5><br>
+ <a href="mailto:info@tvereza.pro">info@tvereza.pro</a>
+ </div>
+ <div class="small-contact">
+ <span class="small-tel"></span>
+ <h5>телефон</h5><br>
+ +3 8(093) 88-203-55
+ </div>
+ <div class="small-contact">
+ <span class="small-adr"></span>
+ <h5>Адреса</h5><br>
+ Україна
+ </div>
+ <!-- </bc> -->
+ </div>
+</div>
+<!-- </block6> -->
+
+<!-- <block7> -->
+<div class="f-block">
+ <h2 class="f-block-title"><!-- <bt> -->Пошук<!-- </bt> --></h2>
+ <div class="f-block-cnt">
+ <!-- <bc> -->
+Можливо, потрібна Вам інформація вже є на сайті.
+<form id="search" onsubmit="this.sfSbm.disabled=true" method="get" action="http://tvereza.at.ua/search/">
+ <input id="search-input" name="q" type="text" placeholder="Пошук по сайту" />
+ <input id="search-btn" type="submit" value="Шукати" name="sfSbm"/>
+ </form>
+ <!-- </bc> -->
+ </div>
+</div>
+<!-- </block7> --><!--/U1DRIGHTER1Z-->
+ </div>
+ <div class="bottom">
+ <div class="cnt">
+ <!--U1BFOOTER1Z--><!--LiveInternet logo--><a href="http://www.liveinternet.ru/click"
+target="_blank"><img src="//counter.yadro.ru/logo?45.4"
+title="LiveInternet"
+alt="" border="0" width="31" height="31" align="absMiddle" style="margin-right: 10px;"/></a><!--/LiveInternet-->
+<!-- <copy> -->Проект &laquo;Твереза Україна&raquo; 2013-2017<!-- </copy> -->. <!-- "' --><span class="pba3Nn4W">Хостинг від <a href="http://www.ucoz.ua/">uCoz</a></span>.
+ <div class="go-top" title="Доверху"></div><!--/U1BFOOTER1Z-->
+ </div>
+ </div>
+ </footer>
+ </div>
+ </body>
+</html><div>
+	<!--style-->
+	<link href="/.s/src/uAdmDesktop/css/uadm.css" rel="stylesheet" type="text/css" />
+	<!--style-->
+
+	<script type="text/javascript">
+		function achgroup(v){document.cookie = "2tverezauz47="+escape(v)+";path=/;";window.location.reload();}
+		function descustf(v){document.cookie = "2tverezauz48="+escape(v)+";path=/;";window.location.reload();}
+	</script>
+	<script type="text/javascript">var uwnd_scale = {w:1, h:1 };</script> <!-- $ds_js libs from uCoz (for constructor mode) -->
+	<div id="uzGrid" style="display:none;"><div style="position:fixed; width:100%; text-align:center; padding-top:250px;"><img alt="" src="/.s/img/ma/m/i3.gif" style="border:0;width:220px;height:19px;" /></div></div> <!-- uzgrid -->
+
+	<!--[if lte IE 9]>
+<script src="/.s/src/IE9.js"></script>
+<![endif]-->
+	<!--[if !IE]><!-->
+	<script>
+		var isIE = window.navigator.msPointerEnabled;
+		if (isIE) {
+		document.addEventListener('DOMContentLoaded', function() {
+		var uadm = document.getElementsByClassName("uadm");
+		var uadmAvatar = document.getElementsByClassName("uadm-avatar");
+		var uadmToggle = document.getElementsByClassName("uadm-toggle");
+		var uadmL = document.getElementsByClassName("uadm-l");
+		var uadmWidth = uadmL[0].offsetWidth + uadmAvatar[0].offsetWidth + uadmToggle[0].offsetWidth;
+		document.documentElement.className += ' ie10-11';
+		if(!uadm[0].classList.contains("uadm--vertical")){
+		uadm[0].style.width = uadmWidth + 'px';
+		}
+		});
+		}
+	</script>
+	<!--<![endif]-->
+
+		<div class="uadm uadm--animate     uadm--mini uadm--left-closed uadm--closed "> <!-- also bar color and location settings (first option - color, second - orientation, third - location 1 option, third - location 2 option, fifth - admbar mini option, sixth - hidden type, seventh - fixed position) -->
+<!--uadm-profile-->
+<div class="uadm-profile uadm-iparent">
+<i class="uadm-iparent-ico icouAdm-user">
+	<span class="uadm-count"></span>
+</i>
+<a href="javascript://" class="uadm-avatar "><span><span></span> <!-- avatar --></span></a>
+<div class="uadm-subl uadm-profile-menu">
+<div class="uadm-subi">
+	 <!-- nick update -->
+	 <!-- fill opts -->
+	<a href="/index/8"> <!-- personal page link -->
+<i class="icouAdm-business-card"></i>
+<span>Мій профіль на сайті</span>
+</a>
+</div>
+<div class="uadm-subi"><span onclick="new _uWnd('Cab','Колір спливаючих вікон',180,150,{align:'',autosize:1,closeonesc:1,min:0,max:0},{url:'/index/42'});"><i class="icouAdm-business-card"></i><span>Колір спливаючих вікон&nbsp&nbsp<img src="/.s/img/wd/6/sample.gif"></span></span></span></div>
+	 <!-- uid profile -->
+	<div class="uadm-subi"><a href="/index/15-1" target="_blank"><i class="icouAdm-user"></i><span>Користувачі сайту</span></a></div> <!-- list of site users -->
+	<div class="uadm-subi"><a href="/index/10"><i class="icouAdm-exit"></i><span>Вихід із сайту</span></a></div> <!-- site exit -->
+</div>
+<div class="uadm-tooltip">Профіль</div> <!-- profile sign -->
+</div>
+<!--.uadm-profile-->
+	  <!--.uadm-avatar-->
+	  <div class="uadm-l">
+			<div class="uadm-iparent uadm-iparent--unread uadm-message"><i class="uadm-iparent-ico icouAdm-mail"><span class="uadm-count"></span></i> <!-- messages count -->
+		  <div class="uadm-subl">
+			<div class="uadm-subi"><a href="/index/14-0-0" target="_blank"><i class="icouAdm-upload"></i><span>Вхідні <span class="uadm-count"></span></span></a></div> <!-- inbox messages -->
+			<div class="uadm-subi"><a href="/index/14-0-1" target="_blank"><i class="icouAdm-sent"></i><span>Відправлені</span></a></div> <!-- sent messages -->
+			<div class="uadm-subi"><a href="/index/14-0-0-1" target="_blank"><i class="icouAdm-write"></i><span>Відправити повідомлення</span></a></div> <!-- send message -->
+			<div class="uadm-subi"><a href="/index/14-0-5" target="_blank"><i class="icouAdm-mailing"></i><span>Масова розсилка</span></a></div> <!-- mass mailing -->
+		  </div>
+			<div class="uadm-tooltip">Повідомлення</div> <!-- messages sign -->
+		</div>
+			<div class="uadm-iparent"><i class="uadm-iparent-ico icouAdm-info">  </i><div class="uadm-subl"> <!-- infoblock start tags -->
+			 <!-- site is blocked -->
+			 <!-- site is doubtfull -->
+			<div class="uadm-subi"><span class="subl-el-not-active"><i class="icouAdm-server"></i><span>Сервер сайту: s68</span></span></div> <!-- server name -->
+			<div class="uadm-subi"><a href="/admin/" target="_blank"><i class="icouAdm-enter"></i><span>Вхід у панель управління</span></a></div> <!-- login to control panel -->
+			<div class="uadm-subi"><a href="/panel/?a=admbar" target="_blank"><i class="icouAdm-settings"></i><span>Налаштування панелі </span></a></div> <!-- view bar settings -->
+			 <!-- question abount uCoz -->
+			 <!-- official blog uCoz -->
+			 <!-- all projects -->
 			</div>
-			<script src="js/imagesloaded.pkgd.min.js"></script>
-			<script src="js/charming.min.js"></script>
-			<script src="js/anime.min.js"></script>
-			<script src="js/demo1.js"></script>
-		</main>
-	</body>
-</html>
+	<div class="uadm-tooltip">Інформація</div>
+	</div> <!-- infoblock end tags -->
+		
+	<div class="uadm-iparent"><i class="uadm-iparent-ico icouAdm-doc"></i>
+	<div class="uadm-subl">
+	<div class="uadm-subl-hline">Мої матеріали</div> <!--sign my active materials -->
+	<div class="uadm-subi"><a href="/news/0-0-0-0-17-1" target="_self"><i class="icouAdm-news"></i><span class="uadm--cut-text">Новини сайту</span>&nbsp;<span>(2)</span></a></div><div class="uadm-subi"><a href="/board/0-0-1-0-17" target="_self"><i class="icouAdm-ads"></i><span class="uadm--cut-text">Робота</span>&nbsp;<span>(4)</span></a></div><div class="uadm-subi"><a href="/blog/0-0-0-0-17-1" target="_self"><i class="icouAdm-blog2"></i><span class="uadm--cut-text">Замітки</span>&nbsp;<span>(2)</span></a></div><div class="uadm-subi"><a href="/load/0-0-1-0-17" target="_self"><i class="icouAdm-catalog_files"></i><span class="uadm--cut-text">Файли</span>&nbsp;<span>(12)</span></a></div><div class="uadm-subi"><a href="/forum/0-0-1-3-1?o3=1" target="_self"><i class="icouAdm-forum"></i><span class="uadm--cut-text">Форум</span>&nbsp;<span>(20)</span></a></div>
+	<div class="uadm-subl-hline">Неактивні матеріали</div>
+	<div class="uadm-subi"><span class="subl-el-not-active"><span style="opacity: 0.5;">Немає неактивних матеріалів</span></span></div>
+	</div>
+	<div class="uadm-tooltip">Матеріали</div>
+	</div> <!-- materials -->
+		
+	<div class="uadm-iparent uadm-iparent--unread uadm-comments"><i class="uadm-iparent-ico icouAdm-mycomm-bubble"><span id="new-comments-count" class="uadm-count"></span></i> <!-- new comments amount -->
+	<div id="new-comments" class="uadm-subl">
+	<div class="uadm-subi"><a href="/index/86" target="_blank"><i class="icouAdm-managecomm"></i><span>Керування коментарями</span></a></div> <!-- manage comments -->
+	<div class="uadm-subi"><a href="/index/34-1" target="_blank"><i class="icouAdm-mycomm"></i><span>Мої коментарі</span></a></div> <!-- my comments -->
+	</div>
+	<div class="uadm-tooltip">Коментарі</div>
+	</div> <!-- comments -->
+		<div class="uadm-iparent "><i class="uadm-iparent-ico icouAdm-add-disk"></i><div class="uadm-subl"> <!-- add material start block -->
+		<div class="uadm-subi"><a href="/index/31" target="_blank"><i class="icouAdm-add"></i><span>Редактор сторінок</span></a></div><div class="uadm-subl-hline">Додати матеріал в:</div><div class="uadm-subi"><a href="/photo/0-0-0-1-2" target="_blank"><i class="icouAdm-photo"></i><span>Фотоальбоми</span></a></div><div class="uadm-subi"><a href="/dir/0-0-0-0-1" target="_blank"><i class="icouAdm-catalog_sites"></i><span>Каталог сайтів</span></a></div><div class="uadm-subi"><a href="/load/0-0-0-0-1" target="_blank"><i class="icouAdm-catalog_files"></i><span>Файли</span></a></div><div class="uadm-subi"><a href="/publ/0-0-0-0-1" target="_blank"><i class="icouAdm-catalog_articles"></i><span>Каталог статей</span></a></div><div class="uadm-subi"><a href="/video/viadd" target="_blank"><i class="icouAdm-video"></i><span>Відео</span></a></div><div class="uadm-subi"><a href="/faq/0-0-0-1" target="_blank"><i class="icouAdm-info"></i><span>FAQ</span></a></div><div class="uadm-subi"><a href="/blog/0-0-0-0-1" target="_blank"><i class="icouAdm-blog2"></i><span>Замітки</span></a></div><div class="uadm-subi"><a href="/board/0-0-0-0-1" target="_blank"><i class="icouAdm-ads"></i><span>Робота</span></a></div><div class="uadm-subi"><a href="/shop/0/add" target="_blank"><i class="icouAdm-shop"></i><span>Інтернет-магазин</span></a></div><div class="uadm-subi"><a href="/stuff/0-0-0-0-1" target="_blank"><i class="icouAdm-games"></i><span>Онлайн-ігри</span></a></div><div class="uadm-subi"><a href="/news/0-0-0-0-1" target="_blank"><i class="icouAdm-news"></i><span>Новини сайту</span></a></div> <!-- list of links add material (active modules) -->
+		</div>
+	<div class="uadm-tooltip">Додати матеріал</div>
+	</div> <!-- add material end block -->
+		
+	<div class="uadm-iparent"><a href="javascript://" target="_blank"><i class="uadm-iparent-ico icouAdm-folder"></i></a>
+	<div class="uadm-subl">
+	 <!-- fman and disk start block -->
+		
+	<div class="uadm-subi">
+	<span class="subl-el-not-active"><i class="icouAdm-cloud"></i><span>Диск:&nbsp;</span><span class="uadm-hdd uadm-hdd--empty">70/865 Mb</span></span> <!--empty / full-->
+	</div>
+	 <!-- disk quota -->
+		 <!-- disk recount -->
+		
+	<div class="uadm-subi"><a href="javascript://" onclick="window.open('/tmpls/?a=fm;n=1','fman','resizable=1,scrollbars=1,top=0,left=0,width=600,height=400');" target="_self"><i class="icouAdm-fm"></i><span>Файловий менеджер</span></a></div> <!-- open file manager -->
+	 <!-- call file manager -->
+		
+	</div>
+	<div class="uadm-tooltip">Файловий менеджер</div>
+	</div>
+	 <!-- fman and disk end block -->
+		<div class="uadm-iparent"><i class="uadm-iparent-ico icouAdm-no"></i><div class="uadm-subl">
+		<div class="uadm-subi"><a href="javascript://" onclick="new _uWnd('Ud', 'Видалення записів користувача', 300, 150, {align:'left', closeonesc:1, min:0, max:0, oncontent:function(wnd){$('input:text:first', wnd.top).focus();}}, {url:'/index/33'}); return false;" target="_blank"><i class="icouAdm-close-disk"></i><span>Видалення матеріалів користувачів</span></a></div> <!-- delete users -->
+		<div class="uadm-subi"><a href="javascript://" onclick="new _uWnd('ipBanW','Блокування IP адрес',350,150,{align:'left',closeonesc:1,min:0,max:0,oncontent:function(wnd){$('textarea:first',wnd.top).focus();}},{url:'/index/83'});return false;" target="_blank"><i class="icouAdm-ip"></i><span>Блокування IP адрес</span></a></div> <!-- block ips -->
+		<div class="uadm-subi"><a href="/index/102-1" target="_blank"><i class="icouAdm-ban-list"></i><span>Список забанених користувачів</span></a></div>
+		<div class="uadm-subi"><a href="javascript://" onclick="new _uWnd('WBan','Блокування WWW адрес',350,150,{align:'left',closeonesc:1,min:0,max:0,oncontent:function(wnd){$('textarea:first',wnd.top).focus();}},{url:'/index/43'});return false;" target="_blank"><i class="icouAdm-www"></i><span>Блокування WWW адрес</span></a></div> <!-- block www addresses -->
+	</div><div class="uadm-tooltip">Безпека</div></div> <!-- delete user's notes and blocking options -->
+		
+		<div class="uadm-iparent"><i class="uadm-iparent-ico icouAdm-shopingcart"></i>
+		  <div class="uadm-subl">
+			<div class="uadm-subi"><a href="/shop/user/1" target="_self"><i class="icouAdm-balance"></i><span>Мій баланс</span></a></div>
+			<div class="uadm-subi"><a href="/shop/user/1/goods" target="_self"><i class="icouAdm-docs"></i><span>Мої товари</span></a></div>
+			<div class="uadm-subi"><a href="/shop/checkout" target="_self"><i class="icouAdm-cart"></i><span>Кошик</span></a></div>
+			<div class="uadm-subi"><a href="/shop/price" target="_self"><i class="icouAdm-calc"></i><span>Прайс-лист</span></a></div> <!-- price list -->
+			<div class="uadm-subi"><a href="/shop/invoices" target="_self"><i class="icouAdm-orders"></i><span>Керування замовленнями</span></a></div>
+			<div class="uadm-subi"><a href="/shop/wishlist" target="_self"><i class="icouAdm-wishlist"></i><span>Список бажань</span></a></div> <!-- wishlist -->
+		  </div>
+		<div class="uadm-tooltip">Магазин</div>
+		</div>
+	 <!-- shop block -->
+		
+	<div class="uadm-iparent"><i class="uadm-iparent-ico icouAdm-updates"></i><div class="uadm-subl uadm-subl--reverse">
+	<div class="uadm-subi"><a href="javascript://" onclick="new _uWnd('SfU','Повідомлення про оновлення',400,200,{align:'',closeonesc:1,min:0,max:0,maxh:300,resize:0,},{url:'/index/67'});return false;" target="_blank"><i class="icouAdm-updates"></i><span>Повідомлення про оновлення</span></a></div>
+	<div class="uadm-subi"><a href="/forum/0-0-1-46" target="_self"><i class="icouAdm-ublog-2"></i><span>Підписки форуму</span></a></div>
+	</div>
+	<div class="uadm-tooltip">Сповіщення</div>
+	</div>
+	 <!-- notifications menu -->
+		
+	<div class="uadm-iparent" id="uadm-search"><i class="uadm-iparent-ico icouAdm-search"></i>
+	<div class="uadm-subl uadm-subl--reverse">
+	<div class="uadm-subi">
+	<div class="uadm-search">
+	<form id="search_site" action="/search/" method="GET">
+	<i class="icouAdm-search"></i><input type="text" name="q" placeholder="Пошук по сайту" onfocus="this.placeholder='Пошук по сайту'"> <!-- search -->
+	</form>
+	</div>
+	</div>
+	</div>
+	<div class="uadm-tooltip">Пошук</div>
+	</div> <!-- search menu -->
+			
+	<div class="uadm-iparent uadm-iparent-groups"><i class="uadm-iparent-ico icouAdm-eye"></i> <!-- counter code if view group is changed -->
+	<div class="uadm-subl uadm-subl--reverse">
+	 <!-- groups visualization for user-bar start tags -->
+			<div class="uadm-subi"><a href="javascript://" onclick="achgroup('1');" target="_self"><i class="icouAdm-arrow-right"></i><span class="uadm--cut-text">Зареєстровані</span></a></div><div class="uadm-subi"><a href="javascript://" onclick="achgroup('2');" target="_self"><i class="icouAdm-arrow-right"></i><span class="uadm--cut-text">Долучені</span></a></div><div class="uadm-subi"><a href="javascript://" onclick="achgroup('251');" target="_self"><i class="icouAdm-arrow-right"></i><span class="uadm--cut-text">Друг</span></a></div><div class="uadm-subi"><a href="javascript://" onclick="achgroup('255');" target="_self"><i class="icouAdm-arrow-right"></i><span class="uadm--cut-text">Заблокированные</span></a></div><div class="uadm-subi"><a href="javascript://" onclick="achgroup('3');" target="_self"><i class="icouAdm-arrow-right"></i><span class="uadm--cut-text">Модератори</span></a></div><div class="uadm-subi"><a href="" target="_self"><i class="icouAdm-arrow-right"></i><span class="uadm--cut-text"><b>Адміністратори</b></span></a></div><div class="uadm-subi"><a href="javascript://" onclick="achgroup('999');" target="_self"><i class="icouAdm-arrow-right"></i><span class="uadm--cut-text">Гости</span></a></div> <!-- groups -->
+			</div>
+	<div class="uadm-tooltip">Дивитися сайт як ...</div>
+	</div> <!-- groups visualization for user-bar end tags -->
+			
+	<div class="uadm-iparent"><i class="uadm-iparent-ico icouAdm-puzle"></i>
+	<div class="uadm-subl uadm-subl--reverse">
+	
+		<div class="uadm-subi"><a href="" onclick="descustf(1);" target="_self"><i class="icouAdm-toggle"></i><span>Включити конструктор</span></a></div> <!-- enable constructor -->
+		
+		<div class="uadm-subl-hline">Список змінних сторінки</div> <!-- list of page variables -->
+		<div class="uadm-vars">
+		<div class="uadm-subi"><div class="uadm-var">&#36;URI_ID$ <input type="text" onclick="this.select()" value="page1" /></div></div> <!-- uri id -->
+		<div class="uadm-subi"><div class="uadm-var">&#36;PAGE_ID$ <input type="text" onclick="this.select()" value="sitePage1" /></div></div> <!-- page id -->
+		<div class="uadm-subi"><div class="uadm-var">&#36;MODULE_ID$ <input type="text" onclick="this.select()" value="index" /></div></div> <!-- module id -->
+		</div>
+		 <!-- constructor / site variables menu -->
+	</div>
+	<div class="uadm-tooltip">Дизайн</div>
+	</div>
+	 <!-- Site variables and constructor menu -->
+	  </div><!--.uadm-l-->
+	  <div class="uadm-toggle" data-toggle=".uadm">
+		<i class="icouAdm-close"></i>
+		</div><!--.uadm-toggle-->
+	</div><!--uadm-->
+
+	<script src="/.s/src/uAdmDesktop/js/uadm.jquery.js"></script>
+</div>
+
+<!-- 0.04805 (s68) -->
