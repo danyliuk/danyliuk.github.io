@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#slider, .iviewSlider, .slide {
+	width: 1000px !important;
+}

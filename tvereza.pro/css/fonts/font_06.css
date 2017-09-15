@@ -1,0 +1,15 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'marck_script';
+    src: url('/fonts/marckscript-regular-webfont.eot');
+    src: url('/fonts/marckscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/marckscript-regular-webfont.woff') format('woff'),
+         url('/fonts/marckscript-regular-webfont.ttf') format('truetype'),
+         url('/fonts/marckscript-regular-webfont.svg#marck_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1, h2, h3, h4, h5, h6, .progress-bars li span {
+	font-family: 'marck_script';
+}

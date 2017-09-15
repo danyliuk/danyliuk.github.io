@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+::selection {
+	background: #e7569e;
+	color: #fff;
+}
+a, a:link, a:visited, a:active, .f-block-title, .member-name h4 {
+	color: #e7569e;
+}
+nav ul li ul {
+	box-shadow: inset 0 3px 0 #e7569e;
+}
+nav ul li ul li a:hover, .h-entry h3 a:hover {
+	color: #e7569e !important;
+}
+.more2, a.title-more:hover, .service:hover .service-icon, .photo h3, #container input[type="button"], #container input[type="submit"], #container input[type="reset"], #path, em, .categories .catNameActive, .photo-informer {
+	background: #e7569e;
+}
+a.more3:hover, .progress-bars li span, .eTag:hover {
+	background: #e7569e !important;
+}
+.flex-prev:hover {
+	background: #e7569e url(/img/prev-hover.png) center no-repeat;
+}
+.flex-next:hover {
+	background: #e7569e url(/img/next-hover.png) center no-repeat;
+}
+.title1 span {
+	background: url(/img/line6.png) left bottom no-repeat;
+}
+.accordion li.a-active > h4, .r-pages > span a:hover, .small-contact span, .go-top:hover {
+	background-color: #e7569e;
+}
+#container textarea:focus, #container input[type="text"]:focus, #container input[type="password"]:focus {
+	box-shadow: inset 0 0 0 1px #e7569e !important;
+}
+.notice-message, .quote2 {
+	border-left: 2px solid #e7569e;
+}
+.calWdaySu, .calWdaySe, .gTableTop {
+	background: #e7569e;
+}

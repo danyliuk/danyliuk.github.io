@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+::selection {
+	background: #e75660;
+	color: #fff;
+}
+a, a:link, a:visited, a:active, .f-block-title, .member-name h4 {
+	color: #e75660;
+}
+nav ul li ul {
+	box-shadow: inset 0 3px 0 #e75660;
+}
+nav ul li ul li a:hover, .h-entry h3 a:hover {
+	color: #e75660 !important;
+}
+.more2, a.title-more:hover, .service:hover .service-icon, .photo h3, #container input[type="button"], #container input[type="submit"], #container input[type="reset"], #path, em, .categories .catNameActive, .photo-informer {
+	background: #e75660;
+}
+a.more3:hover, .progress-bars li span, .eTag:hover {
+	background: #e75660 !important;
+}
+.flex-prev:hover {
+	background: #e75660 url(/img/prev-hover.png) center no-repeat;
+}
+.flex-next:hover {
+	background: #e75660 url(/img/next-hover.png) center no-repeat;
+}
+.title1 span {
+	background: url(/img/line7.png) left bottom no-repeat;
+}
+.accordion li.a-active > h4, .r-pages > span a:hover, .small-contact span, .go-top:hover {
+	background-color: #e75660;
+}
+#container textarea:focus, #container input[type="text"]:focus, #container input[type="password"]:focus {
+	box-shadow: inset 0 0 0 1px #e75660 !important;
+}
+.notice-message, .quote2 {
+	border-left: 2px solid #e75660;
+}
+.calWdaySu, .calWdaySe, .gTableTop {
+	background: #e75660;
+}

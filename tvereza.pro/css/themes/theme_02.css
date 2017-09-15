@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+body#mainContainer, #container {
+	background: #5c5c5c;
+	color: #e8e8e8;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+}
+#container textarea, #container input[type="text"], #container input[type="password"] {
+	box-shadow: inset 0 0 0 1px #808080;
+	background: #6e6e6e;
+}
+#container input[type="button"]:hover, #container input[type="submit"]:hover, #container input[type="reset"]:hover {
+	background: #4b4c4d;
+}
+#top {
+	background: #5c5c5c;
+}
+#container > header {
+	background: #4b4c4d;
+}
+.logo a {
+	color: #fff !important;
+}
+nav ul li a:hover, nav ul li a.uMenuItemA, li.active > a {
+	background: #525252;
+}
+nav ul li a {
+	color: #e8e8e8 !important;
+}
+#slider {
+	background: #4b4c4d;
+}
+.info-block {
+	background: #5c5c5c;
+}
+.h-service {
+	background: #4b4c4d;
+	border-bottom: none;
+}
+.title1 {
+	box-shadow: inset 0 -2px #6e6e6e;
+}
+.service-icon {
+	background: #6e6e6e;
+}
+a.more3 {
+	background: #6e6e6e;
+	color: #e8e8e8 !important;
+}
+a.title-more {
+	background: #6e6e6e;
+}
+.h-entry h3 a {
+	color: #fafafa;
+}
+.accordion li > h4 {
+	background-color: #4b4c4d;
+}
+.a-descr, .r-content {
+	background: #6e6e6e;
+}
+.r-bottom {
+	background: url(/img/r-bottom-dark.png) left no-repeat;
+}
+.r-author img {
+	border: 2px solid #4b4c4d;
+}
+.r-date {
+	color: #e8e8e8;
+	background: #4b4c4d;
+}
+.r-pages > span a {
+	background-color: #6e6e6e;
+}
+#clients {
+	background: #3e3f40;
+}
+.progress-bars li {
+	background: #6e6e6e;
+}
+.member-soc {
+	background: #4b4c4d;
+}
+.notice-message {
+	border: none;
+	background: #6e6e6e;
+}
+.logo-404 a {
+	color: #fafafa;
+}
+#cnt-404 #path {
+	background: #4b4c4d !important;
+}
+.error-404 {
+	color: #fafafa;
+}
+.descr-404 {
+	color: #a7a7a7;
+}
+.che-delat-404 {
+	border-top: 2px solid #6e6e6e;
+	color: #a7a7a7;
+}
+.che-delat-404 a {
+	color: #a7a7a7 !important;
+	border-bottom: 1px dotted #a7a7a7;
+}
+
+.list1 li {background: url(/img/list1-dark.png) left no-repeat;}
+.list2 li {background: url(/img/list2.png) left no-repeat;}
+.list3 li {background: url(/img/list3-dark.png) left no-repeat;}
+.list4 li {background: url(/img/list4-dark.png) left no-repeat;}
+.list5 li {background: url(/img/list5-dark.png) left no-repeat;}
+
+.quote2 {
+	border: none;
+	background: #6e6e6e;
+}
+.clear-btn {
+	background: #a7a7a7 !important;
+}
+.clear-btn:hover {
+	background: #4b4c4d !important;
+}
+.block-cnt .small-contact, .block-cnt .small-contact h5 {
+	color: #e8e8e8 !important;
+}
+.categories {
+	background: #6e6e6e;
+}
+.categories a {
+	color: #e8e8e8 !important;
+	text-decoration: none !important;
+}
+.details, .details a {
+	color: #a7a7a7 !important;
+}
+.pluso-cnt {
+	border-bottom: 1px solid #6e6e6e;
+}
+.comm {
+	border-bottom: 1px solid #6e6e6e;
+}
+.user-ava {
+	border: 1px solid #e8e8e8;
+}
+.b.comm-user a {
+	color: #4d4d4d !important;
+}
+.entry {
+	border-bottom: 1px solid #6e6e6e;
+}
+.e-mes h1 a {
+	color: #fafafa !important;
+}
+.block-cnt li a, .block-cnt .catsTd a {
+	color: #e8e8e8 !important;
+}
+.eTag {
+	color: #e8e8e8 !important;
+	background: #6e6e6e;
+	box-shadow: inset 0 0 0 1px #808080;
+}
+.rev-cnt {
+	border-bottom: 1px solid #e8e8e8;
+}
+.rev-right .r-bottom {
+	background: url(/img/r-bottom-right-dark.png) right no-repeat;
+}
+.chat-mes {
+    border: none;
+    background: #6e6e6e;
+}
+hr {
+	background: #6e6e6e;
+}
+.calTable td {
+	border: 1px solid #6e6e6e;
+}
+.gTableSubTop, .threadsDetails, .postTdTop, .gTable tr {
+	background: #6e6e6e;
+}

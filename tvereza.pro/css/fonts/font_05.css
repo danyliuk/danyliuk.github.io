@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'comfortaa';
+    src: url('/fonts/comfortaa-regular-webfont.eot');
+    src: url('/fonts/comfortaa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/comfortaa-regular-webfont.woff') format('woff'),
+         url('/fonts/comfortaa-regular-webfont.ttf') format('truetype'),
+         url('/fonts/comfortaa-regular-webfont.svg#comfortaaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1, h2, h3, h4, h5, h6, .progress-bars li span {
+	font-family: 'comfortaa';
+}
