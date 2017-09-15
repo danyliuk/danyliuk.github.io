@@ -20,13 +20,13 @@ a.more3:hover, .progress-bars li span, .eTag:hover {
 	background: #e75660 !important;
 }
 .flex-prev:hover {
-	background: #e75660 url(/img/prev-hover.png) center no-repeat;
+	background: #e75660 url(/tvereza.pro/img/prev-hover.png) center no-repeat;
 }
 .flex-next:hover {
-	background: #e75660 url(/img/next-hover.png) center no-repeat;
+	background: #e75660 url(/tvereza.pro/img/next-hover.png) center no-repeat;
 }
 .title1 span {
-	background: url(/img/line7.png) left bottom no-repeat;
+	background: url(/tvereza.pro/img/line7.png) left bottom no-repeat;
 }
 .accordion li.a-active > h4, .r-pages > span a:hover, .small-contact span, .go-top:hover {
 	background-color: #e75660;
