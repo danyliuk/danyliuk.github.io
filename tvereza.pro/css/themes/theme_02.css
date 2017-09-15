@@ -62,7 +62,7 @@ a.title-more {
 	background: #6e6e6e;
 }
 .r-bottom {
-	background: url(/img/r-bottom-dark.png) left no-repeat;
+	background: url(/tvereza.pro/img/r-bottom-dark.png) left no-repeat;
 }
 .r-author img {
 	border: 2px solid #4b4c4d;
@@ -108,11 +108,11 @@ a.title-more {
 	border-bottom: 1px dotted #a7a7a7;
 }
 
-.list1 li {background: url(/img/list1-dark.png) left no-repeat;}
-.list2 li {background: url(/img/list2.png) left no-repeat;}
-.list3 li {background: url(/img/list3-dark.png) left no-repeat;}
-.list4 li {background: url(/img/list4-dark.png) left no-repeat;}
-.list5 li {background: url(/img/list5-dark.png) left no-repeat;}
+.list1 li {background: url(/tvereza.pro/img/list1-dark.png) left no-repeat;}
+.list2 li {background: url(/tvereza.pro/img/list2.png) left no-repeat;}
+.list3 li {background: url(/tvereza.pro/img/list3-dark.png) left no-repeat;}
+.list4 li {background: url(/tvereza.pro/img/list4-dark.png) left no-repeat;}
+.list5 li {background: url(/tvereza.pro/img/list5-dark.png) left no-repeat;}
 
 .quote2 {
 	border: none;
@@ -167,7 +167,7 @@ a.title-more {
 	border-bottom: 1px solid #e8e8e8;
 }
 .rev-right .r-bottom {
-	background: url(/img/r-bottom-right-dark.png) right no-repeat;
+	background: url(/tvereza.pro/img/r-bottom-right-dark.png) right no-repeat;
 }
 .chat-mes {
     border: none;
