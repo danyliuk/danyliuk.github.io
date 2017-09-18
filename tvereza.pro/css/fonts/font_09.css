@@ -1,11 +1,11 @@
 @charset "utf-8";
 @font-face {
     font-family: 'play';
-    src: url('/fonts/play-regular-webfont.eot');
-    src: url('/fonts/play-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/play-regular-webfont.woff') format('woff'),
-         url('/fonts/play-regular-webfont.ttf') format('truetype'),
-         url('/fonts/play-regular-webfont.svg#playregular') format('svg');
+    src: url('/tvereza.pro/fonts/play-regular-webfont.eot');
+    src: url('/tvereza.pro/fonts/play-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/tvereza.pro/fonts/play-regular-webfont.woff') format('woff'),
+         url('/tvereza.pro/fonts/play-regular-webfont.ttf') format('truetype'),
+         url('/tvereza.pro/fonts/play-regular-webfont.svg#playregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
