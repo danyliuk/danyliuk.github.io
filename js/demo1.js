@@ -1,109 +1,102 @@
-/**
- * demo1.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
-{
-	const DOM = {};
-	DOM.intro = document.querySelector('.content--intro');
-	DOM.shape = DOM.intro.querySelector('svg.shape');
-	DOM.path = DOM.shape.querySelector('path');
-	DOM.enter = document.querySelector('.enter');
-	charming(DOM.enter);
-	DOM.enterLetters = Array.from(DOM.enter.querySelectorAll('span'));
-	// Set the SVG transform origin.
-	DOM.shape.style.transformOrigin = '50% 0%';
+class ShapeOverlays {
+  constructor(elm) {
+    this.elm = elm;
+    this.path = elm.querySelectorAll('path');
+    this.numPoints = 18;
+    this.duration = 600;
+    this.delayPointsArray = [];
+    this.delayPointsMax = 300;
+    this.delayPerPath = 100;
+    this.timeStart = Date.now();
+    this.isOpened = false;
+    this.isAnimating = false;
+  }
+  toggle() {
+    this.isAnimating = true;
+    const range = 4 * Math.random() + 6;
+    for (var i = 0; i < this.numPoints; i++) {
+      const radian = i / (this.numPoints - 1) * Math.PI;
+      this.delayPointsArray[i] = (Math.sin(-radian) + Math.sin(-radian * range) + 2) / 4 * this.delayPointsMax;
+    }
+    if (this.isOpened === false) {
+      this.open();
+    } else {
+      this.close();
+    }
+  }
+  open() {
+    this.isOpened = true;
+    this.elm.classList.add('is-opened');
+    this.timeStart = Date.now();
+    this.renderLoop();
+  }
+  close() {
+    this.isOpened = false;
+    this.elm.classList.remove('is-opened');
+    this.timeStart = Date.now();
+    this.renderLoop();
+  }
+  updatePath(time) {
+    const points = [];
+    for (var i = 0; i < this.numPoints + 1; i++) {
+      points[i] = ease.cubicInOut(Math.min(Math.max(time - this.delayPointsArray[i], 0) / this.duration, 1)) * 100
+    }
 
-	const init = () => {
-		imagesLoaded(document.body, {background: true} , () => document.body.classList.remove('loading'));
-		DOM.enter.addEventListener('click', navigate);
-		DOM.enter.addEventListener('touchenter', navigate);
-		DOM.enter.addEventListener('mouseenter', enterHoverInFn);
-		DOM.enter.addEventListener('mouseleave', enterHoverOutFn);
-	};
+    let str = '';
+    str += (this.isOpened) ? `M 0 0 V ${points[0]} ` : `M 0 ${points[0]} `;
+    for (var i = 0; i < this.numPoints - 1; i++) {
+      const p = (i + 1) / (this.numPoints - 1) * 100;
+      const cp = p - (1 / (this.numPoints - 1) * 100) / 2;
+      str += `C ${cp} ${points[i]} ${cp} ${points[i + 1]} ${p} ${points[i + 1]} `;
+    }
+    str += (this.isOpened) ? `V 0 H 0` : `V 100 H 0`;
+    return str;
+  }
+  render() {
+    if (this.isOpened) {
+      for (var i = 0; i < this.path.length; i++) {
+        this.path[i].setAttribute('d', this.updatePath(Date.now() - (this.timeStart + this.delayPerPath * i)));
+      }
+    } else {
+      for (var i = 0; i < this.path.length; i++) {
+        this.path[i].setAttribute('d', this.updatePath(Date.now() - (this.timeStart + this.delayPerPath * (this.path.length - i - 1))));
+      }
+    }
+  }
+  renderLoop() {
+    this.render();
+    if (Date.now() - this.timeStart < this.duration + this.delayPerPath * (this.path.length - 1) + this.delayPointsMax) {
+      requestAnimationFrame(() => {
+        this.renderLoop();
+      });
+    }
+    else {
+      this.isAnimating = false;
+    }
+  }
+}
 
-	let loaded;
-	const navigate = () => {
-		if ( loaded ) return;
-		loaded = true;
+(function() {
+  const elmHamburger = document.querySelector('.hamburger');
+  const gNavItems = document.querySelectorAll('.global-menu__item');
+  const elmOverlay = document.querySelector('.shape-overlays');
+  const overlay = new ShapeOverlays(elmOverlay);
 
-		anime({
-			targets: DOM.intro,
-			duration: 1100,
-			easing: 'easeInOutSine',
-			translateY: '-200vh'
-		});
-		
-		anime({
-			targets: DOM.shape,
-			scaleY: [
-				{value:[0.8,1.8],duration: 550,easing: 'easeInQuad'},
-				{value:1,duration: 550,easing: 'easeOutQuad'}
-			]
-		});
-
-		anime({
-			targets: DOM.path,
-			duration: 1100,
-			easing: 'easeOutQuad',
-			d: DOM.path.getAttribute('pathdata:id')
-		});
-	};
-
-	let isActive;
-	let enterTimeout;
-
-	const enterHoverInFn = () => enterTimeout = setTimeout(() => {
-		isActive = true;
-		anime.remove(DOM.enterLetters);
-		anime({
-			targets: DOM.enterLetters,
-			delay: (t,i) => i*15,
-			translateY: [
-				{value: 10, duration: 150, easing: 'easeInQuad'},
-				{value: [-10,0], duration: 150, easing: 'easeOutQuad'}
-			],
-			opacity: [
-				{value: 0, duration: 150, easing: 'linear'},
-				{value: 1, duration: 150, easing: 'linear'}
-			],
-			color: {
-				value: '#ff963b',
-				duration: 1,
-				delay: (t,i,l) => i*15+150
-			}
-		});
-	}, 50);
-
-	const enterHoverOutFn = () => {
-		clearTimeout(enterTimeout);
-		if( !isActive ) return;
-		isActive = false;
-
-		anime.remove(DOM.enterLetters);
-		anime({
-			targets: DOM.enterLetters,
-			delay: (t,i,l) => (l-i-1)*15,
-			translateY: [
-				{value: 10, duration: 150, easing: 'easeInQuad'},
-				{value: [-10,0], duration: 150, easing: 'easeOutQuad'}
-			],
-			opacity: [
-				{value: 0, duration: 150, easing: 'linear'},
-				{value: 1, duration: 150, easing: 'linear'}
-			],
-			color: {
-				value: '#ffffff',
-				duration: 1,
-				delay: (t,i,l) => (l-i-1)*15+150
-			}
-		});
-	};
-
-	init();
-};
+  elmHamburger.addEventListener('click', () => {
+    if (overlay.isAnimating) {
+      return false;
+    }
+    overlay.toggle();
+    if (overlay.isOpened === true) {
+      elmHamburger.classList.add('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.add('is-opened');
+      }
+    } else {
+      elmHamburger.classList.remove('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.remove('is-opened');
+      }
+    }
+  });
+}());

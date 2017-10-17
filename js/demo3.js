@@ -1,123 +1,103 @@
-/**
- * demo3.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
-{
-	const DOM = {};
-	DOM.intro = document.querySelector('.content--intro');
-	DOM.shape = DOM.intro.querySelector('svg.shape');
-	DOM.path = DOM.shape.querySelector('path');
-	DOM.enter = document.querySelector('.enter');
-	charming(DOM.enter);
-	DOM.enterLetters = Array.from(DOM.enter.querySelectorAll('span'));
-	// Set the SVG transform origin.
-	DOM.shape.style.transformOrigin = '50% 0%';
+class ShapeOverlays {
+  constructor(elm) {
+    this.elm = elm;
+    this.path = elm.querySelectorAll('path');
+    this.numPoints = 2;
+    this.duration = 600;
+    this.delayPointsArray = [];
+    this.delayPointsMax = 0;
+    this.delayPerPath = 200;
+    this.timeStart = Date.now();
+    this.isOpened = false;
+    this.isAnimating = false;
+  }
+  toggle() {
+    this.isAnimating = true;
+    for (var i = 0; i < this.numPoints; i++) {
+      this.delayPointsArray[i] = 0;
+    }
+    if (this.isOpened === false) {
+      this.open();
+    } else {
+      this.close();
+    }
+  }
+  open() {
+    this.isOpened = true;
+    this.elm.classList.add('is-opened');
+    this.timeStart = Date.now();
+    this.renderLoop();
+  }
+  close() {
+    this.isOpened = false;
+    this.elm.classList.remove('is-opened');
+    this.timeStart = Date.now();
+    this.renderLoop();
+  }
+  updatePath(time) {
+    const points = [];
+    for (var i = 0; i < this.numPoints; i++) {
+      const thisEase = this.isOpened ? 
+                        (i == 1) ? ease.cubicOut : ease.cubicInOut:
+                        (i == 1) ? ease.cubicInOut : ease.cubicOut;
+      points[i] = thisEase(Math.min(Math.max(time - this.delayPointsArray[i], 0) / this.duration, 1)) * 100
+    }
 
-	const init = () => {
-		imagesLoaded(document.body, {background: true} , () => document.body.classList.remove('loading'));
-		DOM.enter.addEventListener('click', navigate);
-		DOM.enter.addEventListener('touchenter', navigate);
-		DOM.enter.addEventListener('mouseenter', enterHoverInFn);
-		DOM.enter.addEventListener('mouseleave', enterHoverOutFn);
-	};
+    let str = '';
+    str += (this.isOpened) ? `M 0 0 V ${points[0]} ` : `M 0 ${points[0]} `;
+    for (var i = 0; i < this.numPoints - 1; i++) {
+      const p = (i + 1) / (this.numPoints - 1) * 100;
+      const cp = p - (1 / (this.numPoints - 1) * 100) / 2;
+      str += `C ${cp} ${points[i]} ${cp} ${points[i + 1]} ${p} ${points[i + 1]} `;
+    }
+    str += (this.isOpened) ? `V 0 H 0` : `V 100 H 0`;
+    return str;
+  }
+  render() {
+    if (this.isOpened) {
+      for (var i = 0; i < this.path.length; i++) {
+        this.path[i].setAttribute('d', this.updatePath(Date.now() - (this.timeStart + this.delayPerPath * i)));
+      }
+    } else {
+      for (var i = 0; i < this.path.length; i++) {
+        this.path[i].setAttribute('d', this.updatePath(Date.now() - (this.timeStart + this.delayPerPath * (this.path.length - i - 1))));
+      }
+    }
+  }
+  renderLoop() {
+    this.render();
+    if (Date.now() - this.timeStart < this.duration + this.delayPerPath * (this.path.length - 1) + this.delayPointsMax) {
+      requestAnimationFrame(() => {
+        this.renderLoop();
+      });
+    }
+    else {
+      this.isAnimating = false;
+    }
+  }
+}
 
-	let loaded;
-	const navigate = () => {
-		if ( loaded ) return;
-		loaded = true;
+(function() {
+  const elmHamburger = document.querySelector('.hamburger');
+  const gNavItems = document.querySelectorAll('.global-menu__item');
+  const elmOverlay = document.querySelector('.shape-overlays');
+  const overlay = new ShapeOverlays(elmOverlay);
 
-		anime({
-			targets: DOM.intro,
-			duration: 1600,
-			easing: 'easeInOutCubic',
-			translateY: '-200vh'
-		});
-
-		anime({
-			targets: DOM.shape,
-			easing: 'easeInOutCubic',
-			scaleY: [
-				{value: [0,1], duration: 800},
-				{value: 0, duration: 1200, easing: 'easeOutElastic', elasticity: 700}
-			]
-		});
-
-		anime({
-			targets: DOM.path,
-			duration: 800,
-			easing: 'easeInOutQuad',
-			d: DOM.path.getAttribute('pathdata:id')
-		});
-
-		anime({
-			targets: [DOM.intro.querySelector('.content__inner'), DOM.shape],
-			duration: 1300,
-			easing: 'linear',
-			backgroundColor: (t,i) => {
-				console.log('here')
-				if ( i === 0 ) return '#fff1fb';
-			},
-			fill: (t,i) => {
-				if ( i === 1 ) return '#fff1fb';
-			}
-		});
-	};
-
-	let isActive;
-	let enterTimeout;
-
-	const enterHoverInFn = () => enterTimeout = setTimeout(() => {
-		isActive = true;
-		anime.remove(DOM.enterLetters);
-		anime({
-			targets: DOM.enterLetters,
-			delay: (t,i) => i*15,
-			translateY: [
-				{value: 10, duration: 150, easing: 'easeInQuad'},
-				{value: [-10,0], duration: 150, easing: 'easeOutQuad'}
-			],
-			opacity: [
-				{value: 0, duration: 150, easing: 'linear'},
-				{value: 1, duration: 150, easing: 'linear'}
-			],
-			color: {
-				value: '#ffffff',
-				duration: 1,
-				delay: (t,i,l) => i*15+150
-			}
-		});
-	}, 50);
-
-	const enterHoverOutFn = () => {
-		clearTimeout(enterTimeout);
-		if( !isActive ) return;
-		isActive = false;
-
-		anime.remove(DOM.enterLetters);
-		anime({
-			targets: DOM.enterLetters,
-			delay: (t,i,l) => (l-i-1)*15,
-			translateY: [
-				{value: 10, duration: 150, easing: 'easeInQuad'},
-				{value: [-10,0], duration: 150, easing: 'easeOutQuad'}
-			],
-			opacity: [
-				{value: 0, duration: 150, easing: 'linear'},
-				{value: 1, duration: 150, easing: 'linear'}
-			],
-			color: {
-				value: '#f470d2',
-				duration: 1,
-				delay: (t,i,l) => (l-i-1)*15+150
-			}
-		});
-	};
-
-	init();
-};
+  elmHamburger.addEventListener('click', () => {
+    if (overlay.isAnimating) {
+      return false;
+    }
+    overlay.toggle();
+    if (overlay.isOpened === true) {
+      elmHamburger.classList.add('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.add('is-opened');
+      }
+    } else {
+      elmHamburger.classList.remove('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.remove('is-opened');
+      }
+    }
+  });
+}());
