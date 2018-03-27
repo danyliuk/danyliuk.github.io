@@ -193,6 +193,14 @@ main {
 	margin: 0;
 	color: var(--color-subtitle);
 }
+.content__text  {
+	max-width: 600px;
+	text-align: center;
+	font-size: 0.25em;
+	font-weight: 400;
+	margin: 0;
+	color: var(--color-subtitle);
+}
 
 .content__close {
 	position: absolute;
