@@ -166,7 +166,7 @@ main {
 	align-items: center;
 	justify-content: center;
 	justify-items: center;
-	align-content: start;
+	align-content: end;
 }
 
 .js .content__inner {
@@ -191,12 +191,6 @@ main {
 	font-size: 1.25em;
 	font-weight: 400;
 	margin: 0;
-	color: var(--color-subtitle);
-}
-.content__text  {
-	text-align: center;
-	font-weight: 400;
-	margin-top: 2em;
 	color: var(--color-subtitle);
 }
 
@@ -464,7 +458,7 @@ main {
 		align-items: center;
 	}
 	.content__inner {
-		margin-top: 8em;
+		margin-top: 12em;
 	}
 	.content__close {
 		top: 15em;
