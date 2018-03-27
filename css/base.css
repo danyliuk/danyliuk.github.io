@@ -195,7 +195,7 @@ main {
 }
 
 .content__close {
-	position: absolute;
+	position: static;
 	top: 55%;
 	left: 50%;
 	background: none;
