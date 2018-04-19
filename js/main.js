@@ -5,231 +5,135 @@
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  * 
- * Copyright 2018, Codrops
+ * Copyright 2017, Codrops
  * http://www.codrops.com
  */
 {
-    // From https://davidwalsh.name/javascript-debounce-function.
-	function debounce(func, wait, immediate) {
-		var timeout;
-		return function() {
-			var context = this, args = arguments;
-			var later = function() {
-				timeout = null;
-				if (!immediate) func.apply(context, args);
+	class ImgItem {
+		constructor(el) {
+			this.DOM = {};
+			this.DOM.el = el;
+			this.DOM.svg = this.DOM.el.querySelector('.item__svg');
+			this.DOM.path = this.DOM.svg.querySelector('path');
+			this.paths = {};
+			this.paths.start = this.DOM.path.getAttribute('d');
+			this.paths.end = this.DOM.el.dataset.morphPath;
+			this.DOM.deco = this.DOM.svg.querySelector('.item__deco');
+			this.DOM.image = this.DOM.svg.querySelector('image');
+			this.DOM.title = this.DOM.el.querySelector('.item__meta > .item__title');
+			this.DOM.subtitle = this.DOM.el.querySelector('.item__meta > .item__subtitle');
+			this.CONFIG = {
+				// Defaults:
+				animation: {
+					path: {
+						duration: this.DOM.el.dataset.animationPathDuration || 1500,
+						delay: this.DOM.el.dataset.animationPathDelay || 0,
+						easing: this.DOM.el.dataset.animationPathEasing || 'easeOutElastic',
+						elasticity: this.DOM.el.dataset.pathElasticity || 400,
+						scaleX: this.DOM.el.dataset.pathScalex || 1,
+						scaleY: this.DOM.el.dataset.pathScaley || 1,
+						translateX: this.DOM.el.dataset.pathTranslatex || 0,
+						translateY: this.DOM.el.dataset.pathTranslatey || 0,
+						rotate: this.DOM.el.dataset.pathRotate || 0
+					},
+					image: {
+						duration: this.DOM.el.dataset.animationImageDuration || 2000,
+						delay: this.DOM.el.dataset.animationImageDelay || 0,
+						easing: this.DOM.el.dataset.animationImageEasing || 'easeOutElastic',
+						elasticity: this.DOM.el.dataset.imageElasticity || 400,
+						scaleX: this.DOM.el.dataset.imageScalex || 1.1,
+						scaleY: this.DOM.el.dataset.imageScaley || 1.1,
+						translateX: this.DOM.el.dataset.imageTranslatex || 0,
+						translateY: this.DOM.el.dataset.imageTranslatey || 0,
+						rotate: this.DOM.el.dataset.imageRotate || 0
+					},
+					deco: {
+						duration: this.DOM.el.dataset.animationDecoDuration || 2500,
+						delay: this.DOM.el.dataset.animationDecoDelay || 0,
+						easing: this.DOM.el.dataset.animationDecoEasing || 'easeOutQuad',
+						elasticity: this.DOM.el.dataset.decoElasticity || 400,
+						scaleX: this.DOM.el.dataset.decoScalex || 0.9,
+						scaleY: this.DOM.el.dataset.decoScaley || 0.9,
+						translateX: this.DOM.el.dataset.decoTranslatex || 0,
+						translateY: this.DOM.el.dataset.decoTranslatey || 0,
+						rotate: this.DOM.el.dataset.decoRotate || 0
+					}
+				}
 			};
-			var callNow = immediate && !timeout;
-			clearTimeout(timeout);
-			timeout = setTimeout(later, wait);
-			if (callNow) func.apply(context, args);
-		};
-    };
+			this.initEvents();
+		}
+		initEvents() {
+			this.mouseenterFn = () => {
+				this.mouseTimeout = setTimeout(() => {
+					this.isActive = true;
+					this.animate();
+				}, 75);
+			}
+			this.mouseleaveFn = () => {
+				clearTimeout(this.mouseTimeout);
+				if( this.isActive ) {
+					this.isActive = false;
+					this.animate();
+				}
+			}
+			this.DOM.el.addEventListener('mouseenter', this.mouseenterFn);
+			this.DOM.el.addEventListener('mouseleave', this.mouseleaveFn);
+			this.DOM.el.addEventListener('touchstart', this.mouseenterFn);
+			this.DOM.el.addEventListener('touchend', this.mouseleaveFn);
+		}
+		getAnimeObj(targetStr) {
+			const target = this.DOM[targetStr];
+			let animeOpts = {
+				targets: target,
+				duration: this.CONFIG.animation[targetStr].duration,
+				delay: this.CONFIG.animation[targetStr].delay,
+				easing: this.CONFIG.animation[targetStr].easing,
+				elasticity: this.CONFIG.animation[targetStr].elasticity,	
+				scaleX: this.isActive ? this.CONFIG.animation[targetStr].scaleX : 1,
+				scaleY: this.isActive ? this.CONFIG.animation[targetStr].scaleY : 1,
+				translateX: this.isActive ? this.CONFIG.animation[targetStr].translateX : 0,
+				translateY: this.isActive ? this.CONFIG.animation[targetStr].translateY : 0,
+				rotate: this.isActive ? this.CONFIG.animation[targetStr].rotate : 0
+			};
+			if( targetStr === 'path' ) {
+				animeOpts.d = this.isActive ? this.paths.end : this.paths.start;
+			}
+			anime.remove(target);
+			return animeOpts;
+		}
+		animate() {
+			// Animate the path, the image and deco.
+			anime(this.getAnimeObj('path'));
+			anime(this.getAnimeObj('image'));
+			anime(this.getAnimeObj('deco'));
+			// Title and Subtitle animation
+			anime.remove(this.DOM.title);
+			anime({
+				targets: this.DOM.title,
+				easing: 'easeOutQuad',
+				translateY: this.isActive ? [
+					{value: '-50%', duration: 200},
+					{value: ['50%', '0%'], duration: 200}
+				] : [
+					{value: '50%', duration: 200},
+					{value: ['-50%', '0%'], duration: 200}
+				],
+				opacity: [
+					{value: 0, duration: 200},
+					{value: 1, duration: 200}
+				]
+			});
+			anime.remove(this.DOM.subtitle);
+			anime({
+				targets: this.DOM.subtitle,
+				easing: 'easeOutQuad',
+				translateY: this.isActive ? {value: ['50%', '0%'], duration: 200, delay: 250} : {value: '0%', duration: 1},
+				opacity: this.isActive ? {value: [0,1], duration: 200, delay: 250} : {value: 0, duration: 1}
+			});
+		}
+	}
 
-    class Blob {
-        constructor(el, options) {
-            this.DOM = {};
-            this.DOM.el = el;
-            this.options = {};
-            Object.assign(this.options, options);
-            this.init();
-        }
-        init() {
-            this.rect = this.DOM.el.getBoundingClientRect();
-            this.descriptions = [];
-            this.layers = Array.from(this.DOM.el.querySelectorAll('path'), t => {
-                t.style.transformOrigin = `${this.rect.left + this.rect.width/2}px ${this.rect.top + this.rect.height/2}px`;
-                t.style.opacity = 0;
-                this.descriptions.push(t.getAttribute('d'));
-                return t;
-            });
-
-            window.addEventListener('resize', debounce(() => {
-                this.rect = this.DOM.el.getBoundingClientRect();
-                this.layers.forEach(layer => layer.style.transformOrigin = `${this.rect.left + this.rect.width/2}px ${this.rect.top + this.rect.height/2}px`);
-            }, 20));
-        }
-        intro() {
-            anime.remove(this.layers);
-            anime({
-                targets: this.layers,
-                duration: 1800,
-                delay: (t,i) => i*120,
-                easing: [0.2,1,0.1,1],
-                scale: [0.2,1],
-                opacity: {
-                    value: [0,1],
-                    duration: 300,
-                    delay: (t,i) => i*120,
-                    easing: 'linear'
-                }
-            });
-        }
-        expand() {
-            return new Promise((resolve, reject) => {
-                let halfway = false;
-                anime({
-                    targets: this.layers,
-                    duration: 1000,
-                    delay: (t,i) => i*50 + 200,
-                    easing: [0.8,0,0.1,0],
-                    d: (t) => t.getAttribute('pathdata:id'),
-                    update: function(anim) {
-                        if ( anim.progress > 75 && !halfway ) {
-                            halfway = true;
-                            resolve();
-                        }
-                    }
-                });
-            });
-        }
-        collapse() {
-            return new Promise((resolve, reject) => {
-                let halfway = false;
-                anime({
-                    targets: this.layers,
-                    duration: 800,
-                    delay: (t,i,total) => (total-i-1)*50 + 400,
-                    easing: [0.2,1,0.1,1],
-                    d: (t,i) => this.descriptions[i],
-                    update: function(anim) {
-                        if ( anim.progress > 75 && !halfway ) {
-                            halfway = true;
-                            resolve();
-                        }
-                    }
-                });
-            });
-        }
-        hide() {
-            anime.remove(this.layers);
-            anime({
-                targets: this.layers,
-                duration: 800,
-                delay: (t,i,total) => (total-i-1)*80,
-                easing: 'easeInOutExpo',
-                scale: 0,
-                opacity: {
-                    value: 0,
-                    duration: 500,
-                    delay: (t,i,total) => (total-i-1)*80,
-                    easing: 'linear'
-                }
-            });
-        }
-        show() {
-            setTimeout(() => this.intro(), 400);
-        }
-    };
-
-    window.Blob = Blob;
-
-    const DOM = {};
-    let blobs = [];
-    DOM.svg = document.querySelector('svg.scene');
-    Array.from(DOM.svg.querySelectorAll('g')).forEach((el) => {
-        const blob = new Blob(el);
-        blobs.push(blob);
-        blob.intro();
-    });
-    
-    DOM.content = document.querySelector('.content--reveal');
-    DOM.contentInner = Array.from(DOM.content.querySelectorAll('.content__inner'), (el) => {
-        charming(el);
-        return el;
-    });
-    DOM.ctrlBack = DOM.content.querySelector('.content__close');
-    DOM.links = Array.from(document.querySelectorAll('.menu > .menu__item'));
-    
-    DOM.links.forEach((link, pos) => {
-        link.style.pointerEvents = 'none';
-        charming(link);
-
-        anime({
-            targets: link.querySelectorAll('span'),
-            duration: 800,
-            delay: (t,i) => anime.random(0,600)+500,
-            easing: 'easeInOutQuad',
-            opacity: [0,1],
-            complete: () => {
-                link.style.pointerEvents = 'auto';
-                link.classList.add('menu__item--showDeco');
-            }
-        });
-
-        link.addEventListener('click', (ev) => {
-            ev.preventDefault();
-            open(pos);
-        });
-    });
-
-    DOM.ctrlBack.addEventListener('click', () => close());
-
-    let current;
-    const open = (pos) => {
-        this.isOpen = true;
-        anime({
-            targets: DOM.links.map((link) => link.querySelectorAll('span')),
-            delay: (t,i) => anime.random(0,300),
-            duration: 200,
-            easing: 'easeInOutQuad',
-            opacity: 0,
-            begin: () => DOM.links.forEach(link => {
-                link.style.pointerEvents = 'none';
-                link.classList.remove('menu__item--showDeco');
-            })
-        });
-
-        current = pos;
-        const currentBlob = blobs[current];
-        currentBlob.expand().then(() => {
-            DOM.content.style.pointerEvents = 'auto';
-
-            const contentInner = DOM.contentInner[pos];
-            contentInner.style.opacity = 1;
-            anime({
-                targets: [contentInner.querySelectorAll('.content__title > span'), contentInner.querySelectorAll('.content__subtitle > span'), DOM.ctrlBack],
-                duration: 200,
-                delay: (t,i) => anime.random(0,600),
-                easing: 'easeInOutQuad',
-                opacity: [0,1]
-            });
-        });
-
-        blobs.filter(el => el != currentBlob).forEach(blob => blob.hide());
-    };
-
-    const close = () => {
-        if ( !this.isOpen ) return;
-        this.isOpen = false;
-        
-        const contentInner = DOM.contentInner[current];
-        anime({
-            targets: [contentInner.querySelectorAll('.content__title > span'), contentInner.querySelectorAll('.content__subtitle > span'), DOM.ctrlBack],
-            delay: (t,i) => anime.random(0,300),
-            duration: 200,
-            easing: 'easeInOutQuad',
-            opacity: 0,
-            complete: () => {
-                contentInner.style.opacity = 0;
-                DOM.content.style.pointerEvents = 'none';
-            }
-        });
-
-        blobs[current].collapse().then(() => {
-            current = -1;
-
-            anime({
-                targets: DOM.links.map((link) => link.querySelectorAll('span')),
-                duration: 200,
-                delay: (t,i) => anime.random(0,600),
-                easing: 'easeInOutQuad',
-                opacity: 1,
-                complete: () => DOM.links.forEach(link => {
-                    link.style.pointerEvents = 'auto';
-                    link.classList.add('menu__item--showDeco');
-                })
-            });
-        });
-        blobs.filter(el => el != blobs[current]).forEach(blob => blob.show());
-    };
+	const items = Array.from(document.querySelectorAll('.item'));
+	const init = (() => items.forEach(item => new ImgItem(item)))();
+	setTimeout(() => document.body.classList.remove('loading'), 2000);
 };
