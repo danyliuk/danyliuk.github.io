@@ -139,8 +139,7 @@ main {
 }
 
 .codrops-header__title {
-	font-size: 1.625em;
-	font-weight: 500;
+	font-weight: normal;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0.5em 0;
