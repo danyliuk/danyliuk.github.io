@@ -7,7 +7,7 @@
 body {
 	font-family: 'Rubik', sans-serif;
 	color: #131314;
-	background: #efeff2 url(../img/bg.png) repeat-y 50% 500px;
+	background: #fff;
 	background-size: 70%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
