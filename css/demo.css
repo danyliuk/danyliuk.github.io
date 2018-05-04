@@ -333,9 +333,6 @@ main {
 }
 
 @media screen and (max-width: 40em) {
-	.codrops-header__title {
-		font-size: 1em;
-	}
 	.content--grid {
 		padding: 2vh 8vw;
 	}
