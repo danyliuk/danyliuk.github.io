@@ -261,14 +261,6 @@ a:hover, a:focus {
 
 .media-item__img {
 	max-width: 250px;
-	opacity: 0.3;
-	-webkit-transition: opacity 0.3s;
-	transition: opacity 0.3s;
-}
-
-.media-item:hover .media-item__img,
-.media-item:focus .media-item__img {
-	opacity: 1;
 }
 
 .media-item__title {
