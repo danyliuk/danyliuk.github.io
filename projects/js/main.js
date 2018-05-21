@@ -521,7 +521,7 @@
 			initEvents();
 			// Remove loading class from body
 			body.classList.remove('loading');
-			loaders[currentGrid]._render('Atum');
+			loaders[currentGrid]._render('Seker');
 		});
 	}
 
