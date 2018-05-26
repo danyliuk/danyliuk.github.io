@@ -262,12 +262,11 @@ main {
 }
 .grid__item-link2 {
 	display: inline-block;
-	color: currentColor;
-	font-weight: 700;
-	font-size: 0.95rem;
+	font-size: 1rem;
 	position: relative;
+	bottom: 5px; /* Положение от нижнего края */
+    right: 5px;
 	padding: 0 0 0.2rem;
-	pointer-events: auto;
 	color: var(--item-link);
 }
 
