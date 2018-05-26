@@ -544,9 +544,6 @@ main {
 	.grid__item-text {
 		width: 80%;
 	}
-	.grid__year {
-		width: 80%;
-	}
 }
 
 @media screen and (min-width: 50em) {
