@@ -267,6 +267,7 @@ main {
 	bottom: 0.6rem;
     right: 0.6rem;
 	color: var(--item-link);
+	opacity: 0.4;
 }
 
 .grid__item-link {
