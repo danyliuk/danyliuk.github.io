@@ -262,11 +262,11 @@ main {
 }
 .grid__year {
 	display: inline-block;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	position: absolute;
 	bottom: 0.6rem;
     right: 0.6rem;
-	color: var(--item-link);
+	color: var(--item-link-hover);
 	opacity: 0.4;
 }
 
