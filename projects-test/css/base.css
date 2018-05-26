@@ -263,7 +263,7 @@ main {
 .grid__item-link2 {
 	display: inline-block;
 	font-size: 1rem;
-	position: relative;
+	position: absolute;
 	bottom: 5px; /* Положение от нижнего края */
     right: 5px;
 	padding: 0 0 0.2rem;
