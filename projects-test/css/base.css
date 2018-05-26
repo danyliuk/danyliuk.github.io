@@ -262,10 +262,10 @@ main {
 }
 .grid__item-link2 {
 	display: inline-block;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	position: absolute;
-	bottom: 15px; /* Положение от нижнего края */
-    right: 15px;
+	bottom: 0.2rem;
+    right: 0.2rem;
 	padding: 0 0 0.2rem;
 	color: var(--item-link);
 }
