@@ -264,8 +264,8 @@ main {
 	display: inline-block;
 	font-size: 1rem;
 	position: absolute;
-	bottom: 5px; /* Положение от нижнего края */
-    right: 5px;
+	bottom: 15px; /* Положение от нижнего края */
+    right: 15px;
 	padding: 0 0 0.2rem;
 	color: var(--item-link);
 }
