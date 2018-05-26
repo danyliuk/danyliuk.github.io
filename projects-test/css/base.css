@@ -266,7 +266,7 @@ main {
 	position: absolute;
 	bottom: 0.6rem;
     right: 0.6rem;
-	color: var(--item-link-hover);
+	color: 000000;
 	opacity: 0.4;
 }
 
