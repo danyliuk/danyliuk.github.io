@@ -266,7 +266,6 @@ main {
 	position: absolute;
 	bottom: 0.6rem;
     right: 0.6rem;
-	padding: 0 0 0.2rem;
 	color: var(--item-link);
 }
 
