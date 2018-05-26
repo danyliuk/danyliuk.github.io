@@ -260,6 +260,16 @@ main {
 	margin: 2rem 0 0 0;
 	color: var(--item-text);
 }
+.grid__item-link2 {
+	display: inline-block;
+	color: currentColor;
+	font-weight: 700;
+	font-size: 0.95rem;
+	position: relative;
+	padding: 0 0 0.2rem;
+	pointer-events: auto;
+	color: var(--item-link);
+}
 
 .grid__item-link {
 	display: inline-block;
