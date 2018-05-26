@@ -266,7 +266,7 @@ main {
 	position: absolute;
 	bottom: 0.6rem;
     right: 0.6rem;
-	color: #0d2936;
+	color: var(--item-year);
 }
 
 .grid__item-link {
@@ -338,6 +338,7 @@ main {
 	--item-title: #fff;
 	--item-subtitle: #fff;
 	--item-text: #fff;
+	--item-year: #0d2936;
 }
 
 .theme-3 {
