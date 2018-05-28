@@ -197,7 +197,7 @@ main {
 .grid__item-img-rmt canvas {
 	height: 100%;
 }
-.mobileAndTabletcheck .grid__item-img-rmt img {
+.js .grid__item-img-rmt img {
 	height: 100%;
 	display: block;
 	transition: all 2s ease;
