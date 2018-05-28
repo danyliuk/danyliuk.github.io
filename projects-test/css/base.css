@@ -188,6 +188,27 @@ main {
 	top: 0;
 	left: 0;
 }
+.grid__item-img-rmt {
+	display: block;
+	height: 96%;
+	width: 96%;
+	margin: auto;
+}
+.grid__item-img-rmt canvas {
+	height: 100%;
+}
+.grid__item-img-rmt img {
+	height: 100%;
+	display: block;
+	transition: all 2s ease;
+}
+.grid__item-img-rmt img:hover {
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ transform: rotate(360deg); 
+}
 
 .grid__item-img {
 	display: block;
@@ -260,6 +281,14 @@ main {
 	margin: 2rem 0 0 0;
 	color: var(--item-text);
 }
+.grid__year {
+	display: inline-block;
+	font-size: 1rem;
+	position: absolute;
+	bottom: 0.6rem;
+    right: 0.6rem;
+	color: var(--item-year);
+}
 
 .grid__item-link {
 	display: inline-block;
@@ -313,23 +342,24 @@ main {
 
 /* Themes */
 .theme-1 {
-	--item-bg: #4bb4e7;
+	--item-bg: #fff;
     --item-link: #fff;
     --item-link-hover: #0d2936;
     --item-meta: #fff;
-    --item-title: #fff;
+    --item-title: #179adb;
     --item-subtitle: #fff;
     --item-text: #fff;
 }
 
 .theme-2 {
-	--item-bg: rgba(0,0,0,0.2);
+	--item-bg: #fff;
 	--item-link: #fff;
 	--item-link-hover: #fff;
 	--item-meta: #fff;
 	--item-title: #fff;
 	--item-subtitle: #fff;
 	--item-text: #fff;
+	--item-year: #179adb;
 }
 
 .theme-3 {
