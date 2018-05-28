@@ -331,7 +331,7 @@ main {
 }
 
 .theme-2 {
-	--item-bg: rgba(0,0,0,0.2);
+	--item-bg: #fff;
 	--item-link: #fff;
 	--item-link-hover: #fff;
 	--item-meta: #fff;
