@@ -197,13 +197,12 @@ main {
 .grid__item-img-rmt canvas {
 	height: 100%;
 }
-.grid__item-img-rmt img {
+.mobileAndTabletcheck .grid__item-img-rmt img {
 	height: 100%;
 	display: block;
 	transition: all 2s ease;
 }
-.grid__item-img-rmt img:hover,
-.grid__item-img-rmt img:focus {
+.grid__item-img-rmt img:hover {
  -webkit-transform: rotate(360deg);
  -moz-transform: rotate(360deg);
  -ms-transform: rotate(360deg);
