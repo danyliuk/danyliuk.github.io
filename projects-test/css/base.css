@@ -197,7 +197,7 @@ main {
 .grid__item-img-rmt canvas {
 	height: 100%;
 }
-.js .grid__item-img-rmt img {
+.grid__item-img-rmt img {
 	height: 100%;
 	display: block;
 	transition: all 2s ease;
@@ -237,7 +237,7 @@ main {
 	opacity: 1;
 }
 
-.js .grid__item-img img {
+.js .grid__item-img .grid__item-img-rmt img {
 	display: none;
 }
 
