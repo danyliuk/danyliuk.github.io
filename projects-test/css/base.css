@@ -190,8 +190,8 @@ main {
 }
 .grid__item-img-rmt {
 	display: block;
-	height: 100%;
-	width: 100%;
+	height: 96%;
+	width: 96%;
 }
 .grid__item-img-rmt canvas {
 	height: 100%;
