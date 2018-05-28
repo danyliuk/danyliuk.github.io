@@ -240,6 +240,9 @@ main {
 .js .grid__item-img img {
 	display: none;
 }
+.js .grid__item-img-rmt img {
+	display: none;
+}
 
 .grid__item-title {
 	font-weight: 700;
