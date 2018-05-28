@@ -200,7 +200,7 @@ main {
 .grid__item-img-rmt img {
 	height: 100%;
 	display: block;
-	transition: all 2s ease-in;
+	transition: all 2s ease-out;
 }
 .grid__item-img-rmt img:hover {
  -webkit-transform: rotate(360deg);
