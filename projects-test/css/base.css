@@ -321,11 +321,11 @@ main {
 
 /* Themes */
 .theme-1 {
-	--item-bg: #179adb;
+	--item-bg: #fff;
     --item-link: #fff;
     --item-link-hover: #0d2936;
     --item-meta: #fff;
-    --item-title: #fff;
+    --item-title: #179adb;
     --item-subtitle: #fff;
     --item-text: #fff;
 }
