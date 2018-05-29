@@ -36,7 +36,7 @@
 				</div>
 				<div class="grid__item grid__item--bg theme-2">
 					<div class="grid__item-img-rmt">
-						<a href="#" class="parent"><img src="img/rmt.png" alt="Image"/></a>
+						<img src="img/rmt.png" alt="Image"/>
 					</div>
 					<div class="grid__year">&#169; 2005-2018</div>
 				</div>
@@ -63,6 +63,11 @@
 					image1: imgs[0].getAttribute('src'),
 					image2: imgs[1].getAttribute('src'),
 					displacementImage: el.dataset.displacement
+				});
+			});
+			Array.from(document.querySelectorAll('.grid__item-img-rmt')).forEach((el) => {
+				const imgs = Array.from(el.querySelectorAll('img'));
+				new addEvents({
 				});
 			});
 		</script>
