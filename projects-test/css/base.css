@@ -394,12 +394,12 @@ main {
 
 .theme-9 {
 	--item-bg: #f5f5f5;
-    --item-link: #fff;
-    --item-link-hover: #fff;
-    --item-meta: #fff;
-    --item-title: #fff;
-    --item-subtitle: #fff;
-    --item-text: #fff;
+    --item-link: #099abe;
+    --item-link-hover: #099abe;
+    --item-meta: #3e3f40;
+    --item-title: #3e3f40;
+    --item-subtitle: #3e3f40;
+    --item-text: #3e3f40;
 }
 
 .theme-10 {
