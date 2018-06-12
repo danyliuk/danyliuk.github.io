@@ -393,13 +393,13 @@ main {
 }
 
 .theme-9 {
-	--item-bg: #c9efee;
-    --item-link: #000000;
-    --item-link-hover: #e80c40;
-    --item-meta: #fff;
-    --item-title: #000;
-    --item-subtitle: #000;
-    --item-text: #000;
+	--item-bg: #f5f5f5;
+    --item-link: #099abe;
+    --item-link-hover: #099abe;
+    --item-meta: #3e3f40;
+    --item-title: #3e3f40;
+    --item-subtitle: #3e3f40;
+    --item-text: #3e3f40;
 }
 
 .theme-10 {
