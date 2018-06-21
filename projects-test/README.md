@@ -1,26 +1,23 @@
-# Distortion Hover Effect
+# Grid Menu
 
-A little library that can be used for creating WebGL powered distortion hover effects using displacement images. By Robin Delaporte.
+A CSS Grid powered menu with a box look inspired by the effect seen in the [Ableton Live 10: What's New](https://www.youtube.com/watch?v=Z9Ku5ptjzKw) video.
 
-![Image Title](link)
+![Grid Menu](https://tympanus.net/codrops/wp-content/uploads/2018/03/GridMenu_featured.jpg)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=34430)
+[Article on Codrops](https://tympanus.net/codrops/?p=34419)
 
-[Demo](https://tympanus.net/Development/DistortionHoverEffect/)
+[Demo](http://tympanus.net/Development/GridMenu/)
 
 ## Credits
 
-*   [Three.js](https://threejs.org)
-*   TweenMax.js by [GreenSock](https://greensock.com/)
-*   Photography from [Unsplash.com](http://unsplash.com/)
-*   Patterns by [Freepik.com](https://www.freepik.com/) and [Vecteezy.com](https://www.vecteezy.com) 
+- Images by [Unsplash.com](http://unsplash.com)
+- [anime.js](http://anime-js.com/) by Julian Garnier
+- [imagesLoaded](http://imagesloaded.desandro.com/) by Dave DeSandro
 
 ## License
 This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
 
 ## Misc
-
-Follow Robin: [Twitter](https://twitter.com/not__robin), [GitHub](https://github.com/robin-dela), [Codepen](https://codepen.io/robin-dela/) 
 
 Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
 
