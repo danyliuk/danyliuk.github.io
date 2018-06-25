@@ -131,7 +131,7 @@
 	}
 
 	.grim__item:nth-child(2) {
-		grid-area: 25 / 6 / 31 / 12;
+		grid-area: 25 / 7 / 31 / 12;
 	}
 
 	.grim__item:nth-child(3) {
@@ -139,7 +139,7 @@
 	}
 
 	.grim__item:nth-child(4) {
-		grid-area: 19 / 6 / 25 / 12;
+		grid-area: 19 / 7 / 25 / 12;
 	}
 
 	.grim__item:nth-child(5) {
@@ -147,7 +147,7 @@
 	}
 
 	.grim__item:nth-child(6) {
-		grid-area: 13 / 6 / 19 / 12;
+		grid-area: 13 / 7 / 19 / 12;
 	}
 
 	.grim__item:nth-child(7) {
@@ -155,15 +155,15 @@
 	}
 
 	.grim__item:nth-child(8) {
-		grid-area: 7 / 6 / 13 / 12;
+		grid-area: 7 / 7 / 13 / 12;
 	}
 
 	.grim__item:nth-child(9) {
-		grid-area: 1 / 1 / 17 / 17;
+		grid-area: 1 / 1 / 7 / 6;
 	}
 
 	.grim__item:nth-child(10) {
-		grid-area: 1 / 17 / 33 / 33;
+		grid-area: 1 / 7 / 7 / 12;
 	}
 
 	.grim__item-bg {
