@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	min-height: 100vh;
+	min-height: 99vh;
 	color: #57585c;
 	color: var(--color-text);
 	background: #fff;
