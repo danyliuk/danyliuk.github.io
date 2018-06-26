@@ -127,11 +127,11 @@
 	}
 
 	.grim__item:first-child {
-		grid-area: 31 / 1 / 33 / 2;
+		grid-area: 8 / 1 / 9 / 2;
 	}
 
 	.grim__item:nth-child(2) {
-		grid-area: 31 / 2 / 33 / 3;
+		grid-area: 7 / 1 / 8 / 2;
 	}
 
 	.grim__item:nth-child(3) {
