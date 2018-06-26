@@ -165,6 +165,12 @@
 	.grim__item:nth-child(10) {
 		grid-area: 7 / 3 / 9 / 5;
 	}
+	.grim__item:nth-child(11) {
+		grid-area: 1 / 5 / 3 / 7;
+	}
+	.grim__item:nth-child(12) {
+		grid-area: 3 / 5 / 5 / 7;
+	}
 
 	.grim__item-bg {
 		position: absolute;
