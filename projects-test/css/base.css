@@ -202,7 +202,7 @@ main {
 	opacity: 0.5;
 }
 
-@media screen and (color) {
+@media screen and (min-width: 55em) {
 	.message {
 		display: none;
 	}
