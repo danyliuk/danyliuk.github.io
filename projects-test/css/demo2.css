@@ -126,63 +126,6 @@
 		align-items: center;
 	}
 
-	.grim__item:first-child {
-		grid-area: 8 / 1 / 9 / 2;
-	}
-
-	.grim__item:nth-child(2) {
-		grid-area: 7 / 1 / 8 / 2;
-	}
-
-	.grim__item:nth-child(3) {
-		grid-area: 7 / 2 / 9 / 3;
-	}
-
-	.grim__item:nth-child(4) {
-		grid-area: 5 / 1 / 7 / 3;
-	}
-
-	.grim__item:nth-child(5) {
-		grid-area: 3 / 1 / 5 / 3;
-	}
-
-	.grim__item:nth-child(6) {
-		grid-area: 1 / 1 / 3 / 3;
-	}
-
-	.grim__item:nth-child(7) {
-		grid-area: 1 / 3 / 3 / 5;
-	}
-
-	.grim__item:nth-child(8) {
-		grid-area: 3 / 3 / 5 / 5;
-	}
-
-	.grim__item:nth-child(9) {
-		grid-area: 5 / 3 / 7 / 5;
-	}
-
-	.grim__item:nth-child(10) {
-		grid-area: 7 / 3 / 9 / 5;
-	}
-	.grim__item:nth-child(11) {
-		grid-area: 1 / 5 / 3 / 7;
-	}
-	.grim__item:nth-child(12) {
-		grid-area: 3 / 5 / 5 / 7;
-	}
-	.grim__item:nth-child(13) {
-		grid-area: 5 / 5 / 7 / 7;
-	}
-	.grim__item:nth-child(14) {
-		grid-area: 7 / 5 / 9 / 7;
-	}
-	.grim__item:nth-child(15) {
-		grid-area: 7 / 7 / 9 / 9;
-	}
-	.grim__item:nth-child(16) {
-		grid-area: 5 / 7 / 7 / 9;
-	}
 
 	.grim__item-bg {
 		position: absolute;
