@@ -1,32 +1,30 @@
-# Letter Effects
+# Scrolling Letters Animation
 
-A set of inspirational letter animations for display typography effects powered by Julian Garnier's anime.js.
+A switching title effect where a fixed element changes depending on the scroll position. 
 
-[Article on Codrops](http://tympanus.net/codrops/?p=28372)
+![Scrolling Letters Animation](https://tympanus.net/codrops/wp-content/uploads/2018/02/ScrollingLettersAnimation_Featured.jpg)
 
-[Demo](http://tympanus.net/Development/LetterEffects/)
+[Article on Codrops](https://tympanus.net/codrops/?p=33990)
 
-This demo is sponsored by [Hired: Get 5+ Job Offers in 1 Week with Hired](https://goo.gl/E3OUW6).
-
-## License
-
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
-
-Read more here: [License](http://tympanus.net/codrops/licensing/)
+[Demo](http://tympanus.net/Development/ScrollingLettersAnimation/)
 
 ## Credits
 
-*   [anime.js](http://anime-js.com/) by Julian Garnier
-*   Images by [Unsplash.com](http://unsplash.com) and [pngimg.com](http://pngimg.com/)
-*   [Charming.js](https://github.com/yuanqing/charming) by Yuan Qing
-*   [imagesLoaded](http://imagesloaded.desandro.com/) by Dave DeSandro
-*   [Line Maker](http://tympanus.net/codrops/2016/10/12/animated-decorative-lines/) by Codrops
+- Hand-drawn skull set by [Freepik](https://www.freepik.com/free-vector/set-of-hand-drawn-skulls_1389312.htm)
+- Images made from the ["Flight" Collection](https://creativemarket.com/RuleByArt/468537-Flight) copyright by [RuleByArt](https://rulebyart.com/)
+- Images by [Unsplash.com](https://unsplash.com/)
+- [anime.js](http://anime-js.com/) by Julian Garnier
+- [imagesLoaded](http://imagesloaded.desandro.com/) by Dave DeSandro
+- [Charming.js](https://github.com/yuanqing/charming) by Yuan Qing
+
+## License
+This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
 
 ## Misc
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/pages/Codrops/159107397912), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/)
+Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
 
-[© Codrops 2016](http://www.codrops.com)
+[© Codrops 2018](http://www.codrops.com)
 
 
 
