@@ -37,7 +37,7 @@
                     }
                 });
 
-                bodyEl.style.backgroundColor = this.DOM.el.dataset.bgcolorv;
+                bodyEl.style.backgroundColor = this.DOM.el.dataset.bgcolorx;
             }, 150);
         }
         exit(direction = 'down') {
