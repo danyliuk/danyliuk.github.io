@@ -12,7 +12,6 @@
 	--font-scroll-text: 'Josefin Sans', monospace;
 	--fontsize-scroll-text: 8vw;
 	transition: background-color 0.4s;
-	transition: background-image  0.4s;
 }
 
 .content__section:not(:first-child) {
