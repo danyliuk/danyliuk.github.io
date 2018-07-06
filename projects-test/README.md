@@ -1,30 +1,60 @@
-# Scrolling Letters Animation
+# Line Menu Styles
 
-A switching title effect where a fixed element changes depending on the scroll position. 
+An open collection of menu styles that use the line as a creative design element.
 
-![Scrolling Letters Animation](https://tympanus.net/codrops/wp-content/uploads/2018/02/ScrollingLettersAnimation_Featured.jpg)
+[Article on Codrops](http://tympanus.net/codrops/?p=25842)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=33990)
+[Demo](http://tympanus.net/Development/LineMenuStyles/)
 
-[Demo](http://tympanus.net/Development/ScrollingLettersAnimation/)
+![Line Menu Styles](http://tympanus.net/codrops/wp-content/uploads/2016/01/menustyle.gif)
+
+## Contribute
+
+_Please don't add any other changes to a pull request for new styles. If you want to contribute some other updates to the repo, make sure to add those in a different pull request._
+
+You can submit your style in the following way:
+1. Fork this repo
+2. Copy the following snippet and insert it before the dummy section:
+```html
+	<section class="section section--menu" id="Yourstyle">
+		<h2 class="section__title">Your style</h2>
+		<span class="link-copy"></span>
+		<nav class="menu menu--yourstyle">
+			<ul class="menu__list">
+				<li class="menu__item menu__item--current"><a class="menu__link">Home</a></li>
+				<li class="menu__item"><a class="menu__link">Portfolio</a></li>
+				<li class="menu__item"><a class="menu__link">Blog</a></li>
+				<li class="menu__item"><a class="menu__link">Shop</a></li>
+				<li class="menu__item"><a class="menu__link">Contact</a></li>
+			</ul>
+		</nav>
+		<p class="info">Style created by <a href="">[your name]</a></p>
+	</section>
+```
+3. Choose a Shakespeare character name as title and replace it with "yourstyle" (id, title, menu--[name])
+4. Add your styles to the ___component.css___ right before the media query. Please don't forget the -webkit- prefixed properties where necessary.
+5. Add your name and social/website link to the info paragraph.
+6. Please credit if you base your style on an existing design. You can do so by adding a paragraph with the class `info` after your menu.
+
+_Please test your styles in the latest stable releases of all common browsers (Chrome, Safari, Firefox, IE), preferrable on Win and Mac and mobile if possible._
+
+__We'll carefully select the best styles.__
+
+## License
+
+Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is".
+
+Read more here: [License](http://tympanus.net/codrops/licensing/)
 
 ## Credits
 
-- Hand-drawn skull set by [Freepik](https://www.freepik.com/free-vector/set-of-hand-drawn-skulls_1389312.htm)
-- Images made from the ["Flight" Collection](https://creativemarket.com/RuleByArt/468537-Flight) copyright by [RuleByArt](https://rulebyart.com/)
-- Images by [Unsplash.com](https://unsplash.com/)
-- [anime.js](http://anime-js.com/) by Julian Garnier
-- [imagesLoaded](http://imagesloaded.desandro.com/) by Dave DeSandro
-- [Charming.js](https://github.com/yuanqing/charming) by Yuan Qing
-
-## License
-This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
+- Link icon from [Iconic](https://github.com/iconic/open-iconic)
 
 ## Misc
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
+Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/pages/Codrops/159107397912), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/)
 
-[© Codrops 2018](http://www.codrops.com)
+[© Codrops 2016](http://www.codrops.com)
 
 
 
