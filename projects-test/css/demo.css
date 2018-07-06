@@ -394,7 +394,7 @@ a:focus {
 	-ms-flex-align: center;
 	align-items: center;
 	width: 100vw;
-	height: 110vh;
+	height: 100vh;
 	min-height: 500px;
 	padding: 7em 0;
 }
@@ -792,6 +792,6 @@ a:focus {
 		display: none;
 	}
 	.content {
-		height: calc(100vh - 160px);
+		height: calc(100vh - 124px);
 	}
 }
