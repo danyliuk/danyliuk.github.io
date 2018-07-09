@@ -791,7 +791,4 @@ a:focus {
 	.content--c12 .deco-image {
 		display: none;
 	}
-	.content {
-		height: calc(100vh - 124px);
-	}
 }
