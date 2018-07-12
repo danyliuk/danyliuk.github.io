@@ -131,6 +131,7 @@ main {
 .info {
 	margin: 1rem 0;
 	color: #fff;
+	line-height: 1;
 }
 
 .github {
