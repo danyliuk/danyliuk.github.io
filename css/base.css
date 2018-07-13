@@ -14,7 +14,7 @@ body {
     --color-info: #6355b7;
     --color-scroll: #000000;
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
-	min-height: 100vh;
+	min-height: 200vh;
 	color: #57585c;
 	color: var(--color-text);
 	background-color: #fff;
