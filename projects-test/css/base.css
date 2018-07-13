@@ -250,16 +250,6 @@ main {
 	.codrops-header__title {
 		font-size: 3rem;
 	}
-	.codrops-header::after {
-		content: 'Danyliuk';
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		text-align: center;
-		margin-bottom: 1rem;
-		color: var(--color-scroll);
-	}
 	.github {
 		position: absolute;
 		top: 0;
