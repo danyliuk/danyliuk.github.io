@@ -101,7 +101,7 @@ main {
 	align-items: center;
 	width: 100%;
 	padding: 10vw;
-	background-image: linear-gradient(110deg,#1e089b,#4702a0);
+	background: fff;
 	font-size: 75%;
 }
 
@@ -130,7 +130,7 @@ main {
 
 .info {
 	margin: 1rem 0;
-	color: #fff;
+	color: #000000;
 	line-height: 1.5;
 }
 
