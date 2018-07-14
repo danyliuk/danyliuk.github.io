@@ -94,18 +94,17 @@ main {
 
 /* Header */
 .codrops-header {
-	position: relative;
-	z-index: 100;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	height: 20em;
-	width: 20em;
-	padding: 10vw;
-	background-color: #fff;
-	font-size: 75%;
-	margin: 0 auto;
-	border: 22px solid black;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		height: 30em;
+		width: 30em;
+		font-size: 1.5rem;
+		padding: 0 0 2rem 0;
+		border: 22px solid black;
 }
 
 .codrops-header__inner {
