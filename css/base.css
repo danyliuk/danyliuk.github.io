@@ -245,8 +245,8 @@ main {
 		justify-content: center;
 		align-items: center;
 		margin: 0 auto;
-		height: 100em;
-		width: 100em;
+		height: 40em;
+		width: 40em;
 	}
 	.codrops-header__title {
 		font-size: 3rem;
