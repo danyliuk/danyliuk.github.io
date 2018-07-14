@@ -104,6 +104,8 @@ main {
 	padding: 10vw;
 	background-color: #fff;
 	font-size: 75%;
+	margin: 0 auto;
+	border: 22px solid black;
 }
 
 .codrops-header__inner {
