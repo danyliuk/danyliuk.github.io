@@ -54,7 +54,7 @@ a:focus {
 	height: 100%;
 	margin: 0 0 0 10vw;
 	pointer-events: none;
-	background: #000000;
+	opacity: 0;
 }
 
 .slide__title {
@@ -76,7 +76,7 @@ a:focus {
 		width: 100%;
 		margin: 0 0 50vh 0;
 	}
-		.slide__title {
-		font-size: 1.5em;
+	.slide__title {
+	font-size: 1.5em;
 	}
 }
