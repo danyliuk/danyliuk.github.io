@@ -9,7 +9,7 @@
 body {
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	line-height: 1.5;
-	color: #1f1f21;
+	color: #fff;
 	background: #cecece;
 	height: 100vh;
 	overflow: hidden;
@@ -47,7 +47,6 @@ body {
 .slide__title {
 	font-size: 3vw;
 	font-weight: normal;
-	color: #fff;
 	text-align: center;
 }
 
