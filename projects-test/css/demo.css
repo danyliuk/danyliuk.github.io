@@ -8,22 +8,11 @@
 
 body {
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
-	letter-spacing: 0.1em;
+	line-height: 1.5;
 	color: #1f1f21;
 	background: #cecece;
 	height: 100vh;
 	overflow: hidden;
-}
-
-a {
-	text-decoration: none;
-	color: #000;
-	outline: none;
-}
-
-a:hover,
-a:focus {
-	color: #c2292e;
 }
 
 
@@ -62,7 +51,6 @@ a:focus {
 
 .slide__title {
 	font-size: 3vw;
-	font-weight: normal;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
