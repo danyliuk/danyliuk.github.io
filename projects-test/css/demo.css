@@ -42,6 +42,7 @@ a:focus {
 .slides {
 	position: relative;
 	flex: 1;
+	background: #fff;
 }
 
 .slide {
