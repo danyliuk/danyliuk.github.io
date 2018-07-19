@@ -51,6 +51,7 @@ body {
 
 .slide__title {
 	font-size: 3vw;
+	font-weight: normal;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
