@@ -29,10 +29,6 @@ body {
 }
 
 /* Slides */
-.slides {
-	position: relative;
-	flex: 1;
-}
 
 .slide {
 	position: relative;
