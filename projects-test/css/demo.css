@@ -15,9 +15,7 @@ body {
 	overflow: hidden;
 }
 
-/* Slides */
-
-.slide {
+.danyliuk {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -28,17 +26,17 @@ body {
 	height: 100%;
 }
 
-.slide__title {
+.danyliuk__title {
 	font-size: 3vw;
 	font-weight: normal;
 	text-align: center;
 }
 
 @media screen and (max-width: 50em) {
-	.slide {
+	.danyliuk {
 		margin: 0 0 50vh 0;
 	}
-	.slide__title {
+	.danyliuk__title {
 	font-size: 1.5em;
 	}
 }
