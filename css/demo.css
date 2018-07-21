@@ -9,8 +9,8 @@
 body {
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	line-height: 1.5;
-	color: #fff;
-	background: #cecece;
+	color: #2a2c36;
+	background: #f7f4ec;
 	height: 100vh;
 	overflow: hidden;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .danyliuk__title {
-	font-size: 3vw;
+	font-size: 2vw;
 	font-weight: normal;
 	text-align: center;
 }
@@ -37,6 +37,6 @@ body {
 		margin: 0 0 50vh 0;
 	}
 	.danyliuk__title {
-	font-size: 1.5em;
+	font-size: 1em;
 	}
 }
