@@ -308,6 +308,10 @@ a:focus {
 	background: #cc8969;
 }
 
+.content__inner--c4 {
+	background: #fff;
+}
+
 .content__title {
 	font-size: 5em;
 	font-weight: 900;
