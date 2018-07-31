@@ -521,6 +521,10 @@ a:focus {
 	height: 100%;
 }
 
+.pater__logo {
+	width: 100%;
+}
+
 @media screen and (max-width: 50em) {
 	.intro {
 		padding: 5em 0 0;
