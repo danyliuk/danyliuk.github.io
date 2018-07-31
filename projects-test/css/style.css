@@ -293,7 +293,7 @@ a:focus {
 }
 
 .content__inner--half .link-more {
-	color: rgba(0,0,0,0.3);
+
 }
 
 .content__inner--c1 {
@@ -390,7 +390,7 @@ a:focus {
 
 .content--guitar .content__title,
 .content--guitar .link-more {
-	color: #d06315;
+
 }
 
 .content--chime {
@@ -404,7 +404,6 @@ a:focus {
 .content--kalimba .link-more,
 .content--xylophone .link-more,
 .content--tiny .link-more {
-	color: #4d61c5;
 }
 
 .content--harp {
@@ -416,7 +415,6 @@ a:focus {
 }
 
 .content--timpani .link-more {
-	color: #2a2c36;
 }
 
 .content--xylophone {
