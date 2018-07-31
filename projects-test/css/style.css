@@ -564,7 +564,6 @@ a:focus {
 		padding: 3em 2em;
 	}
 	.content__inner:not(.content__inner--half) .link-more {
-		font-size: 0.85em;
 	}
 }
 
