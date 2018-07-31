@@ -459,6 +459,7 @@ a:focus {
 	padding: 1em 0 0.25em;
 	cursor: pointer;
 	pointer-events: auto;
+	font-weight: normal;
 }
 
 .link-more:hover,
