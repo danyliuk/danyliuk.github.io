@@ -239,7 +239,7 @@ a:focus {
 /* Content */
 .content {
 	position: relative;
-	min-height: 100vh;
+	height: 100vh;
 	padding: 15vh 0 0;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
