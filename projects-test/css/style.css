@@ -16,9 +16,7 @@ body {
 }
 
 a {
-	font-weight: bold;
 	text-decoration: none;
-	color: #f4ba45;
 	outline: none;
 	transition: color 0.2s;
 }
