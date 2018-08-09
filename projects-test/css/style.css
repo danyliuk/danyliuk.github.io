@@ -516,6 +516,10 @@ a:focus {
 	width: 100%;
 	height: 100%;
 }
+.pater__logo {
+	width: 80%;
+}
+
 
 @media screen and (max-width: 50em) {
 	.intro {
