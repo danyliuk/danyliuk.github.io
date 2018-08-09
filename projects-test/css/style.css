@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900|IBM+Plex+Mono:500i&subset=cyrillic-ext');
 *,
 *::after,
 *::before {
@@ -7,8 +6,7 @@
 }
 
 body {
-	font-family: "Montserrat", Helvetica, Arial, sans-serif;
-	font-size: 0.8rem;
+	font-family: 'Quicksand', sans-serif;
 	color: #2a2c36;
 	background: #fff;
 	-webkit-font-smoothing: antialiased;
@@ -16,7 +14,9 @@ body {
 }
 
 a {
+	font-weight: bold;
 	text-decoration: none;
+	color: #f4ba45;
 	outline: none;
 	transition: color 0.2s;
 }
@@ -239,7 +239,7 @@ a:focus {
 /* Content */
 .content {
 	position: relative;
-	height: 100vh;
+	min-height: 100vh;
 	padding: 15vh 0 0;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -258,6 +258,7 @@ a:focus {
 }
 
 .content--boxes {
+	min-height: 70vh;
 }
 
 .content__inner {
@@ -288,10 +289,11 @@ a:focus {
 }
 
 .content__inner--half .content__subtitle {
+	font-size: 1.75em;
 }
 
 .content__inner--half .link-more {
-
+	color: rgba(0,0,0,0.3);
 }
 
 .content__inner--c1 {
@@ -304,10 +306,6 @@ a:focus {
 
 .content__inner--c3 {
 	background: #cc8969;
-}
-
-.content__inner--c4 {
-	background: #fff;
 }
 
 .content__title {
@@ -342,6 +340,8 @@ a:focus {
 }
 
 .content__subtitle {
+	font-family: 'Arapey', serif;
+	font-size: 2.5em;
 	font-weight: normal;
 	margin: 0.5em 0 1em;
 }
@@ -388,7 +388,7 @@ a:focus {
 
 .content--guitar .content__title,
 .content--guitar .link-more {
-
+	color: #d06315;
 }
 
 .content--chime {
@@ -402,6 +402,7 @@ a:focus {
 .content--kalimba .link-more,
 .content--xylophone .link-more,
 .content--tiny .link-more {
+	color: #4d61c5;
 }
 
 .content--harp {
@@ -413,6 +414,7 @@ a:focus {
 }
 
 .content--timpani .link-more {
+	color: #2a2c36;
 }
 
 .content--xylophone {
@@ -451,11 +453,13 @@ a:focus {
 }
 
 .link-more {
+	font-size: 1.25em;
 	position: relative;
 	padding: 1em 0 0.25em;
 	cursor: pointer;
 	pointer-events: auto;
-	font-weight: normal;
+	border-bottom: 2px solid;
+	transition: border-color 0.2s;
 }
 
 .link-more:hover,
@@ -513,10 +517,6 @@ a:focus {
 	height: 100%;
 }
 
-.pater__logo {
-	width: 80%;
-}
-
 @media screen and (max-width: 50em) {
 	.intro {
 		padding: 5em 0 0;
@@ -526,7 +526,7 @@ a:focus {
 	}
 	.intro__tagline,
 	.content__subtitle {
-
+		font-size: 1.25em;
 	}
 	.content__highlight {
 		font-size: 1.75em;
@@ -561,6 +561,7 @@ a:focus {
 		padding: 3em 2em;
 	}
 	.content__inner:not(.content__inner--half) .link-more {
+		font-size: 0.85em;
 	}
 }
 
