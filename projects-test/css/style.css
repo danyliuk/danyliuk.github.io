@@ -276,7 +276,7 @@ a:focus {
 
 .content__inner--half {
 	flex: none;
-	width: 50%;
+	width: 33%;
 	max-width: none;
 	height: auto;
 	padding: 15vh calc(25vw - 220px);
