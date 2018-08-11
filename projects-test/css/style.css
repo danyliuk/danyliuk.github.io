@@ -519,7 +519,7 @@ a:focus {
 
 .storozhka__logo {
 	width: auto;
-	height: 190px;
+	height: 100%;
 }
 
 @media screen and (max-width: 50em) {
