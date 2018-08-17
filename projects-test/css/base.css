@@ -389,8 +389,7 @@ main {
 		display: grid;
 		grid-gap: 6px;
 		grid-template-columns: repeat(2,calc(50% - 3px));
-		margin-left: 50px;
-		margin-right: 50px;
+		margin: 50px;
 
 	}
 	.grid__item {
