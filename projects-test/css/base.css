@@ -359,7 +359,7 @@ main {
 .year {
 	position: absolute;
 	bottom: 0;
-	margin: 2rem;
+	margin: 1.5rem;
 }
 
 @media screen and (min-width: 50em) {
