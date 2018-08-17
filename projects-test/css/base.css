@@ -403,5 +403,9 @@ main {
 		border: 22px solid black;
 	}
 
+	.logo-rmt {
+	width: 22vmax;
+    }
+
 
 }
