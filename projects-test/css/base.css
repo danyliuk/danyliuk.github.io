@@ -7,7 +7,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
-	--color-text: #fff;
+	--color-text: #000000;
     --color-bg: #606060;
     --color-link: #f4bf3f;
     --color-link-hover: #fff;
