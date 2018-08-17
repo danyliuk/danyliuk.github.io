@@ -237,7 +237,7 @@ main {
 }
 
 .theme-1 {
-	--color-item-bg: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+	--color-item-bg: #fff;
 	--color-action: #121019;
 	--color-button-bg: #121019;
 	--color-button-text: #fff;
@@ -247,7 +247,7 @@ main {
 }
 
 .theme-2 {
-	--color-item-bg: linear-gradient(120deg,#7f54e6,#3F51B5);
+	--color-item-bg: #39B54A;
     --color-action: #f3f3f3;
     --color-button-bg: #f3f3f3;
 	--color-button-text: #3c2e9e;
