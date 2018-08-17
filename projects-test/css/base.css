@@ -387,8 +387,8 @@ main {
 	}
 	.grid {
 		display: grid;
-		grid-gap: 22px;
-		grid-template-columns: repeat(2,calc(50% - 11px));
+		grid-gap: 6px;
+		grid-template-columns: repeat(2,calc(50% - 3px));
 	}
 	.grid__item {
 		height: 50vmax;
