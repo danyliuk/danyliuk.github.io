@@ -356,6 +356,12 @@ main {
     --border-button: 0;
 }
 
+.year {
+	position: absolute;
+	bottom: 0;
+	margin: 2rem;
+}
+
 @media screen and (min-width: 50em) {
 	.codrops-header {
 		position: relative;
