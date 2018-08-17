@@ -391,7 +391,7 @@ main {
 		grid-template-columns: repeat(2,calc(50% - 3px));
 	}
 	.grid__item {
-		height: 50vmax;
+		height: 33vmax;
 		width: 100%;
 		padding: 1.5rem;
 	}
