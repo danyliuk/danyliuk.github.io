@@ -153,7 +153,7 @@ main {
 }
 .grid {
 		display: grid;
-		grid-gap: 8px;
+		row-gap: 8px;
 }
 .grid__item {
 	position: relative;
