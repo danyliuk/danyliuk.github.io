@@ -156,7 +156,7 @@ main {
 	position: relative;
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 100%;
+	grid-template-rows: 50%;
 	grid-row-gap: 8px;
 	align-items: center;
 	justify-items: center;
