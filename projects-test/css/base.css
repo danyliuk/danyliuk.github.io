@@ -165,7 +165,7 @@ main {
 	justify-items: center;
 	overflow: hidden;
 	padding: 4rem 1.5rem;
-	height: 60vmax;
+	height: 60vmin;
 	width: 100%;
 	background: var(--color-item-bg);
 }
