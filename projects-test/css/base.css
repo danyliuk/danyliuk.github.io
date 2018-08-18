@@ -414,6 +414,10 @@ width: 22vmin;
 		padding: 0 0 2rem 0;
 		border: 22px solid black;
 	}
+	.year {
+	margin: 1.5rem;
+	font-size: 0.75rem;
+}
 	.logo-rmt {
 	width: 11vmax;
     }
