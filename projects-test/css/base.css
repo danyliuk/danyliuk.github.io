@@ -165,7 +165,7 @@ main {
 	overflow: hidden;
 	padding: 4rem 1.5rem;
 	height: 66vw;
-	width: 100vw;
+	width: 100%;
 	background: var(--color-item-bg);
 }
 
