@@ -154,7 +154,6 @@ main {
 .grid {
 		display: grid;
 		row-gap: 8px;
-		margin: 8px;
 }
 .grid__item {
 	position: relative;
