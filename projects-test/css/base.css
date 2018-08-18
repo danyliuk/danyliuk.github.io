@@ -153,7 +153,8 @@ main {
 }
 .grid {
 		display: grid;
-		row-gap: 4px;
+		row-gap: 8px;
+		margin: 8px;
 }
 .grid__item {
 	position: relative;
@@ -164,7 +165,7 @@ main {
 	justify-items: center;
 	overflow: hidden;
 	padding: 4rem 1.5rem;
-	height: 66vmin;
+	height: 60vmin;
 	width: 100%;
 	background: var(--color-item-bg);
 }
@@ -402,6 +403,7 @@ width: 22vmin;
 		display: grid;
 		grid-gap: 8px;
 		grid-template-columns: repeat(2,calc(50% - 4px));
+		margin: 4vmax;
 	}
 	.grid__item {
 		height: 30vmax;
@@ -416,7 +418,7 @@ width: 22vmin;
 	.year {
 	margin: 1.5rem;
 	font-size: 0.75rem;
-}
+    }
 	.logo-rmt {
 	width: 11vmax;
     }
