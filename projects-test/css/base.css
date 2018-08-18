@@ -153,8 +153,7 @@ main {
 }
 .grid {
 		display: grid;
-		row-gap: 8px;
-		margin: 8px;
+		row-gap: 4px;
 }
 .grid__item {
 	position: relative;
@@ -165,7 +164,7 @@ main {
 	justify-items: center;
 	overflow: hidden;
 	padding: 4rem 1.5rem;
-	height: 60vmin;
+	height: 30vmin;
 	width: 100%;
 	background: var(--color-item-bg);
 }
