@@ -154,7 +154,7 @@ main {
 .grid {
 		display: grid;
 		row-gap: 8px;
-		margin: 4vmax;
+		margin: 4vmin;
 }
 .grid__item {
 	position: relative;
@@ -365,6 +365,9 @@ main {
 	bottom: 0;
 	margin: 1.5rem;
 	font-size: 0.75rem;
+}
+.logo-rmt {
+width: 11vmin;
 }
 
 @media screen and (min-width: 50em) {
