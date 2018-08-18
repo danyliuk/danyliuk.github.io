@@ -362,7 +362,7 @@ main {
 .year {
 	position: absolute;
 	bottom: 0;
-	margin: 1.5rem;
+	margin: 1.5rem 1.5rem 0.5rem 1.5rem;
 	font-size: 0.6rem;
 }
 .logo-rmt {
