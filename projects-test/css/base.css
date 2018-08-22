@@ -264,11 +264,9 @@ main {
 }
 
 .box__content {
-	position: absolute;
 	max-width: 195px;
 	font-size: 0.9rem;
 	text-align: right;
-	display: none;
 }
 
 .box__content strong {
