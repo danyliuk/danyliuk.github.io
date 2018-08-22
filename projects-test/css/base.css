@@ -441,9 +441,6 @@ main {
 	.box {
 		margin: 6rem 4.5rem;
 	}
-	.box__content {
-		display: block;
-	}
 }
 
 @media screen and (max-width: 55em) {
