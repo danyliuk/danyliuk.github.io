@@ -442,13 +442,6 @@ main {
 	.grid {
 		grid-template-columns: repeat(4,25%);
 	}
-	.grid__item:nth-child(4n-2) {
-		margin-top: -8rem;
-		margin-bottom: 8rem;
-	}
-	.grid__item:nth-child(4n) {
-		margin-top: -5rem;
-	}
 	.box {
 		margin: 6rem 4.5rem;
 	}
