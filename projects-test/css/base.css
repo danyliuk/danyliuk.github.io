@@ -74,7 +74,7 @@ a:focus {
 	.grid {
 		display: grid;
 		align-items: center;
-		padding: 8.8vw auto 8.8vw 8.8vw;
+		margin: 8.8vw auto 8.8vw 8.8vw;
 		grid-row-gap: 2rem;
 		grid-template-columns: repeat(3,calc(100% / 3));
 	}
