@@ -30,6 +30,9 @@ a:focus {
 
 .grid {
 	display: grid;
+	grid-template-columns: repeat(2, 25vw);
+	grid-template-rows: repeat(12, 20vw);
+	grid-gap: 1vw;
 }
 
 .grid__item {
