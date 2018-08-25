@@ -34,18 +34,6 @@ a:focus {
 	outline: none;
 }
 
-.hidden {
-	position: absolute;
-	overflow: hidden;
-	width: 0;
-	height: 0;
-	pointer-events: none;
-}
-
-.content {
-	position: relative;
-}
-
 .grid {
 }
 
