@@ -86,8 +86,8 @@ a:focus {
 
 @media screen and (min-width: 80em) {
 	.grid {
-		grid-template-columns: repeat(4,20vw);
-		grid-template-rows: : repeat(6,160px);
+		grid-template-columns: repeat(4, 20vw);
+		grid-template-rows: repeat(3, 1fr);
 		grid-gap: 0.8vw;
 	}
 }
