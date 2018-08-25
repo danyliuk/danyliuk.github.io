@@ -39,6 +39,7 @@ a:focus {
 
 .grid__item {
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	background-color: #fff;
@@ -48,22 +49,87 @@ a:focus {
 
 /* Temy */
 
-.tk {
-	align-items: center;
-	background: #66B3B3;
-	color: #fff;
-	}
-
-.tk img {
-	width: 80%;
-	}
-
 .dany {
     font-size: 4vw;
 }
 
 .rmt {
 	height: 76%;
+}
+
+.vkoveli {
+	background: #fff;
+}
+
+.smart-rasing {
+	background: #fff;
+}
+
+.tverezo {
+	background: #fff;
+}
+
+.tv {
+	background: #fff;
+}
+
+.tvereza-pro {
+	background: #fff;
+}
+
+.tverezo-com {
+	background: #fff;
+}
+
+.sasha {
+	background: #fff;
+}
+
+.mobi-kros {
+	background: #fff;
+}
+
+.agata {
+	background: #fff;
+}
+
+.sz {
+	background: #fff;
+}
+
+.stereocam {
+	background: #fff;
+}
+
+.mobila {
+	background: #fff;
+}
+
+.tvereza {
+	background: #fff;
+}
+
+.tk {
+	background: #66B3B3;
+}
+.tk img {
+	width: 80%;
+}
+
+.iov {
+	background: #fff;
+}
+
+.kovel {
+	background: #fff;
+}
+
+.nevysnykomp {
+	background: #fff;
+}
+
+.storozhka {
+	background: #fff;
 }
 
 /* temy */
