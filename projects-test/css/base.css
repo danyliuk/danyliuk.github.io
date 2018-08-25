@@ -75,7 +75,6 @@ a:focus {
 		display: grid;
 		align-items: center;
 		margin: 8.8vw auto 8.8vw 8.8vw;
-		grid-row-gap: 2rem;
 		grid-template-columns: repeat(3,calc(100% / 3));
 	}
 	.grid__item {
@@ -88,6 +87,7 @@ a:focus {
 		grid-template-columns: repeat(4, 20vw);
 		grid-template-rows: repeat(6, 16vw);
 		grid-gap: 0.8vw;
+		width: 82.4vw;
 	}
 }
 
