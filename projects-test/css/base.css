@@ -39,7 +39,6 @@ a:focus {
 
 .grid__item {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	background-color: #fff;
@@ -50,6 +49,7 @@ a:focus {
 /* Temy */
 
 .tk {
+	align-items: center;
 	background: #66B3B3;
 	color: #fff;
 	}
