@@ -39,6 +39,7 @@ a:focus {
 
 .grid__item {
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	background-color: #fff;
 	width: 100%;
