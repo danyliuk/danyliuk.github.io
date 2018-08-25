@@ -27,7 +27,7 @@ a:focus {
 }
 
 .grid__item {
-	display: flex;
+	display: grid;
 	justify-content: center;
 	margin: 0 0 10rem 0;
 	cursor: pointer;
@@ -36,19 +36,11 @@ a:focus {
 	height: 100%;
 }
 
-.grid__item:hover .box__img:not(.box__img--original) {
-	filter: grayscale(0);
-}
-
 @media screen and (min-width: 55em) {
 	.grid {
-		display: grid;
 		align-items: center;
 		margin: 8.8vw auto 8.8vw 8.8vw;
 		grid-template-columns: repeat(3,calc(100% / 3));
-	}
-	.grid__item {
-		margin: 0;
 	}
 }
 
@@ -62,15 +54,4 @@ a:focus {
 }
 
 @media screen and (max-width: 55em) {
-	.content {
-		flex-direction: column;
-		height: auto;
-		min-height: 0;
-	}
-	.content--fixed {
-		position: relative;
-		z-index: 1000;
-		display: block;
-		padding: 0.85em;
-	}
 }
