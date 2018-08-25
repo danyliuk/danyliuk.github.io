@@ -24,10 +24,11 @@ a:focus {
 }
 
 .grid {
+	display: grid;
 }
 
 .grid__item {
-	display: grid;
+	display: flex;
 	justify-content: center;
 	margin: 0 0 10rem 0;
 	cursor: pointer;
