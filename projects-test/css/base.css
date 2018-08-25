@@ -44,6 +44,7 @@ a:focus {
 		grid-template-columns: repeat(3, 25vw);
 		grid-template-rows: repeat(8, 20vw);
 		grid-gap: 1vw;
+		width: 77vw;
 	}
 }
 
