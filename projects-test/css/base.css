@@ -52,6 +52,10 @@ a:focus {
 	color: #fff;
 	}
 
+.grid__item--tk img {
+	width: 80%;
+	}
+
 .dany {
     font-size: 4vw;
 }
