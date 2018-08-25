@@ -39,12 +39,11 @@ a:focus {
 
 @media screen and (min-width: 55em) {
 	.grid {
-		align-items: center;
-		margin: 8.8vw auto 8.8vw 8.8vw;
 		grid-template-columns: repeat(3, 25vw);
 		grid-template-rows: repeat(8, 20vw);
 		grid-gap: 1vw;
 		width: 77vw;
+		margin: 8.8vw auto 8.8vw 8.8vw;
 	}
 }
 
