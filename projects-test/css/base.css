@@ -47,9 +47,6 @@ a:focus {
 }
 
 .grid {
-	width: 100%;
-	max-width: 1440px;
-	padding-bottom: 10rem;
 }
 
 .grid__item {
