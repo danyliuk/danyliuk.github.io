@@ -32,7 +32,7 @@ a:focus {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 40vw);
-	grid-template-rows: repeat(12, 32vw);
+	grid-template-rows: repeat(2, 32vw);
 	grid-gap: 1.6vw;
 	width: 81.6vw;
 	margin: 9.2vw auto 9.2vw 9.2vw;
@@ -58,7 +58,7 @@ a:focus {
 .danyliuk span {
     font-size: 1vw;
     position: relative;
-    left: 7vw;
+    left: 6vw;
 }
 
 .rmt {
@@ -145,7 +145,7 @@ a:focus {
 @media screen and (min-width: 55em) {
 	.grid {
 		grid-template-columns: repeat(3, 25vw);
-		grid-template-rows: repeat(8, 20vw);
+		grid-template-rows: repeat(1, 20vw);
 		grid-gap: 1vw;
 		width: 77vw;
 		margin: 11.5vw auto 11.5vw 11.5vw;
@@ -155,7 +155,7 @@ a:focus {
 @media screen and (min-width: 80em) {
 	.grid {
 		grid-template-columns: repeat(4, 20vw);
-		grid-template-rows: repeat(6, 16vw);
+		grid-template-rows: repeat(1, 16vw);
 		grid-gap: 0.8vw;
 		width: 82.4vw;
 		margin: 8.8vw auto 8.8vw 8.8vw;
