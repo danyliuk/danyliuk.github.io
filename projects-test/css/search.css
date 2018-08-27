@@ -158,7 +158,7 @@ a:focus {
 		grid-template-rows: repeat(1, 16vw);
 		grid-gap: 0.8vw;
 		width: 82.4vw;
-		margin: 0.4vw auto 0.4vw 8.8vw;
+		margin: 0.8vw auto 0.8vw 8.8vw;
 	}
 }
 
