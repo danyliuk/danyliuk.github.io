@@ -49,8 +49,12 @@ a:focus {
 
 /* Temy */
 
-.dany {
-    font-size: 4vw;
+.danyliuk h1 {
+    font-size: 3vw;
+}
+
+.danyliuk span {
+    font-size: 1vw;
 }
 
 .rmt {
