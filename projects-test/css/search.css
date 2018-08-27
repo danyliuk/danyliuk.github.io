@@ -57,7 +57,8 @@ a:focus {
 }
 .danyliuk span {
     font-size: 1vw;
-    text-align: right;
+    position: absolute;
+    right: 0;
 }
 
 .rmt {
