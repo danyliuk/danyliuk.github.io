@@ -48,12 +48,12 @@ a:focus {
 }
 
 /* Temy */
-
-.danyliuk h1 {
+.danyliuk {
 	background: #2a2c36;
+}
+.danyliuk h1 {
     font-size: 3vw;
 }
-
 .danyliuk span {
     font-size: 1vw;
     text-align: right;
