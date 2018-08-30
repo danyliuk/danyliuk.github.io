@@ -53,7 +53,12 @@ a:focus {
 .danyliuk {
 	background: #f7f4ec;
 	--font-size: 6vw;
-	font-weight: 800;
+	font-weight: bold;
+}
+.danyliuk span {
+	background: #f7f4ec;
+	font-size: calc(var(--font-size) / 2);
+	font-weight: lighter;
 }
 
 .rmt {
@@ -157,7 +162,6 @@ a:focus {
 		grid-gap: 0.8vw;
 		width: 82.4vw;
 		margin: 8.8vw auto 8.8vw 8.8vw;
-		font-size: var(--font-size);
 	}
 	.grid__item {
 	    font-size: calc(var(--font-size) / 2);
