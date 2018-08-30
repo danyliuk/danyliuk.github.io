@@ -52,6 +52,7 @@ a:focus {
 .danyliuk {
 	background: #f7f4ec;
 	--font-size: 3vw;
+	font-size: var(--font-size);
 }
 
 .rmt {
