@@ -145,7 +145,7 @@ a:focus {
 		margin: 11.5vw auto 11.5vw 11.5vw;
 	}
 	.grid__item {
-	font-size: var(--font-size);
+	    font-size: calc(var(--font-size) / 1.6);
     }
 }
 
