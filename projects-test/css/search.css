@@ -53,7 +53,7 @@ a:focus {
 	background: #f7f4ec;
 }
 .danyliuk span {
-    --font-size: 3vw;
+    --font-size: 50%;
 }
 .danyliuk h5 {
     font-size: 1vw;
