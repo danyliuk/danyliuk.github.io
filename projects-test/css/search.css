@@ -52,10 +52,10 @@ a:focus {
 .danyliuk {
 	background: #f7f4ec;
 }
-.danyliuk h1 {
+.danyliuk span {
     --font-size: 3vw;
 }
-.danyliuk span {
+.danyliuk h5 {
     font-size: 1vw;
     position: relative;
     left: 6vw;
