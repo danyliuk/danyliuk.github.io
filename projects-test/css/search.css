@@ -51,7 +51,7 @@ a:focus {
 /* Temy */
 .danyliuk {
 	background: #f7f4ec;
-	font-size: 3vw;
+	--font-size: 3vw;
 }
 
 .rmt {
