@@ -46,13 +46,13 @@ a:focus {
 	background-color: #fff;
 	width: 100%;
 	height: 100%;
+	font-size: var(--font-size);
 }
 
 /* Temy */
 .danyliuk {
 	background: #f7f4ec;
 	--font-size: 3vw;
-	font-size: var(--font-size);
 }
 
 .rmt {
