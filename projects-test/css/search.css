@@ -51,14 +51,7 @@ a:focus {
 /* Temy */
 .danyliuk {
 	background: #f7f4ec;
-}
-.danyliuk span {
-    --font-size: 50%;
-}
-.danyliuk h5 {
-    font-size: 1vw;
-    position: relative;
-    left: 6vw;
+	--font-size: 50%;
 }
 
 .rmt {
