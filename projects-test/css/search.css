@@ -53,7 +53,7 @@ a:focus {
 	background: #f7f4ec;
 }
 .danyliuk h1 {
-    font-size: 3vw;
+    --font-size: 3vw;
 }
 .danyliuk span {
     font-size: 1vw;
@@ -159,6 +159,7 @@ a:focus {
 		grid-gap: 0.8vw;
 		width: 82.4vw;
 		margin: 8.8vw auto 8.8vw 8.8vw;
+		font-size: var(--font-size);
 	}
 }
 
