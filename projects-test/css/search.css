@@ -74,6 +74,9 @@ a:focus {
 .smart-rasing {
 	background: #00ADEF;
 }
+.smart-rasing img {
+	width: 70%;
+}
 
 .tverezo {
 	background: #fff;
