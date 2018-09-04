@@ -48,7 +48,7 @@ a:focus {
 	height: 100%;
 	font-size: var(--font-size);
 	color: var(--color-text);
-	border-radius: 0.4vw;
+	border-radius: 1vw;
 }
 .grid__item span {
 	font-size: var(--font-size-span);
