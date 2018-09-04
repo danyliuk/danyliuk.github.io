@@ -153,11 +153,11 @@ a:focus {
 
 @media screen and (min-width: 55em) {
 	.grid {
-		grid-template-columns: repeat(3, 25vw);
-		grid-template-rows: repeat(2, 12.5vw);
-		grid-gap: 1vw;
-		width: 77vw;
-		margin: 11.5vw auto 11.5vw 11.5vw;
+		grid-template-columns: repeat(2, 47vw);
+		grid-template-rows: repeat(2, 23.5vw);
+		grid-gap: 2vw;
+		width: 96vw;
+		margin: 2vw auto 2vw 2vw;
 	}
 	.grid__item {
 	    font-size: calc(var(--font-size) / 1.6);
