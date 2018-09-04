@@ -36,7 +36,6 @@ a:focus {
 	grid-gap: 1.6vw;
 	width: 81.6vw;
 	margin: 9.2vw auto 9.2vw 9.2vw;
-	border-radius: 1vw;
 }
 
 .grid__item {
@@ -49,6 +48,7 @@ a:focus {
 	height: 100%;
 	font-size: var(--font-size);
 	color: var(--color-text);
+	border-radius: 1vw;
 }
 .grid__item span {
 	font-size: var(--font-size-span);
