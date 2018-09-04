@@ -59,8 +59,8 @@ a:focus {
 .danyliuk {
 	background: #f7f4ec;
 	font-weight: bold;
-	--font-size: 6vw;
-	--font-size-span: 3vw;
+	--font-size: 12vw;
+	--font-size-span: 6vw;
 	--color-text: #000000;
 }
 
