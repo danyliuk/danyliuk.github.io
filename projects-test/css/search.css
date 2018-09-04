@@ -161,6 +161,7 @@ a:focus {
 	}
 	.grid__item {
 	    font-size: calc(var(--font-size) / 1.6);
+	    border-radius: 0.5vw;
     }
     .grid__item span {
 	    font-size: calc(var(--font-size-span) / 1.6);
