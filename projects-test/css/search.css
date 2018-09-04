@@ -31,11 +31,11 @@ a:focus {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(2, 40vw);
-	grid-template-rows: repeat(2, 20vw);
-	grid-gap: 1.6vw;
-	width: 81.6vw;
-	margin: 9.2vw auto 9.2vw 9.2vw;
+	grid-template-columns: repeat(1, 40vw);
+	grid-template-rows: repeat(4, 20vw);
+	grid-gap: 4vw;
+	width: 92vw;
+	margin: 4vw auto 4vw 4vw;
 }
 
 .grid__item {
