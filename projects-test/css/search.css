@@ -36,6 +36,7 @@ a:focus {
 	grid-gap: 1.6vw;
 	width: 81.6vw;
 	margin: 9.2vw auto 9.2vw 9.2vw;
+	border-radius: 1vw;
 }
 
 .grid__item {
