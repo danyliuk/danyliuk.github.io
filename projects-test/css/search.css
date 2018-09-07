@@ -32,7 +32,7 @@ a:focus {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(1, 80vw);
-	grid-template-rows: repeat(4, 40vw);
+	grid-template-rows: repeat(4, 60vw);
 	grid-gap: 10vw;
 	width: 80vw;
 	margin: 10vw auto 10vw 10vw;
