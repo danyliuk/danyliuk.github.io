@@ -173,7 +173,8 @@ a:focus {
 		grid-template-rows: repeat(2, 35vw);
 		grid-gap: 10vw;
 		width: 80vw;
-		padding: 10vw auto 10vw 10vw;
+		padding: 10vw 0 10vw 10vw;
+		margin-right: auto;
 	}
 	.grid__item {
 	    font-size: calc(var(--font-size) / 2);
