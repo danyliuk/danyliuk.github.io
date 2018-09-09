@@ -28,6 +28,7 @@ a:focus {
 	position: relative;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .grid {
@@ -158,6 +159,7 @@ a:focus {
 		grid-template-rows: repeat(2, 35vw);
 		grid-gap: 10vw;
 		width: 80vw;
+		padding: 10vw 0;
 	}
 	.grid__item {
 	    font-size: calc(var(--font-size) / 2);
@@ -174,6 +176,7 @@ a:focus {
 		grid-template-rows: repeat(2, 35vw);
 		grid-gap: 10vw;
 		width: 80vw;
+		padding: 10vw 0;
 	}
 	.grid__item {
 	    font-size: calc(var(--font-size) / 2);
