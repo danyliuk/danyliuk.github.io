@@ -34,7 +34,7 @@ a:focus {
 	grid-template-rows: repeat(4, 80vw);
 	grid-gap: 10vw;
 	width: 80vw;
-	padding: 5vw auto 5vw 5vw;
+	padding: 10vw auto 10vw 10vw;
 }
 
 .grid__item {
@@ -155,7 +155,7 @@ a:focus {
 		grid-template-columns: repeat(2, 35vw);
 		grid-template-rows: repeat(2, 35vw);
 		grid-gap: 10vw;
-		width: 70vw;
+		width: 80vw;
 		margin: 10vw auto 10vw 10vw;
 	}
 	.grid__item {
@@ -172,7 +172,7 @@ a:focus {
 		grid-template-columns: repeat(2, 35vw);
 		grid-template-rows: repeat(2, 35vw);
 		grid-gap: 10vw;
-		width: 70vw;
+		width: 80vw;
 		margin: 10vw auto 10vw 10vw;
 	}
 	.grid__item {
