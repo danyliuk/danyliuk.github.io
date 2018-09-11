@@ -33,11 +33,11 @@ a:focus {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(1, 70vw);
-	grid-template-rows: repeat(4, 70vw);
-	grid-gap: 15vw;
-	width: 70vw;
-	padding: 15vw 0;
+	grid-template-columns: repeat(1, 91vw);
+	grid-template-rows: repeat(4, 91vw);
+	grid-gap: 4.5vw;
+	width: 91vw;
+	padding: 4.5vw 0;
 }
 
 .grid__item {
