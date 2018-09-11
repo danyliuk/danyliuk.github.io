@@ -59,6 +59,7 @@ a:focus {
 }
 .grid__item h1 {
 	font-size: var(--font-size-h1);
+	padding: var(--padding-h1);
 	font-weight: lighter;
 }
 
@@ -73,6 +74,7 @@ a:focus {
 
 .rmt {
 	--font-size-h1: 4vw;
+	--padding-h1: 5%;
 }
 .rmt img {
 	width: 50%;
