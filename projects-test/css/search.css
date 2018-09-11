@@ -57,6 +57,10 @@ a:focus {
 	font-size: var(--font-size-span);
 	font-weight: lighter;
 }
+.grid__item h1 {
+	font-size: var(--font-size-h1);
+	font-weight: lighter;
+}
 
 /* Temy */
 .danyliuk {
@@ -68,7 +72,7 @@ a:focus {
 }
 
 .rmt {
-	--font-size-span: 4vw;
+	--font-size-h1: 4vw;
 }
 .rmt img {
 	width: 50%;
@@ -173,5 +177,8 @@ a:focus {
     }
     .grid__item span {
 	    font-size: calc(var(--font-size-span) / 2.6);
+    }
+    .grid__item h1 {
+	    font-size: calc(var(--font-size-h1) / 2.6);
     }
 }
