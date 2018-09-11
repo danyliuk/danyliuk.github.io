@@ -60,6 +60,7 @@ a:focus {
 .grid__item h2 {
 	font-size: var(--font-size-h2);
 	padding: var(--padding-h2);
+	margin: var(--margin-h2);
 	font-weight: lighter;
 }
 
@@ -75,6 +76,7 @@ a:focus {
 .rmt {
 	--font-size-h2: 4vw;
 	--padding-h2: 5% 5% 0 5%;
+	--margin-h2: 0;
 	text-align: center;
 }
 .rmt img {
