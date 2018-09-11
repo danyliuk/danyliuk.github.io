@@ -57,6 +57,11 @@ a:focus {
 	font-size: var(--font-size-span);
 	font-weight: lighter;
 }
+.grid__item h1 {
+	font-size: var(--font-size-h1);
+	padding: var(--padding-h1);
+	font-weight: lighter;
+}
 
 /* Temy */
 .danyliuk {
@@ -68,7 +73,12 @@ a:focus {
 }
 
 .rmt {
-	height: 70%;
+	--font-size-h1: 4vw;
+	--padding-h1: 5% 5% 0 5%;
+	text-align: center;
+}
+.rmt img {
+	width: 50%;
 }
 
 .vkoveli {
@@ -170,5 +180,8 @@ a:focus {
     }
     .grid__item span {
 	    font-size: calc(var(--font-size-span) / 2.6);
+    }
+    .grid__item h1 {
+	    font-size: calc(var(--font-size-h1) / 2.6);
     }
 }
