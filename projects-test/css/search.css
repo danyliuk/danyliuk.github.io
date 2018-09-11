@@ -68,8 +68,10 @@ a:focus {
 }
 
 .rmt {
-	height: 70%;
 	--font-size-span: 6vw;
+}
+.rmt img {
+	width: 70%;
 }
 
 .vkoveli {
