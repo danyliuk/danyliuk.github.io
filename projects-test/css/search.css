@@ -75,6 +75,7 @@ a:focus {
 .rmt {
 	--font-size-h1: 4vw;
 	--padding-h1: 5% 5% 0 5%;
+	text-align: center;
 }
 .rmt img {
 	width: 50%;
