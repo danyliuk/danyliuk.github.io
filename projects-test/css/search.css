@@ -73,7 +73,7 @@ a:focus {
 .kovel-logo {
 	--font-size-h2: 7vw;
 	--font-size-h3: 4vw;
-	--padding-h2: 7%;
+	--padding-h2: 0 7%;
 	text-align: center;
 	font-family: "Times New Roman", serif;
 }
