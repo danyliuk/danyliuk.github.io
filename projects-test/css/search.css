@@ -185,8 +185,8 @@ a:focus {
 
 @media screen and (min-width: 55em) {
 	.grid {
-		grid-template-columns: repeat(3, calc(100vw / 3));
-		grid-template-rows: repeat(2, calc(100vw / 3));
+		grid-template-columns: repeat(3, calc(100% / 3));
+		grid-template-rows: repeat(2, 33vw);
 	}
 	.grid__item {
 	    font-size: calc(var(--font-size) / 3);
