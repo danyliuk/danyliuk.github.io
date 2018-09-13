@@ -79,6 +79,9 @@ a:focus {
 	text-align: center;
 	font-family: 'Noto Serif', serif;
 }
+.kovel-logo img {
+	height: 50%;
+}
 
 .danyliuk {
 	background: #f7f4ec;
