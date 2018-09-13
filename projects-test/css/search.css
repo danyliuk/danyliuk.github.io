@@ -185,23 +185,20 @@ a:focus {
 
 @media screen and (min-width: 55em) {
 	.grid {
-		grid-template-columns: repeat(2, 40vw);
-		grid-template-rows: repeat(3, 40vw);
-		grid-gap: 6vw;
-		width: 86vw;
-		padding: 7vw 0;
+		grid-template-columns: repeat(2, 50%);
+		grid-template-rows: repeat(3, 50vw);
 	}
 	.grid__item {
-	    font-size: calc(var(--font-size) / 2.5);
+	    font-size: calc(var(--font-size) / 2);
 	    border-radius: 0.5vw;
     }
     .grid__item span {
-	    font-size: calc(var(--font-size-span) / 2.5);
+	    font-size: calc(var(--font-size-span) / 2);
     }
     .grid__item h2 {
-	    font-size: calc(var(--font-size-h2) / 2.5);
+	    font-size: calc(var(--font-size-h2) / 2);
     }
     .grid__item h3 {
-	    font-size: calc(var(--font-size-h3) / 2.5);
+	    font-size: calc(var(--font-size-h3) / 2);
     }
 }
