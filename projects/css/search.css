@@ -35,11 +35,9 @@ a:focus {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(1, 91vw);
-	grid-template-rows: repeat(6, 91vw);
-	grid-gap: 4.5vw;
-	width: 91vw;
-	padding: 4.5vw 0;
+	grid-template-columns: repeat(1, 100vw);
+	grid-template-rows: repeat(6, 100vw);
+	width: 100vw;
 }
 
 .grid__item {
@@ -52,7 +50,6 @@ a:focus {
 	height: 100%;
 	font-size: var(--font-size);
 	color: var(--color-text);
-	border-radius: 1vw;
 }
 .grid__item span {
 	font-size: var(--font-size-span);
@@ -75,9 +72,12 @@ a:focus {
 .kovel-logo {
 	--font-size-h2: 6vw;
 	--font-size-h3: 4vw;
-	--padding-h2: 0 7% 3%;
+	--padding-h2: 10% 7% 3%;
 	text-align: center;
 	font-family: 'Noto Serif', serif;
+}
+.kovel-logo img {
+	width: 38%;
 }
 
 .danyliuk {
@@ -185,23 +185,19 @@ a:focus {
 
 @media screen and (min-width: 55em) {
 	.grid {
-		grid-template-columns: repeat(2, 35vw);
-		grid-template-rows: repeat(3, 35vw);
-		grid-gap: 10vw;
-		width: 80vw;
-		padding: 10vw 0;
+		grid-template-columns: repeat(3, calc(100% / 3));
+		grid-template-rows: repeat(2, 33vw);
 	}
 	.grid__item {
-	    font-size: calc(var(--font-size) / 2.6);
-	    border-radius: 0.5vw;
+	    font-size: calc(var(--font-size) / 3);
     }
     .grid__item span {
-	    font-size: calc(var(--font-size-span) / 2.6);
+	    font-size: calc(var(--font-size-span) / 3);
     }
     .grid__item h2 {
-	    font-size: calc(var(--font-size-h2) / 2.6);
+	    font-size: calc(var(--font-size-h2) / 3);
     }
     .grid__item h3 {
-	    font-size: calc(var(--font-size-h3) / 2.6);
+	    font-size: calc(var(--font-size-h3) / 3);
     }
 }
