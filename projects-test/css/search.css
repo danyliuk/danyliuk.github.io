@@ -26,7 +26,7 @@ a:focus {
 	outline: none;
 }
 
-.content {
+.cont {
 	position: relative;
     display: flex;
     justify-content: center;
