@@ -26,11 +26,12 @@ a:focus {
 	outline: none;
 }
 
-.cont {
+.content {
 	position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 0 auto;
 }
 
 .grid {
