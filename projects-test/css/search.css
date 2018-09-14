@@ -26,10 +26,11 @@ a:focus {
 	outline: none;
 }
 
-.danyliuk {
+.content {
 	position: relative;
     display: flex;
     justify-content: center;
+    width: 100%;
     margin: 0 auto;
 }
 
