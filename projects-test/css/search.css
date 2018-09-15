@@ -205,13 +205,13 @@ a:focus {
 	.grid__item {
 	    font-size: calc(var(--font-size) / 2);
     }
-    .grid__item span {
-	    font-size: calc(var(--font-size-span) / 2);
-    }
     .grid__item h2 {
 	    font-size: calc(var(--font-size-h2) / 2);
     }
     .grid__item h3 {
 	    font-size: calc(var(--font-size-h3) / 2);
+    }
+    .grid__item span {
+	    font-size: calc(var(--font-size-span) / 2);
     }
 }
