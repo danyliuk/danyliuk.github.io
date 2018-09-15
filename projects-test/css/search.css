@@ -69,6 +69,14 @@ a:focus {
 	font-weight: var(--font-weight-h3);
 }
 
+.grid__item span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 2%;
+	color: var(--color-span);
+}
+
 /* Temy */
 .kovel-logo {
 	--font-size-h2: 6vw;
@@ -91,6 +99,7 @@ a:focus {
 	--margin-h3: 4% 0;
 	--color-text: #000000;
 	font-family: 'Roboto', sans-serif;
+	--color-span: #fff;
 }
 
 .rmt {
