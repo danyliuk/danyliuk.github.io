@@ -85,7 +85,7 @@ a:focus {
 	background: #f7f4ec;
 	font-weight: 900;
 	--font-size-h2: 12vw;
-	--font-size-span: 6vw;
+	--font-size-h3: 6vw;
 	--color-text: #000000;
 	font-family: 'Roboto', sans-serif;
 }
