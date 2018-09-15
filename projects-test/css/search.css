@@ -84,7 +84,7 @@ a:focus {
 .danyliuk {
 	background: #f7f4ec;
 	font-weight: 900;
-	--font-size: 12vw;
+	--font-size-h2: 12vw;
 	--font-size-span: 6vw;
 	--color-text: #000000;
 	font-family: 'Roboto', sans-serif;
