@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900|IBM+Plex+Mono:500i&subset=cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=Play&subset=cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
 *,
 *::after,
@@ -30,17 +31,18 @@ a:focus {
 	position: relative;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(1, 100vw);
+	grid-template-columns: repeat(1, 100%);
 	grid-template-rows: repeat(6, 100vw);
-	width: 100vw;
+	width: 100%;
 }
 
 .grid__item {
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -51,21 +53,30 @@ a:focus {
 	font-size: var(--font-size);
 	color: var(--color-text);
 }
-.grid__item span {
-	font-size: var(--font-size-span);
-	font-weight: lighter;
-}
+
 .grid__item h2 {
 	font-size: var(--font-size-h2);
 	padding: var(--padding-h2);
 	margin: var(--margin-h2);
-	font-weight: lighter;
+	font-weight: var(--font-weight-h2);
 }
 .grid__item h3 {
 	font-size: var(--font-size-h3);
 	padding: var(--padding-h3);
 	margin: var(--margin-h3);
-	font-weight: lighter;
+	font-weight: var(--font-weight-h3);
+}
+
+.grid__item span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 4%;
+	color: var(--color-span);
+	font-size: var(--font-size-span);
+	--font-size-span: 2vw;
+	writing-mode: vertical-rl;
+    transform: rotate(180deg);
 }
 
 /* Temy */
@@ -82,10 +93,15 @@ a:focus {
 
 .danyliuk {
 	background: #f7f4ec;
-	font-weight: bold;
-	--font-size: 12vw;
-	--font-size-span: 6vw;
+	font-weight: 900;
+	--font-size-h2: 12vw;
+	--font-weight-h2: 900;
+	--font-size-h3: 6vw;
+	--font-weight-h3: 400;
+	--margin-h3: 4% 0;
 	--color-text: #000000;
+	font-family: 'Roboto', sans-serif;
+	--color-span: #B9B7B1;
 }
 
 .rmt {
@@ -185,19 +201,19 @@ a:focus {
 
 @media screen and (min-width: 55em) {
 	.grid {
-		grid-template-columns: repeat(3, calc(100% / 3));
-		grid-template-rows: repeat(2, 33vw);
+		grid-template-columns: repeat(2, 50%);
+		grid-template-rows: repeat(3, 50vw);
 	}
 	.grid__item {
-	    font-size: calc(var(--font-size) / 3);
-    }
-    .grid__item span {
-	    font-size: calc(var(--font-size-span) / 3);
+	    font-size: calc(var(--font-size) / 2);
     }
     .grid__item h2 {
-	    font-size: calc(var(--font-size-h2) / 3);
+	    font-size: calc(var(--font-size-h2) / 2);
     }
     .grid__item h3 {
-	    font-size: calc(var(--font-size-h3) / 3);
+	    font-size: calc(var(--font-size-h3) / 2);
+    }
+    .grid__item span {
+	    font-size: calc(var(--font-size-span) / 2);
     }
 }
