@@ -74,7 +74,7 @@ a:focus {
 	margin: 4%;
 	color: var(--color-span);
 	font-size: var(--font-size-span);
-	--font-size-span: 1vw;
+	--font-size-span: 2vw;
 }
 
 /* Temy */
