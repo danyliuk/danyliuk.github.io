@@ -54,7 +54,7 @@ a:focus {
 }
 .grid__item span {
 	font-size: var(--font-size-span);
-	font-weight: lighter;
+	font-weight: 400;
 }
 .grid__item h2 {
 	font-size: var(--font-size-h2);
