@@ -75,6 +75,8 @@ a:focus {
 	color: var(--color-span);
 	font-size: var(--font-size-span);
 	--font-size-span: 2vw;
+	writing-mode: vertical-rl;
+    transform: rotate(180deg);
 }
 
 /* Temy */
