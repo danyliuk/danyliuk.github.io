@@ -53,10 +53,7 @@ a:focus {
 	font-size: var(--font-size);
 	color: var(--color-text);
 }
-.grid__item span {
-	font-size: var(--font-size-span);
-	font-weight: 400;
-}
+
 .grid__item h2 {
 	font-size: var(--font-size-h2);
 	padding: var(--padding-h2);
@@ -74,8 +71,10 @@ a:focus {
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin: 2%;
+	margin: 4%;
 	color: var(--color-span);
+	font-size: var(--font-size-span);
+	--font-size-span: 1vw;
 }
 
 /* Temy */
