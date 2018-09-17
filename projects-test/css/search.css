@@ -106,6 +106,7 @@ a:focus {
 }
 
 .rmt {
+	background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
 	--font-size-h2: 5vw;
 	--padding-h2: 7% 5% 0 5%;
 	--margin-h2: 0 auto;
