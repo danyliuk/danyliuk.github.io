@@ -104,6 +104,9 @@ a:focus {
 	font-family: 'Roboto', sans-serif;
 	--color-span: #B9B7B1;
 }
+.danyliuk img {
+	width: 50%;
+}
 
 .rmt {
 	background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
