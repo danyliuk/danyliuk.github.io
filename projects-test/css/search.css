@@ -75,6 +75,7 @@ a:focus {
 	color: var(--color-span);
 	font-size: var(--font-size-span);
 	--font-size-span: 2vw;
+	-webkit-writing-mode: vertical-rl;
 	writing-mode: vertical-rl;
     transform: rotate(180deg);
 }
@@ -105,13 +106,13 @@ a:focus {
 }
 
 .rmt {
-	--font-size-h2: 4vw;
+	--font-size-h2: 5vw;
 	--padding-h2: 7% 5% 0 5%;
 	--margin-h2: 0 auto;
 	text-align: center;
 }
 .rmt img {
-	width: 50%;
+	width: 40%;
 }
 
 .vkoveli {
