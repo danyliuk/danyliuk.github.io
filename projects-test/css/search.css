@@ -12,9 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 body {
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	color: #57585c;
-	background-color: #000000;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	background-color: #212121;
 }
 
 a {
