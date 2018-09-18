@@ -34,11 +34,10 @@ a:focus {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(1, 94vw);
-	grid-template-rows: repeat(6, 94vw);
+	grid-template-columns: repeat(1, 100%);
+	grid-template-rows: repeat(6, 100vw);
 	grid-gap: 3vw;
-	width: 94vw;
-	padding: 3vw 0;
+	width: 100vw;
 }
 
 .grid__item {
@@ -52,7 +51,6 @@ a:focus {
 	height: 100%;
 	font-size: var(--font-size);
 	color: var(--color-text);
-	box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, .12), 0 1vw 2vw 0 rgba(0, 0, 0, .08);
 }
 
 .grid__item h2 {
