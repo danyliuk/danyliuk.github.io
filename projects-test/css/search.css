@@ -11,7 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 body {
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
-	color: #57585c;
+	color: #000000;
 	background-color: #DCDCDC;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -36,9 +36,11 @@ a:focus {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(1, 100%);
-	grid-template-rows: repeat(6, 100vw);
-	width: 100%;
+	grid-template-columns: repeat(1, 94vw);
+	grid-template-rows: repeat(6, 94vw);
+	grid-gap: 3vw;
+	width: 94vw;
+	padding: 3vw 0;
 }
 
 .grid__item {
