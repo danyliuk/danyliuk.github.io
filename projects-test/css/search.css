@@ -35,7 +35,7 @@ a:focus {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(1, 100%);
-	grid-template-rows: repeat(6, 75vw);
+	grid-template-rows: repeat(6, 56.25);
 	grid-gap: 28vw;
 	width: 100vw;
 	padding: 14vw 0;
