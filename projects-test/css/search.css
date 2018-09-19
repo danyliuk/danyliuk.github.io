@@ -38,6 +38,7 @@ a:focus {
 	grid-template-rows: repeat(6, 75vw);
 	grid-gap: 28vw;
 	width: 100vw;
+	padding: 14vw 0;
 }
 
 .grid__item {
