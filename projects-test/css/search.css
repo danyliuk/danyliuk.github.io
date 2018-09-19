@@ -207,6 +207,9 @@ a:focus {
 	.grid {
 		grid-template-columns: repeat(2, 50%);
 		grid-template-rows: repeat(3, 37.5vw);
+	    grid-gap: 10vw;
+	    width: 100%;
+	    padding: 10vw 0;
 	}
 	.grid__item {
 	    font-size: calc(var(--font-size) / 2);
