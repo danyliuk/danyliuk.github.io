@@ -205,10 +205,10 @@ a:focus {
 
 @media screen and (min-width: 55em) {
 	.grid {
-		grid-template-columns: repeat(2, 45%);
-		grid-template-rows: repeat(3, 37.5vw);
+		grid-template-columns: repeat(1, 64vw);
+		grid-template-rows: repeat(6, 36vw);
 	    grid-gap: 10%;
-	    width: 100%;
+	    width: 64vw;
 	    padding: 10vw 0;
 	}
 	.grid__item {
