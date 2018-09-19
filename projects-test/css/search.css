@@ -207,7 +207,7 @@ a:focus {
 	.grid {
 		grid-template-columns: repeat(2, 45%);
 		grid-template-rows: repeat(3, 37.5vw);
-	    grid-gap: 10vw;
+	    grid-gap: 10%;
 	    width: 100%;
 	    padding: 10vw 0;
 	}
