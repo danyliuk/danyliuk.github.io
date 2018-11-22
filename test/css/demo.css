@@ -21,60 +21,12 @@ body {
 }
 
 /* Color schemes */
-.demo-adsila {
-	--color-text: #57585c;
-	--color-background: #fff;
-	--color-link: #5d93d8;
-	--color-link-hover: #423c2b;
-}
-
-.demo-tsula {
-	--color-text: #fafae5;
-	--color-background: #222328;
-	--color-link: #4f515a;
-	--color-link-hover: #fafae5;
-}
-
-.demo-inola {
-	--color-text: #8c8c8c;
-	--color-background: #1f1e1e;
-	--color-link: #e5d338;
-	--color-link-hover: #8c8c8c;
-}
-
-.demo-ama {
-	--color-text: #9a9da7;
-	--color-background: #fff;
-	--color-link: #32343c;
-	--color-link-hover: #9a9da7;
-}
-
-.demo-yona {
-	--color-text: #000;
-	--color-background: #4520f3;
-	--color-link: #fff;
-	--color-link-hover: #000;
-}
-
-.demo-salal {
-	--color-text: #b5b5b5;
-	--color-background: #222325;
-	--color-link: #515152;
-	--color-link-hover: #fff;
-}
 
 .demo-dustu {
 	--color-text: #fff;
-	--color-background: #161616;
+	--color-background: #000;
 	--color-link: #565656;
 	--color-link-hover: #fff;
-}
-
-.demo-mohe {
-	--color-text: #171754;
-	--color-background: #2b34f5;
-	--color-link: #9ad6fc;
-	--color-link-hover: #171754;
 }
 
 /* Fade effect */
