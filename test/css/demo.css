@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900|IBM+Plex+Mono:500i&subset=cyrillic-ext');
 *,
 *::after,
 *::before {
@@ -9,7 +10,7 @@ html {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: '"Montserrat"', sans-serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
