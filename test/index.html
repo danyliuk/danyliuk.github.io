@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Олександр Данилюк</title>
+		<title>Данилюк</title>
 		<meta name="description" content="An implementation of Gil Huybrecht's Outdoors design" />
 		<meta name="keywords" content="template, web design, html, javascript, layout, css, slide out" />
 		<meta name="author" content="Codrops" />
@@ -70,8 +70,10 @@
 				<!-- menu -->
 				<nav class="menu">
 					<ul class="menu__inner">
-						<li class="menu__item"><a class="menu__item-link" href="#">Контакт</a></li>
-						<li class="menu__item"><a class="menu__item-link" href="#">Пошук</a></li>
+						<li class="menu__item"><a class="menu__item-link" href="#">Our Story</a></li>
+						<li class="menu__item"><a class="menu__item-link" href="#">Adventures</a></li>
+						<li class="menu__item"><a class="menu__item-link" href="#">Testimonials</a></li>
+						<li class="menu__item"><a class="menu__item-link" href="#">Contact</a></li>
 					</ul>
 					<div class="menu__toggle">
 						<span class="menu__toggle-inner menu__toggle-inner--open">
@@ -87,11 +89,11 @@
 					<div class="facts__toggle">
 						<span class="facts__toggle-inner facts__toggle-inner--more">
 							<svg class="icon icon--dot"><use xlink:href="#icon-dot"></use></svg>
-							<span class="facts__toggle-text">See more facts</span>
+							<span class="facts__toggle-text">Більше фактів</span>
 						</span>
 						<span class="facts__toggle-inner facts__toggle-inner--less">
 							<svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>
-							<span class="facts__toggle-text">See less facts</span>
+							<span class="facts__toggle-text">Менше фактів</span>
 						</span>
 					</div>
 					<button class="button-contentclose">
@@ -103,7 +105,7 @@
 					<span class="sections__index-current">
 						<span class="sections__index-inner">01</span>
 					</span>
-					<span class="sections__index-total">04</span>
+					<span class="sections__index-total">01</span>
 				</div>
 				<!-- navigation down -->
 				<nav class="sections__nav">
@@ -118,16 +120,16 @@
 				<section class="section section--current">
 					<div class="section__content">
 						<h2 class="section__title">Сервіс</h2>
-						<p class="section__description"><span class="section__description-inner">Ремонт мобільних телефонів, смартфонів, планшетів.</span></p>
+						<p class="section__description"><span class="section__description-inner">Діагностика та ремонт апаратної частини мобільних телефонів, смартфонів, планшетів.</span></p>
 					</div>
 					<div class="section__img">
 						<div class="section__img-inner" style="background-image: url(img/1.jpg)"></div>
 					</div>
 					<div class="section__more">
 						<div class="section__more-inner section__more-inner--bg1">
-							<span class="section__more-text">Want to know more?</span>
-							<a href="#" class="section__more-link">
-								<span class="section__more-linktext">Explore all hikes</span>
+							<span class="section__more-text">Графік і контакти</span>
+							<a href="/service" class="section__more-link">
+								<span class="section__more-linktext">Перейти на сторінку</span>
 								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
 							</a>
 						</div>
@@ -135,157 +137,20 @@
 					<div class="section__expander"></div>
 					<ul class="section__facts">
 						<li class="section__facts-item">
-							<h3 class="section__facts-title">Biggest lake</h3>
-							<span class="section__facts-detail">Caspian sea in Kazakhstan</span>
+							<h3 class="section__facts-title">13 років досвіду</h3>
+							<span class="section__facts-detail">У сфері ремонту з 2005 року</span>
 						</li>
 						<li class="section__facts-item">
-							<h3 class="section__facts-title">Coolest activity</h3>
-							<span class="section__facts-detail">Kayaking the whole lake</span>
+							<h3 class="section__facts-title">Місяць гарантії</h3>
+							<span class="section__facts-detail">У разі виникнення проблем легко можна домовитись</span>
 						</li>
 						<li class="section__facts-item">
-							<h3 class="section__facts-title">Lake depth</h3>
-							<span class="section__facts-detail">With 55m it's the deepest</span>
-						</li>
-						<li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
-							<div class="section__facts-img">
-								<img src="img/thumb1.jpg" alt="Some image"/>
-								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
-							</div>
-							<h3 class="section__facts-title">More impressions</h3>
-							<span class="section__facts-detail">A collection of images</span>
-						</li>
-					</ul>
-					<div class="section__gallery" id="gallery1">
-						<h3 class="section__gallery-item section__gallery-item--title">More impressions</h3>
-						<a class="section__gallery-item" href="#"><img src="img/thumb1.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb2.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb3.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb4.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb5.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb6.jpg" alt="Some image"/></a>
-					</div>
-				</section><!--/ section -->
-				<section class="section">
-					<div class="section__content">
-						<h2 class="section__title">Фото</h2>
-						<p class="section__description"><span class="section__description-inner">Колекція фотографій.</span></p>
-					</div>
-					<div class="section__img">
-						<div class="section__img-inner" style="background-image: url(img/2.jpg)"></div>
-					</div>
-					<div class="section__more">
-						<div class="section__more-inner section__more-inner--bg2">
-							<span class="section__more-text">Want to know more?</span>
-							<a href="#" class="section__more-link">
-								<span class="section__more-linktext">Explore the lakes</span>
-								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
-							</a>
-						</div>
-					</div>
-					<div class="section__expander"></div>
-					<ul class="section__facts">
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">Biggest lake</h3>
-							<span class="section__facts-detail">Caspian sea in Kazakhstan</span>
+							<h3 class="section__facts-title">Завжди на зв’язку</h3>
+							<span class="section__facts-detail">Можна зателефонувати будь-коли</span>
 						</li>
 						<li class="section__facts-item">
-							<h3 class="section__facts-title">Coolest activity</h3>
-							<span class="section__facts-detail">Kayaking the whole lake</span>
-						</li>
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">Lake depth</h3>
-							<span class="section__facts-detail">With 55m it's the deepest</span>
-						</li>
-						<li class="section__facts-item section__facts-item--clickable" data-gallery="gallery2">
-							<div class="section__facts-img">
-								<img src="img/thumb2.jpg" alt="Some image"/>
-								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
-							</div>
-							<h3 class="section__facts-title">More impressions</h3>
-							<span class="section__facts-detail">A collection of images</span>
-						</li>
-					</ul>
-					<div class="section__gallery" id="gallery2">
-						<h3 class="section__gallery-item section__gallery-item--title">More impressions</h3>
-						<a class="section__gallery-item" href="#"><img src="img/thumb5.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb6.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb1.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb2.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb3.jpg" alt="Some image"/></a>
-						<a class="section__gallery-item" href="#"><img src="img/thumb4.jpg" alt="Some image"/></a>
-					</div>
-				</section><!--/ section -->
-				<section class="section">
-					<div class="section__content">
-						<h2 class="section__title">Paths</h2>
-						<p class="section__description"><span class="section__description-inner">A footpath (also pedestrian way, walking trail, nature trail) is a type of thoroughfare that is intended for use only by pedestrians and not other forms of traffic such as motorized vehicles, cycles, and horses.</span></p>
-					</div>
-					<div class="section__img">
-						<div class="section__img-inner" style="background-image: url(img/3.jpg)"></div>
-					</div>
-					<div class="section__more">
-						<div class="section__more-inner section__more-inner--bg3">
-							<span class="section__more-text">Want to know more?</span>
-							<a href="#" class="section__more-link">
-								<span class="section__more-linktext">Explore the paths</span>
-								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
-							</a>
-						</div>
-					</div>
-					<div class="section__expander"></div>
-					<ul class="section__facts">
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">Lovely paths</h3>
-							<span class="section__facts-detail">Caspian sea in Kazakhstan</span>
-						</li>
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">Haunted ways</h3>
-							<span class="section__facts-detail">Kayaking the whole lake</span>
-						</li>
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">Running and more</h3>
-							<span class="section__facts-detail">With 55m it's the deepest</span>
-						</li>
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">Starting to walk</h3>
-							<span class="section__facts-detail">An aerial view of the lake</span>
-						</li>
-					</ul>
-				</section><!--/ section -->
-				<section class="section">
-					<div class="section__content">
-						<h2 class="section__title">Rivers</h2>
-						<p class="section__description"><span class="section__description-inner">A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. In some cases a river flows into the ground and becomes dry at the end of its course without reaching another body of water.</span></p>
-					</div>
-					<div class="section__img">
-						<div class="section__img-inner" style="background-image: url(img/4.jpg)"></div>
-					</div>
-					<div class="section__more">
-						<div class="section__more-inner section__more-inner--bg4">
-							<span class="section__more-text">Want to know more?</span>
-							<a href="#" class="section__more-link">
-								<span class="section__more-linktext">Explore all rivers</span>
-								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
-							</a>
-						</div>
-					</div>
-					<div class="section__expander"></div>
-					<ul class="section__facts">
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">River romantics</h3>
-							<span class="section__facts-detail">Caspian sea in Kazakhstan</span>
-						</li>
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">History call</h3>
-							<span class="section__facts-detail">Kayaking the whole lake</span>
-						</li>
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">Walking around</h3>
-							<span class="section__facts-detail">With 55m it's the deepest</span>
-						</li>
-						<li class="section__facts-item">
-							<h3 class="section__facts-title">How many miles?</h3>
-							<span class="section__facts-detail">An aerial view of the lake</span>
+							<h3 class="section__facts-title">Короткі терміни</h3>
+							<span class="section__facts-detail">Максимальний термін ремонту 7 днів</span>
 						</li>
 					</ul>
 				</section><!--/ section -->
