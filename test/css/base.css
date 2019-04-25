@@ -129,7 +129,7 @@ main {
 
 .github {
 	display: block;
-	color: #6355b7;
+	color: #f7d337;
 }
 
 /* Top Navigation Style */
@@ -329,7 +329,7 @@ main {
 	}
 	.github {
 		position: absolute;
-		top: 0;
+		bottom: 0;
 		left: 0;
 		margin: 2rem;
 	}
