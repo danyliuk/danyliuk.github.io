@@ -1,18 +1,19 @@
-# Layer Motion Slideshow
+# Grid Layout with Scrollable Content View
 
-A CSS Grid-based slideshow template with a layer motion effect on the main image and on the title.
+A Masonry-powered grid layout with a motion hover effect on the grid items and a scrollable content view.
 
-![Layer Motion Slideshow](https://tympanus.net/codrops/wp-content/uploads/2019/01/LayerMotionSlideshow_featured-1.jpg)
+![Image Title](link)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=37953)
+[Article on Codrops](https://tympanus.net/codrops/?p=35959)
 
-[Demo](https://tympanus.net/Development/LayerMotionSlideshow/)
+[Demo](http://tympanus.net/Development/GridLayoutScrollableContent/)
 
 ## Credits
 
+- [Masonry](http://masonry.desandro.com/) by David DeSandro.
 - [imagesLoaded](https://imagesloaded.desandro.com/) by Dave DeSandro
-- [TweenMax](https://greensock.com/tweenmax) by Greensock
 - [Charming](https://github.com/yuanqing/charming) by Yuan Qing
+- [TweenMax](https://greensock.com/tweenmax) by Greensock
 - Images from [Unsplash.com](https://unsplash.com/)
 
 ## License
@@ -23,7 +24,7 @@ This resource can be used freely if integrated or build upon in personal or comm
 Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
 
 
-[© Codrops 2019](http://www.codrops.com)
+[© Codrops 2018](http://www.codrops.com)
 
 
 
