@@ -100,15 +100,15 @@
 							duration: 500,
 							easing: 'easeOutCirc',
 							translateY: 0,
-							rotateZ: 0,
+							rotateZ: 5,
 							complete: function() {
 								anime({
 									targets: instance.el,
 									duration: 500,
 									delay: 200,
 									easing: 'easeOutExpo',
-									translateY: [0,0],
-									rotateZ: [0,0],
+									translateY: [5,0],
+									rotateZ: [5,0],
 								});	
 							}
 						});
