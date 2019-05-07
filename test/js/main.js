@@ -72,14 +72,14 @@
 							targets: instance.el,
 							duration: 500,
 							easing: 'easeOutCirc',
-							rotateZ: 10,
+							rotateZ: 30,
 							complete: function() {
 								anime({
 									targets: instance.el,
 									duration: 500,
 									delay: 1000,
 									easing: 'easeOutExpo',
-									rotateZ: [10,0],
+									rotateZ: [30,0],
 								});	
 							}
 						});
