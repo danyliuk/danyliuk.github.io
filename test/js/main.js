@@ -20,7 +20,7 @@
 		harpEl = document.querySelector('.content--instrument > .harp'),
 		xylophoneEl = document.querySelector('.content--instrument > .xylophone'),
 		saxEl = document.querySelector('.content--instrument .tiny-instrument--sax'),
-		tubaEl = document.querySelector('.content--instrument .tiny-instrument--tuba'),
+		tubaEl = document.querySelector('.content--instrument .tiny-instrument--tuba1'),
 		panfluteEl = document.querySelector('.content--instrument .tiny-instrument--flute'),
 		micAreaEl = document.querySelector('.content--bg-mic'),
 		violinAreaEl = document.querySelector('.content--bg-violin'),
@@ -44,7 +44,7 @@
 		// Preload all sounds and initialize the instruments.
 		MIDI.loadPlugin({
 			soundfontUrl: './soundfont/',
-			instruments: ['acoustic_grand_piano', 'acoustic_guitar_nylon', 'tubular_bells', 'kalimba', 'timpani', 'orchestral_harp', 'xylophone', 'alto_sax', 'tuba', 'pan_flute', 'violin'],
+			instruments: ['acoustic_grand_piano', 'acoustic_guitar_nylon', 'tubular_bells', 'kalimba', 'timpani', 'orchestral_harp', 'xylophone', 'alto_sax', 'tuba1', 'pan_flute', 'violin'],
 			onsuccess: function() {
 				document.body.classList.remove('loading');
 				// Initialize the Piano.
