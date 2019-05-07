@@ -99,8 +99,8 @@
 							targets: instance.el,
 							duration: 500,
 							easing: 'easeOutCirc',
-							translateY: 5,
-							rotateZ: 5,
+							translateY: 0,
+							rotateZ: 0,
 							complete: function() {
 								anime({
 									targets: instance.el,
