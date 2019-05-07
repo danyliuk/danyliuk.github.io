@@ -72,7 +72,6 @@
 							targets: instance.el,
 							duration: 500,
 							easing: 'easeOutCirc',
-							translateY: 0,
 							rotateZ: 10,
 							complete: function() {
 								anime({
@@ -80,7 +79,6 @@
 									duration: 500,
 									delay: 1000,
 									easing: 'easeOutExpo',
-									translateY: [5,0],
 									rotateZ: [10,0],
 								});	
 							}
@@ -124,7 +122,6 @@
 							targets: instance.el,
 							duration: 500,
 							easing: 'easeOutCirc',
-							translateY: -5,
 							rotateZ: -10,
 							complete: function() {
 								anime({
@@ -132,7 +129,6 @@
 									duration: 500,
 									delay: 1000,
 									easing: 'easeOutExpo',
-									translateY: [-5,0],
 									rotateZ: [-10,0],
 								});	
 							}
