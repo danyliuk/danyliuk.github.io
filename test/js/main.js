@@ -107,7 +107,7 @@
 									duration: 500,
 									delay: 200,
 									easing: 'easeOutExpo',
-									translateY: [5,0],
+									translateY: [0,0],
 									rotateZ: [5,0],
 								});	
 							}
