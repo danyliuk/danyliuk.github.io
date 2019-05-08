@@ -171,8 +171,7 @@ main {
 	pointer-events: none;
 }
 
-a.demo--current {
-	pointer-events: none;
+.demo--current {
 	color: var(--color-link-hover);
 }
 
