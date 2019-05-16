@@ -23,8 +23,8 @@ body {
 /* Color schemes */
 
 .demo-dustu {
-	--color-text: #fff;
-	--color-background: #000;
+	--color-text: #000;
+	--color-background: #afb6bc;
 	--color-link: #565656;
 	--color-link-hover: #fff;
 }
