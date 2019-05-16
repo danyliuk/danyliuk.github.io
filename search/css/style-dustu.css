@@ -7,7 +7,7 @@
 }
 
 .menu--dustu .menu__item-name {
-	font-size: 1.75em;
+	font-size: 1.25em;
 	font-weight: 600;
 	overflow: hidden;
 	padding: 0 0.25em;
@@ -19,11 +19,11 @@
 	margin: 0.5em 0 0 0;
 	margin-top: 0.25em;
 	padding: 0.5em;
-	color: #565656;
+	color: #252528;
 	transition: color 0.7s;
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 }
 
 .menu--dustu .menu__item:hover .menu__item-label {
-	color: #fff;
+	color: #252528;
 }
