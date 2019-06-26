@@ -9,8 +9,8 @@
 body {
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	line-height: 1.5;
-	color: #000;
-	background: #fff;
+	color: #5998F4;
+	background: #A8CDFE;
 	height: 100vh;
 	overflow: hidden;
 }
@@ -30,10 +30,6 @@ body {
 	font-size: 2vw;
 	font-weight: normal;
 	text-align: center;
-}
-
-.danyliuk img {
-	height: 40%;
 }
 
 @media screen and (max-width: 50em) {
