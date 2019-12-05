@@ -88,6 +88,11 @@ html, body {
   flex-basis: 80%;
   padding: 0 0 5rem 1rem;
 }
+.hero__terminal2 {
+  display: flex;
+  width: 200px;
+  margin: 1.5rem auto 0 auto;
+}
 
 @media (max-width: 750px) {
   .wrapper {
