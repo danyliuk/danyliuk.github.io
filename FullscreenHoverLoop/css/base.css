@@ -9,7 +9,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 body {
 	--color-text: #000;
 	--color-alt: #ccc;
-	--color-bg: #fff;
+	--color-bg: #000;
 	--color-link: #000;
 	--color-link-hover: #000;
 	--color-info: #000;
@@ -548,9 +548,7 @@ main {
 		grid-auto-columns: calc((63vw / 15) - var(--gap));
 	}
 	.footer {
-		display: grid;
 		align-items: center;
-		grid-template-columns: 20vw 70vw;
 		margin-top: 20vh;
 	}
 	.footer__left {
