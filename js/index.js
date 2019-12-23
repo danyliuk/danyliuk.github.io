@@ -12,27 +12,27 @@ const cursor = new Cursor(document.querySelector('.cursor'));
 const slidesData = [
   {
     image: image1,
-    title: "Segovia",
+    title: "Danyliuk",
     meta: "Spain / Castile and León"
   },
   {
     image: image2,
-    title: "Barcelona",
+    title: "Danyliuk",
     meta: "Spain / Catalonia"
   },
   {
     image: image3,
-    title: "Málaga",
+    title: "Danyliuk",
     meta: "Spain / Andalusia"
   },
   {
     image: image4,
-    title: "Pamplona",
+    title: "Danyliuk",
     meta: "Spain / Navarre"
   },
   {
     image: image5,
-    title: "Bilbao",
+    title: "Danyliuk",
     meta: "Spain / Biscay"
   }
 ];
