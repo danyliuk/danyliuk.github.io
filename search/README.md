@@ -1,27 +1,35 @@
-# Menu Hover Effects
+## How to use this template:
 
-Some inspiration for menu hover effects.
+- The general styles for the demo page are in css/base.css and individual styles go into the css/demoN.css
+- The README.md can be used to add credits and licensing information of resources used
+- For writing the tutorial, take a look at some guidelines in article.html
+- Delete this 'how to' in the final version and leave the following (fill in title/description and credits):
 
-![Menu Hover Effects]()
+# The Title
 
-[Article on Codrops](https://tympanus.net/codrops/?p=31887)
+*Description*, *author*
 
-[Demo](https://tympanus.net/Development/MenuHoverEffects/)
+![Image Title](link)
+
+[Article on Codrops](https://tympanus.net/codrops/?p=)
+
+[Demo](http://tympanus.net/Development/.../)
 
 ## Credits
 
-- [anime.js](http://anime-js.com/) by Julian Garnier
-- [Charming.js](https://github.com/yuanqing/charming) by Yuan Qing
-- [Keyboard](https://thenounproject.com/term/keyboard/783/) by Paul te Kortschot from the Noun Project
+*third party resources*
 
 ## License
 This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
 
 ## Misc
 
+Follow *Author*: [Twitter](), [Dribbble](), [Google+](), [GitHub]() 
+
 Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
 
-[© Codrops 2017](http://www.codrops.com)
+
+[© Codrops 2018](http://www.codrops.com)
 
 
 
