@@ -10,9 +10,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #fff;
 	max-width: 800px;
-	font-size: 16px;
+	font-size: 0.9rem;
 	line-height: 1.6;
-	font-family: sans-serif;
 }
 
 a {
