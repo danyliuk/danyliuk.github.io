@@ -6,7 +6,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #fff;
 	font-size: 14px;
-	line-height: 1.6;
 	margin: 20px;
 }
 
@@ -22,7 +21,7 @@ a:focus {
 
 .content {
 	margin: 20px auto;
-	list-style: none;
+	text-align: center;
 }
 
 .list {
