@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap&subset=cyrillic');
 
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-}
-
 body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -25,14 +19,6 @@ a:focus {
 	text-decoration: underline;
 }
 
-.title {
-	margin: 10vh 0 0 0;
-}
-
-.info {
-	font-weight: bold;
-}
-
 .content {
 	margin: 10vh auto;
 	list-style: none;
@@ -40,15 +26,4 @@ a:focus {
 
 .list {
 	list-style: none;
-}
-
-hr {
-	border: 0;
-	background: #ccc;
-	height: 1px;
-	margin: 10vh 0;
-}
-
-@media screen and (max-width: 55em) {
-
 }
