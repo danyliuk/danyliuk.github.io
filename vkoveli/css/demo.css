@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900|IBM+Plex+Mono:500i&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap&subset=cyrillic');
 *,
 *::after,
 *::before {
@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
 	color: #179adb;
 	background: #F7F5F3;
