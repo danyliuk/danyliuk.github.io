@@ -24,7 +24,7 @@ a:focus {
 	text-align: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 55em) {
 
 .content img {
 	width: 30%;
