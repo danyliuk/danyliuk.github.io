@@ -23,10 +23,3 @@ a:focus {
 	margin: 20px auto;
 	text-align: center;
 }
-
-@media (max-width: 55em) {
-
-.content img {
-	width: 30%;
-	}
-}
