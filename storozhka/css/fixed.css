@@ -24,7 +24,7 @@ a:focus {
 	text-align: center;
 }
 
-@media not screen and (min-width: 55em) {
+@media all and (handheld) {
 
 .content img {
 	width: 30%;
