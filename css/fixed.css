@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic');
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -17,6 +17,10 @@ a {
 a:hover,
 a:focus {
 	text-decoration: underline;
+}
+
+.logo {
+	font-size: 24px;
 }
 
 .content {
