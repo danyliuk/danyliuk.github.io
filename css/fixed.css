@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic');
 
 body {
+	margin: 0;
 	font-family: Futura, "futura-pt", Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -21,8 +22,12 @@ a:focus {
 .top {
 	padding: 3rem 5vw;
 	text-align: center;
-	position: relative;
-	z-index: 1000;
+}
+
+.top__logo {
+	font-size: 1rem;
+	margin: 0 0 1rem;
+	font-weight: normal;
 }
 
 .content {
