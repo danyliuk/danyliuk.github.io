@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic');
 
+:root {
+	font-size: 16px;
+}
+
 body {
 	margin: 0;
 	font-family: Futura, "futura-pt", Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #fff;
-	font-size: 14px;
 }
 
 a {
@@ -31,6 +34,11 @@ a:focus {
 }
 
 .content {
-	margin: 20px auto;
+	margin: 1rem;
 	text-align: center;
+}
+
+footer {
+	margin: 1rem;
+	font-size: 14px;
 }
