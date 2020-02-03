@@ -33,13 +33,17 @@ a:focus {
 	font-weight: normal;
 }
 
+.top__mail {
+		color: #EE9A00;
+	}
+
 .content {
 	margin: 1rem;
 	text-align: center;
 }
 
 footer {
-	margin: 1rem;
+	margin: 3rem;
 	font-size: 14px;
 }
 
