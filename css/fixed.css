@@ -48,8 +48,8 @@ footer {
 }
 
 .photo {
-	height: 55vh;
-	max-width: 100%;
+	height: auto;
+	width: 100%;
 }
 
 @media screen and (min-width: 53em) {
@@ -65,4 +65,8 @@ footer {
 	.top__mail {
 		justify-self: end;
 	}
+    .photo {
+	height: 55vh;
+	width: auto;
+    }
 }
