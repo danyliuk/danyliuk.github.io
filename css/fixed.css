@@ -47,6 +47,11 @@ footer {
 	font-size: 14px;
 }
 
+.photo {
+	height: 55vh;
+	max-width: 100%;
+}
+
 @media screen and (min-width: 53em) {
 	.top {
 		display: grid;
