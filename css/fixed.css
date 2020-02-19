@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Prompt:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prompt:400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:800&display=swap');
@@ -34,7 +34,7 @@ a:focus {
 .top__logo {
 	font-size: 24px;
 	margin: 0;
-	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-family: 'Prompt', sans-serif;
 }
 
 .top__mail {
