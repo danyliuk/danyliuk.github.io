@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Prompt:500&display=swap');
 
 :root {
 	font-size: 16px;
@@ -30,7 +31,7 @@ a:focus {
 .top__logo {
 	font-size: 24px;
 	margin: 0
-	font-weight: normal;
+	font-family: 'Prompt', sans-serif;
 }
 
 .top__mail {
