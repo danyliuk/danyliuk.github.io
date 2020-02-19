@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:700&display=swap');
 
 :root {
 	font-size: 16px;
@@ -33,7 +34,7 @@ a:focus {
 .top__logo {
 	font-size: 24px;
 	margin: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .top__mail {
