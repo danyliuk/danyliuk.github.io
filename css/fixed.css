@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cabin:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap&subset=cyrillic');
 
 :root {
 	font-size: 16px;
@@ -35,9 +36,9 @@ a:focus {
 }
 
 .top__logo {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin: 0;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'PT Sans Caption', sans-serif;
 }
 
 .top__mail {
