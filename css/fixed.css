@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:800&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cabin:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:700&display=swap&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase:600&display=swap&subset=cyrillic');
 
 :root {
 	font-size: 16px;
@@ -19,7 +9,7 @@ body {
 	font-family: Futura, "futura-pt", Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #fff;
+	background-color: #a1e0e7;
 }
 
 a {
@@ -40,7 +30,7 @@ a:focus {
 .top__logo {
 	font-size: 32px;
 	margin: 0;
-	font-family: 'PT Sans Caption', sans-serif;
+	font-family: 'Cormorant Unicase', serif;
 }
 
 .top__mail {
