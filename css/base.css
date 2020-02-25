@@ -20,7 +20,7 @@ body {
 	--font-alt: bigmoore, serif;
 	--font-weight-alt: 400;
 	--color-title: inherit;
-	font-family: var(--font-main);
+	font-family: Futura, "futura-pt", Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1;
