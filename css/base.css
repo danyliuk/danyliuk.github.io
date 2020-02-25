@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap&subset=cyrillic');
+
 *,
 *::after,
 *::before {
@@ -10,103 +12,19 @@
 
 body {
 	margin: 0;
-	--color-text: #000;
-	--color-bg: #85827a;
-	--color-link: #594343;
+	--color-link: #fff;
 	--color-link-hover: #000;
-	color: var(--color-text);
-	background-color: var(--color-bg);
-	--font-main: Geneva, Tahoma, Verdana, sans-serif;
-	--font-alt: bigmoore, serif;
-	--font-weight-alt: 400;
-	--color-title: inherit;
+	color: #000;
+	background-color: #a1e0e7;
 	font-family: Futura, "futura-pt", Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1;
 }
 
-.demo-1 {
-	--color-title: #fff;
-}
-
 .demo-2 {
-	--color-link: #fff;
-	--color-bg: #a1e0e7;
-	--font-alt: meno-banner, serif;
 }
 
-.demo-3 {
-	--color-text: #000;
-	--color-link: #fff;
-	--color-bg: #d0c6ad;
-	--font-alt: freight-big-pro, serif;
-}
-
-.demo-4 {
-	--color-link: #eaeaef;
-    --color-bg: #0859ca;
-    --font-alt: bely-display, sans-serif;
-    --color-title: #eaeaef;
-}
-
-.demo-5 {
-	--color-link: #dc4823;
-	--color-bg: #eceae9;
-	--font-alt: louvette-display, serif;
-	font-family: 'Barlow', sans-serif;
-	text-transform: uppercase;
-}
-
-.demo-6 {
-	--color-text: #fff;
-	--color-link: #a17d66;
-    --color-bg: #dacca9;
-    --font-alt: bigmoore, serif;
-}
-
-.demo-7 {
-	--color-link: #343129;
-    --color-bg: #77705e;
-    --font-alt: meno-banner, serif;
-    --color-text: #e6ae4d;
-}
-
-.demo-8 {
-	--color-text: #000;
-	--color-link: #7e0c0c;
-	--color-bg: #bc3d3d;
-	--font-alt: freight-big-pro, serif;
-	--color-title: #fff;
-}
-
-/* Page Loader */
-.js .loading::before {
-	content: '';
-	position: fixed;
-	z-index: 100000;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: var(--color-bg);
-}
-
-.js .loading::after {
-	content: '';
-	position: fixed;
-	z-index: 100000;
-	top: 50%;
-	left: 50%;
-	width: 60px;
-	height: 60px;
-	margin: -30px 0 0 -30px;
-	pointer-events: none;
-	border-radius: 50%;
-	opacity: 0.4;
-	background: var(--color-link);
-	animation: loaderAnim 0.7s linear infinite alternate forwards;
-}
 
 @keyframes loaderAnim {
 	to {
@@ -179,13 +97,11 @@ a:focus {
 
 .content__title {
 	font-size: 10vw;
-	font-family: var(--font-alt);
-	font-weight: var(--font-weight-alt);
+	font-family: 'Lora', serif;
+	font-weight: 400;
 	margin: 0;
 	position: relative;
-	pointer-events: none;
 	z-index: 1000;
-	color: var(--color-title);
 	text-align: center;
 }
 
