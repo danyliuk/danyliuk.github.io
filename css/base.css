@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase:600&display=swap&subset=cyrillic');
 
 *,
 *::after,
@@ -97,7 +97,7 @@ a:focus {
 
 .content__title {
 	font-size: 10vw;
-	font-family: 'Lora', serif;
+	font-family: 'Cormorant Unicase', serif;
 	font-weight: 400;
 	margin: 0;
 	position: relative;
