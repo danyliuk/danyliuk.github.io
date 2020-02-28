@@ -3,7 +3,7 @@
 h1,
 h2,
 h3 {
-	font-size: 1rem;
+	font-size: 24px;
 	margin: 0 0 0.5rem;
 }
 
@@ -33,7 +33,6 @@ a:focus {
 
 .top {
 	padding: 3rem 5vw;
-	text-align: center;
 }
 
 .top__logo {
@@ -57,14 +56,6 @@ footer {
 .photo {
 	height: auto;
 	width: 100%;
-}
-
-a.search {
-	text-decoration: underline;
-}
-a.search:hover,
-a.search:focus {
-	text-decoration: none;
 }
 
 @media screen and (min-width: 53em) {
