@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Caveat&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
 h1 {
-	font-size: 2em;
-	margin: 0 0 1rem;
+	font-size: 1rem;
+	margin: 0 0 0.5rem;
+}
+
+h2 {
+	font-size: 1rem;
+	margin: 0 0 0.5rem;
+}
+
+h3 {
+	font-size: 1rem;
+	margin: 0 0 0.5rem;
 }
 
 :root {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 body {
@@ -35,11 +46,13 @@ a:focus {
 }
 
 .top__logo {
-	font-size: 20px;
-	margin: 0;
+	font-size: 1rem;
 	font-family: 'Roboto', sans-serif;
-	margin: 0 0 1rem;
 	text-transform: uppercase;
+}
+.top__logo span {
+	font-size: 1rem;
+	margin: 0 0 0.5rem;
 }
 
 .top__mail {
@@ -65,7 +78,6 @@ footer {
 a.search {
 	text-decoration: underline;
 }
-
 a.search:hover,
 a.search:focus {
 	text-decoration: none;
@@ -79,8 +91,7 @@ a.search:focus {
 	}
 	.top__logo {
 		justify-self: start;
-		margin: 0;
-		text-align: right;
+		text-align: left;
 	}
 	.top__mail {
 		justify-self: end;
