@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase:600&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap&subset=cyrillic');
+
+h1 {
+	font-size: 2em;
+	margin: 0 0 1rem;
+}
 
 :root {
 	font-size: 16px;
@@ -29,10 +34,11 @@ a:focus {
 }
 
 .top__logo {
-	font-size: 32px;
+	font-size: 24px;
 	margin: 0;
-	font-family: 'Cormorant Unicase', serif;
+	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
+	margin: 0 0 1rem;
 }
 
 .top__mail {
