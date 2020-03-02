@@ -32,7 +32,7 @@ a:focus {
 }
 
 .top {
-	padding: 3rem;
+	padding: 2rem;
 }
 
 .top__logo {
@@ -44,7 +44,7 @@ a:focus {
 	}
 
 .content {
-	padding: 0 3rem 3rem;
+	padding: 0 2rem 3rem;
 	font-weight: 500;
 }
 
@@ -70,6 +70,7 @@ footer {
     }
 
 	.top {
+		padding: 3rem;
 		display: grid;
 		grid-template-columns: 50% 50%;
 	}
@@ -80,6 +81,9 @@ footer {
 	.top__mail {
 		justify-self: end;
 	}
+	.content {
+	padding: 0 3rem 3rem;
+    }
     .photo {
 	height: 55vh;
 	width: auto;
