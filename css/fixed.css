@@ -33,15 +33,8 @@ a:focus {
 
 .top {
 	padding: 2rem;
-}
-
-.top__logo {
 	text-transform: uppercase;
 }
-
-.top__mail {
-	    font-size: 1rem;
-	}
 
 .content {
 	padding: 0 2rem 3rem;
@@ -68,21 +61,17 @@ footer {
 	body {
 	font-size: 21px;
     }
-
 	.top {
 		padding: 3rem;
-		display: grid;
-		grid-template-columns: 50% 50%;
 	}
 	.top__logo {
 		justify-self: start;
 		text-align: left;
 	}
-	.top__mail {
-		justify-self: end;
-	}
 	.content {
-	padding: 0 3rem 3rem;
+	    padding: 0 3rem 3rem;
+	    display: grid;
+	    grid-template-columns: 50% 50%;
     }
     .photo {
 	height: 55vh;
