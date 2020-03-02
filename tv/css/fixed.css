@@ -16,13 +16,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #fff;
+	background-color: #F5F5F5;
 	line-height: 1;
 	font-size: 18px;
+	color: #4B4C4D;
 }
 
 a {
-	color: #000;
 	text-decoration: underline;
 }
 
@@ -36,11 +36,10 @@ a:focus {
 }
 
 .top__logo {
-	text-transform: uppercase;
 }
 
 .top__mail {
-	    font-size: 1rem;
+	font-size: 18px;
 	}
 
 .content {
