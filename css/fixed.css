@@ -44,7 +44,7 @@ a:focus {
 	}
 
 .content {
-	text-align: center;
+	padding: 0 3rem 3rem;
 }
 
 footer {
