@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap&subset=cyrillic');
 
 h1,
 h2,
@@ -18,7 +18,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #fff;
 	line-height: 1;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 a {
@@ -45,6 +45,7 @@ a:focus {
 
 .content {
 	padding: 0 3rem 3rem;
+	font-weight: 300;
 }
 
 footer {
@@ -58,6 +59,10 @@ footer {
 }
 
 @media screen and (min-width: 53em) {
+	body {
+	font-size: 18px;
+    }
+
 	.top {
 		display: grid;
 		grid-template-columns: 50% 50%;
