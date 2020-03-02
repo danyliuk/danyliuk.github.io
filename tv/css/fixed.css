@@ -23,6 +23,7 @@ body {
 }
 
 a {
+	color: #4B4C4D;
 	text-decoration: underline;
 }
 
@@ -39,6 +40,7 @@ a:focus {
 }
 
 .top__mail {
+	margin-top: 1rem;
 	font-size: 16px;
 	}
 
