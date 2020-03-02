@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic');
 
 h1,
 h2,
@@ -13,7 +13,7 @@ h3 {
 
 body {
 	margin: 0;
-	font-family: Futura, "futura-pt", Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #fff;
@@ -36,7 +36,6 @@ a:focus {
 }
 
 .top__logo {
-	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 }
 
