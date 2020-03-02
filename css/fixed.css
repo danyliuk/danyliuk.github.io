@@ -59,6 +59,12 @@ footer {
 }
 
 @media screen and (min-width: 53em) {
+	h1,
+    h2,
+    h3 {
+	font-size: 21px;
+	margin: 0 0 0.5rem;
+    }
 	body {
 	font-size: 21px;
     }
@@ -78,10 +84,4 @@ footer {
 	height: 55vh;
 	width: auto;
     }
-    h1,
-    h2,
-    h3 {
-	font-size: 21px;
-	margin: 0 0 0.5rem;
-}
 }
