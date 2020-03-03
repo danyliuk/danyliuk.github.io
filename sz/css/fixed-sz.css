@@ -49,6 +49,12 @@ a:focus {
 	font-weight: 500;
 }
 
+.image {
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+
 footer {
 	margin: 3rem;
 	font-size: 14px;
@@ -86,6 +92,10 @@ footer {
 	padding: 0 3rem 3rem;
     }
     .photo {
+	height: 55vh;
+	width: auto;
+    }
+    .image {
 	height: 55vh;
 	width: auto;
     }
