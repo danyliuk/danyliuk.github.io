@@ -16,14 +16,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #8ECBED;
+	background-color: #000;
 	line-height: 1;
 	font-size: 18px;
-	color: #1A56AC;
+	color: #fff;
 }
 
 a {
-	color: #1A56AC;
+	color: #fff;
 	text-decoration: underline;
 }
 
