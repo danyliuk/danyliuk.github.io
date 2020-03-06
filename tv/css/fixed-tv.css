@@ -54,7 +54,7 @@ footer {
 	font-size: 14px;
 }
 
-.photo {
+.image {
 	height: auto;
 	width: 100%;
 }
@@ -85,7 +85,7 @@ footer {
 	.content {
 	padding: 0 3rem 3rem;
     }
-    .photo {
+    .image {
 	height: 55vh;
 	width: auto;
     }
