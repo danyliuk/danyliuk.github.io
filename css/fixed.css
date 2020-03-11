@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,700,900&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic');
 
 h1 {
 	font-size: 18px;
@@ -7,15 +7,15 @@ h1 {
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 14px;
 	margin: 0 0 0.5rem;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 14px;
 	margin: 0 0 0.5rem;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 :root {
@@ -30,6 +30,7 @@ body {
 	background-color: #fff;
 	line-height: 1;
 	font-size: 18px;
+	font-weight: 500;
 }
 
 a {
@@ -44,7 +45,6 @@ a:focus {
 
 .top {
 	padding: 2rem;
-	text-transform: uppercase;
 }
 
 .content {
@@ -63,11 +63,14 @@ footer {
 }
 
 @media screen and (min-width: 53em) {
-	h1,
-    h2,
-    h3 {
+	h1 {
 	font-size: 21px;
-	margin: 0 0 0.5rem;
+    }
+    h2 {
+	font-size: 16px;
+    }
+    h3 {
+	font-size: 16px;
     }
 	body {
 	font-size: 21px;
