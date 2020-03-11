@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700,900&display=swap&subset=cyrillic');
 
-h1,
-h2,
+h1 {
+	font-size: 18px;
+	margin: 0 0 0.5rem;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 0 0 0.5rem;
+	font-weight: 700;
+}
+
 h3 {
 	font-size: 18px;
 	margin: 0 0 0.5rem;
+	font-weight: 500;
 }
 
 :root {
