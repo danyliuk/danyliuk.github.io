@@ -9,7 +9,7 @@ h1 {
 h2 {
 	font-size: 16px;
 	margin: 0 0 0.5rem;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 h3 {
@@ -84,7 +84,7 @@ footer {
     margin-inline-end: 0px;
     }
 	body {
-	font-size: 20px;
+	font-size: 16px;
     }
 	.top {
 	padding: 3rem;
