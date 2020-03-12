@@ -10,6 +10,7 @@ h2 {
 	font-size: 16px;
 	margin: 0 0 0.5rem;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -30,7 +31,7 @@ body {
 	background-color: #fff;
 	line-height: 1;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 a {
@@ -57,7 +58,7 @@ p {
 
 .content {
 	padding: 0 2rem 3rem;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .grid {
@@ -76,6 +77,11 @@ footer {
 }
 
 @media screen and (min-width: 53em) {
+	h1 {
+	font-size: 24px;
+	margin: 0;
+	font-weight: 900;
+    }
 	p {
     display: block;
     margin-block-start: 0.6rem;
