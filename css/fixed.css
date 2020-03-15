@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 h1 {
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 h2 {
@@ -14,9 +14,9 @@ h2 {
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0 0 0.5rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 :root {
@@ -31,7 +31,7 @@ body {
 	background-color: #fff;
 	line-height: 1;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 a {
@@ -58,7 +58,7 @@ p {
 
 .content {
 	padding: 0 2rem 3rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .grid {
@@ -81,7 +81,7 @@ footer {
 	font-size: 18px;
     }
     h2 {
-	font-size: 20px;
+	font-size: 18px;
     }
 	p {
     display: block;
@@ -91,7 +91,7 @@ footer {
     margin-inline-end: 0px;
     }
 	body {
-	font-size: 16px;
+	font-size: 18px;
     }
 	.top {
 	padding: 3rem;
