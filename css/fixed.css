@@ -63,7 +63,7 @@ p {
 }
 
 .grid {
-	padding: 0 2rem 3rem;
+	padding: 3rem 2rem 3rem;
 	font-weight: 500;
 }
 
@@ -101,7 +101,7 @@ footer {
 	padding: 0 3rem 3rem;
     }
     .grid {
-	padding: 0 3rem 3rem;
+	padding: 3rem;
 	display: grid;
 	grid-template-columns: 50% 50%;
     }
