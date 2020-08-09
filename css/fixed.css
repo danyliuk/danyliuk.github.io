@@ -1,7 +1,6 @@
 h1 {
 	font-size:2em;
-	margin:0.67em 0;
-	margin-block-start: 0px;
+	margin: 0;
 }
 
 h2 {
@@ -47,7 +46,7 @@ p {
 }
 
 .header {
-	padding: 1rem 2rem;
+	padding: 0.3rem 2rem;
 	display: flex;
 	border-bottom: 2px solid black;
 }
