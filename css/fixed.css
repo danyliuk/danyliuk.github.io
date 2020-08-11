@@ -3,19 +3,6 @@ h1 {
 	margin: 0;
 }
 
-h2 {
-	font-size: 16px;
-	margin: 0 0 0.5rem;
-	font-weight: 300;
-	text-transform: uppercase;
-}
-
-h3 {
-	font-size: 16px;
-	margin: 0 0 0.5rem;
-	font-weight: 300;
-}
-
 body {
 	margin: 0;
 	font-family: 'Arial';
@@ -48,7 +35,7 @@ p {
 .header {
 	padding: 8px 16px 6px;
 	display: flex;
-	border-bottom: 2px solid black;
+	border-bottom: 2px #000 solid;
 }
 
 .title {
@@ -83,9 +70,6 @@ footer {
 @media screen and (min-width: 53em) {
 	h1 {
 	font-size: 16px;
-    }
-    h2 {
-	font-size: 18px;
     }
 	p {
     display: block;
