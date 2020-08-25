@@ -1,6 +1,6 @@
 h1 {
 	margin: 0;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 body {
@@ -33,13 +33,12 @@ p {
 }
 
 .header {
-	padding: 8px 16px 6px;
-	display: flex;
-	border-bottom: 2px #000 solid;
+	padding: 24px 16px 14px;
+	text-align: center;
 }
 
 .title {
-	font-size: 16px;
+	font-size: 22px;
 	padding: 5px 0;
 }
 
