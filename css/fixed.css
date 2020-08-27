@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 
 h1 {
 	margin: 0;
@@ -13,7 +13,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #DDE6ED;
-	font-size: 14px;
+	font-size: 15px;
 	text-align: center;
 }
 
@@ -41,9 +41,9 @@ p {
 }
 
 .title {
-	font-size: 18px;
+	font-size: 20px;
 	padding: 5px 0;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Istok Web', sans-serif;
 }
 
 .top {
