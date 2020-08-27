@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
 
 h1 {
 	margin: 0;
@@ -41,13 +41,13 @@ p {
 }
 
 .title {
-	font-size: 16px;
+	font-size: 18px;
 	padding: 5px 0;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
 .top {
-	padding: 6px;
+	padding: 0 16px;
 }
 
 .content {
@@ -82,7 +82,7 @@ footer {
 	grid-area: header;
 	}
 	.top {
-	padding: 6px;
+	padding: 0 16px;
 	}
 	.content {
 	padding: 0 3rem 3rem;
