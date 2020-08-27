@@ -39,12 +39,12 @@ p {
 }
 
 .title {
-	font-size: 15px;
+	font-size: 14px;
 	padding: 5px 0;
 }
 
 .top {
-	padding: 2rem;
+	padding: 6px;
 }
 
 .content {
@@ -79,7 +79,7 @@ footer {
 	grid-area: header;
 	}
 	.top {
-	padding: 3rem;
+	padding: 6px;
 	}
 	.content {
 	padding: 0 3rem 3rem;
