@@ -12,6 +12,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #D4E2EF;
 	font-size: 14px;
+	text-align: center;
 }
 
 a {
@@ -33,12 +34,12 @@ p {
 }
 
 .header {
-	padding: 24px 16px 14px;
+	padding: 54px 16px 0px;
 	text-align: center;
 }
 
 .title {
-	font-size: 16px;
+	font-size: 15px;
 	padding: 5px 0;
 }
 
