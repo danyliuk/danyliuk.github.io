@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap');
+
 h1 {
 	margin: 0;
 	font-weight: 500;
@@ -39,8 +41,9 @@ p {
 }
 
 .title {
-	font-size: 14px;
+	font-size: 16px;
 	padding: 5px 0;
+	font-family: 'Arimo', sans-serif;
 }
 
 .top {
