@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 
-h1 {
-	margin: 0;
-	font-weight: 500;
-}
-
 body {
 	margin: 0;
 	font-family: 'Arial';
@@ -29,20 +24,6 @@ a:focus {
 	text-decoration: none;
 }
 
-p {
-    display: block;
-    margin-block-start: 0.6rem;
-    margin-block-end: 0.6rem;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.title {
-	font-size: 20px;
-	padding: 5px 0;
-	font-family: 'Istok Web', sans-serif;
-}
-
 main {
   width: 100%;
   height: 100%;
@@ -50,11 +31,24 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 main h1 {
-  font-size: 1.15rem;
+  font-size: 20px;
+  padding: 5px 0;
+  font-family: 'Istok Web', sans-serif;
+  margin: 0;
+  font-weight: 500;
 }
 main p {
-  font-size: 0.85rem;
-  text-align: center;
+  display: block;
+  margin-block-start: 0.6rem;
+  margin-block-end: 0.6rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+	padding: 25px;
+	border: 4px solid black;
 }
