@@ -2,20 +2,21 @@
 
 body {
 	margin: 0;
-	font-family: 'Arial';
+	font-family: tenon,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
     font-weight: normal;
     font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #EDF1F5;
-	font-size: 15px;
+	font-size: 13px;
 	width: 100%;
     height: 100vh;
     overflow: hidden;
+    color: #929292;
 }
 
 a {
-	color: #000;
+	color: #929292;
 	text-decoration: underline;
 }
 
@@ -29,24 +30,25 @@ main {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
 }
 main h1 {
-  font-size: 15px;
-  margin: 10px;
-  font-weight: 500;
+  font-size: 13px;
+  margin: 4px 0;
+  font-weight: normal;
+  font-style: normal;
 }
 main p {
   display: block;
-  margin-block-start: 10px;
-  margin-block-end: 10px;
+  margin-block-start: 4px;
+  margin-block-end: 4px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
 
 .container {
 	padding: 70px;
-	border: 1px solid #A3BACC;
+
 }
