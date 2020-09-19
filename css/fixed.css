@@ -21,7 +21,7 @@ a:focus {
 }
 
 main {
-  padding: 70px;
+  padding: 35px;
   text-align: right;
 }
 
@@ -37,4 +37,10 @@ main p {
   margin-block-end: 4px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+@media screen and (min-width: 53em) {
+	main {
+    padding: 70px;
+    }
 }
