@@ -7,11 +7,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #FFF;
 	font-size: 13px;
-    color: #929292;
+    color: #000;
 }
 
 a {
-	color: #929292;
+	color: #000;
 	text-decoration: underline;
 }
 
