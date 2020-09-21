@@ -28,8 +28,12 @@ main {
   text-align: right;
 }
 
+.links {
+margin: 70px 0;
+}
+
 @media screen and (min-width: 53em) {
 	main {
-    padding: 70px 120px;
+    padding: 70px;
     }
 }
