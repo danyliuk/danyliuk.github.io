@@ -15,12 +15,12 @@ body {
 
 a {
 	color: #000;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 main {
