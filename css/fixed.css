@@ -5,6 +5,8 @@ body {
 	font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	background-color: #FFF;
 	font-size: 13px;
 	line-height: 1.5;
