@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
+	margin: 0;
 	font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #fff;
-	margin: 20px;
-	color: #008000;
+	background-color: #FFF;
+	font-size: 13px;
+	line-height: 1.5;
+    color: #000;
 }
 
 a {
@@ -19,7 +23,17 @@ a:focus {
 	text-decoration: underline;
 }
 
-.content {
-	margin: 20px auto;
-	text-align: center;
+main {
+  padding: 35px;
+  text-align: right;
+}
+
+.links {
+margin: 40px 0;
+}
+
+@media screen and (min-width: 53em) {
+	main {
+    padding: 70px;
+    }
 }
