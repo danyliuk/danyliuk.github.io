@@ -32,8 +32,17 @@ main {
 margin: 40px 0;
 }
 
+.image {
+	height: auto;
+	width: 100%;
+}
+
 @media screen and (min-width: 53em) {
 	main {
     padding: 70px;
+    }
+    .image {
+	height: 430;
+	width: 500;
     }
 }
