@@ -22,9 +22,16 @@ a:focus {
 }
 
 main {
-  padding: 35px;
-  text-align: right;
+  height: 100vh;
+  width: 100%;
 }
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%; /* Ширина слоя */
+   }
 
 .links {
 margin: 40px 0;
@@ -32,7 +39,7 @@ margin: 40px 0;
 
 @media screen and (min-width: 53em) {
 	main {
-    padding: 70px;
+    
     }
     body {
     line-height: 1.5;
