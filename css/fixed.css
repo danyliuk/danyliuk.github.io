@@ -28,7 +28,7 @@ main {
 #footer {
     position: fixed;
     left: 0; bottom: 0;
-    padding: 36px 42px;
+    padding: 24px 24px;
    }
 
 .links {
@@ -40,6 +40,6 @@ margin: 40px 0;
     line-height: 1.5;
     }
     #footer {
-    padding: 48px 56px;
+    padding: 36px 36px;
    }
 }
