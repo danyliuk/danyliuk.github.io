@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
 	margin: 0;
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #FFF;
@@ -28,7 +29,7 @@ main {
 #footer {
     position: fixed;
     left: 0; bottom: 0;
-    padding: 24px 24px;
+    padding: 18px 24px;
    }
 
 .links {
@@ -40,6 +41,6 @@ margin: 40px 0;
     line-height: 1.5;
     }
     #footer {
-    padding: 36px 36px;
+    padding: 26px 36px;
    }
 }
