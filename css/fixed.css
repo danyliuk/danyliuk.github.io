@@ -26,7 +26,7 @@ main {
   width: 100%;
 }
 
-#footer {
+footer {
     position: fixed;
     left: 0; bottom: 0;
     padding: 16px 24px;
@@ -40,7 +40,7 @@ margin: 40px 0;
     body {
     line-height: 1.5;
     }
-    #footer {
+    footer {
     padding: 26px 36px;
    }
 }
