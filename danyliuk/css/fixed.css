@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #FFF;
+	font-size: 13px;
+	line-height: 2;
+  color: #000;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+main {
+  width: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 16px 24px;
+   }
+
+.links {
+margin: 40px 0;
+}
+
+@media screen and (min-width: 53em) {
+    body {
+    line-height: 1.5;
+    }
+    footer {
+    padding: 26px 36px;
+   }
+}
