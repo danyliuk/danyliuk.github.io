@@ -28,6 +28,7 @@ a:focus {
 
 main {
   width: 100%;
+  padding: 16px 24px;
 }
 
 footer {
@@ -44,7 +45,7 @@ margin: 40px 0;
     body {
     line-height: 1.5;
     }
-    footer {
+    main {
     padding: 26px 36px;
-   }
+}
 }
