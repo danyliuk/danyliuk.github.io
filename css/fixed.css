@@ -4,7 +4,7 @@
 
 
 body {
-	margin: 0;
+	margin: 16px 24px;
 	font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -26,10 +26,6 @@ a:focus {
 	text-decoration: underline;
 }
 
-main {
-  margin: 16px 24px;
-}
-
 footer {
     position: fixed;
     left: 0; bottom: 0;
@@ -43,8 +39,6 @@ margin: 40px 0;
 @media screen and (min-width: 53em) {
     body {
     line-height: 1.5;
-    }
-    main {
     margin: 26px 36px;
     }
 }
