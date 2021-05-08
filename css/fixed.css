@@ -4,7 +4,7 @@
 
 
 body {
-	margin: 16px 24px;
+	margin: 24px 36px;
 	font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -39,6 +39,6 @@ margin: 40px 0;
 @media screen and (min-width: 53em) {
     body {
     line-height: 1.5;
-    margin: 26px 36px;
+    margin: 36px 48px;
     }
 }
