@@ -36,9 +36,18 @@ footer {
 margin: 40px 0;
 }
 
+.logo {
+  height: auto;
+  width: 100%;
+}
+
 @media screen and (min-width: 53em) {
     body {
     line-height: 1.5;
     margin: 36px 48px;
+    }
+    .logo {
+    height: 256px;
+    width: 256px;
     }
 }
