@@ -12,7 +12,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #FFF;
-	font-size: 14px;
+	font-size: 1vh;
 	line-height: 1.5;
   color: #000;
   height: 100vh;
