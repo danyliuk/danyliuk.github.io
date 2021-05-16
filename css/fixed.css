@@ -31,7 +31,7 @@ body {
 }
 
 .danyliuk__title {
-  font-size: 5vh;
+  font-size: 7vh;
   font-weight: normal;
 }
 
@@ -60,7 +60,7 @@ margin: 40px 0;
 }
 
 .logo {
-  height: 30vh;
+  height: 40vh;
   width: auto;
   margin: 0;
 }
@@ -71,8 +71,5 @@ margin: 40px 0;
     }
     main {
     padding: 48px;
-    }
-    .danyliuk {
-    margin: 0 0 50vh 0;
     }
 }
