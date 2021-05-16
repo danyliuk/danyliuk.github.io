@@ -62,8 +62,8 @@ margin: 40px 0;
 }
 
 .logo {
-  height: auto;
-  width: 65%;
+  height: 20vh;
+  width: auto;
   margin: 50px;
 }
 
@@ -73,11 +73,6 @@ margin: 40px 0;
     }
     main {
     padding: 48px;
-    }
-    .logo {
-    height: 256px;
-    width: 256px;
-    margin: 60px;
     }
     .danyliuk {
     margin: 0 0 50vh 0;
