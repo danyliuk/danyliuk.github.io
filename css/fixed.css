@@ -31,8 +31,9 @@ body {
 }
 
 .danyliuk__title {
-  font-size: 6vh;
+  font-size: 5vh;
   font-weight: 600;
+  margin-top: 1vh;
 }
 
 a {
