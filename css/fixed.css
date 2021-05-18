@@ -31,10 +31,10 @@ body {
 }
 
 .danyliuk__title {
-  font-size: 3vh;
+  font-size: 3.4vh;
   font-weight: 700;
   font-family: 'PT Sans Caption', sans-serif;
-  margin: -2vh 0 10vh;
+  margin: -0.5vh 0 10vh;
 }
 
 a {
@@ -62,7 +62,7 @@ margin: 40px 0;
 }
 
 .logo {
-  height: 30vh;
+  height: 40vh;
   width: auto;
   margin-left: 2.415vh;
 }
