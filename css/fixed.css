@@ -64,7 +64,7 @@ margin: 40px 0;
 .logo {
   height: 35vh;
   width: auto;
-  margin: 0;
+  margin-right: 10vh;
 }
 
 @media screen and (min-width: 53em) {
