@@ -31,9 +31,10 @@ body {
 }
 
 .danyliuk__title {
-  font-size: 4vh;
+  font-size: 3vh;
   font-weight: 700;
   font-family: 'PT Sans Caption', sans-serif;
+  margin-top: 0;
 }
 
 a {
