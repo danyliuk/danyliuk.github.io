@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
 
 
 body {
@@ -33,7 +34,7 @@ body {
 .danyliuk__title {
   font-size: 4.5vh;
   font-weight: 700;
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: 'Jost', sans-serif;
   margin: -0.5vh 0 8vh;
 }
 
