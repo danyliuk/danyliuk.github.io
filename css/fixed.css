@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 
 
 body {
@@ -32,8 +32,8 @@ body {
 }
 
 .danyliuk__title {
-  font-size: 4.5vh;
-  font-family: 'Commissioner', sans-serif;
+  font-size: 4.2vh;
+  font-family: 'Tenor Sans', sans-serif;
   margin: -0.5vh 0 8vh;
 }
 
