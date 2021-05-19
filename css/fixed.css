@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 
 
@@ -36,6 +36,7 @@ body {
   font-family: 'Tenor Sans', sans-serif;
   margin: 2vh 0 14vh;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 a {
