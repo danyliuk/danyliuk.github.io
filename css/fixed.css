@@ -39,12 +39,12 @@ body {
 
 a {
 	color: #000;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 main {
