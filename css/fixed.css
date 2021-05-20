@@ -38,13 +38,13 @@ body {
 }
 
 a {
-	color: #202020;
-	text-decoration: underline;
+	color: #000;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 main {
