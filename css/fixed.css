@@ -1,13 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-	font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+	font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 300;
   font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -32,9 +31,9 @@ body {
 
 .danyliuk__title {
   font-size: 3vh;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
   margin: 12vh 0 1.5vh;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
