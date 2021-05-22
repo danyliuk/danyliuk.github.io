@@ -12,7 +12,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #FFF;
-	font-size: 2.7vh;
+	font-size: 2.5vh;
 	line-height: 1.5;
   color: #000;
   height: 100vh;
@@ -31,9 +31,9 @@ body {
 }
 
 .danyliuk__title {
-  font-size: 4.5vh;
+  font-size: 4.3vh;
   font-family: 'Bellota', cursive;
-  margin: 10vh 0 1.5vh;
+  margin: 8vh 0 1.5vh;
   font-weight: 300;
   text-transform: uppercase;
 }
