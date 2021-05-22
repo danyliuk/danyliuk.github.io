@@ -1,11 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Roboto&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-style: normal;
 	-webkit-font-smoothing: antialiased;
@@ -30,7 +30,7 @@ body {
 }
 
 .danyliuk__title {
-  font-size: 3.4vh;
+  font-size: 3.3vh;
   font-family: 'Bellota', cursive;
   margin: 8vh 0 1.5vh;
   font-weight: 400;
