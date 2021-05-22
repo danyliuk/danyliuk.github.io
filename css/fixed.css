@@ -1,11 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-	font-family: 'Bellota', cursive;
+	font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: normal;
 	-webkit-font-smoothing: antialiased;
