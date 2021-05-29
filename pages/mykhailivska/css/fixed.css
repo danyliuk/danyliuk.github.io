@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic');
+
+:root {
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	font-family: Futura, "futura-pt", Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #fff;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+.top {
+	padding: 3rem 5vw;
+	text-align: center;
+}
+
+.top__logo {
+	font-size: 1rem;
+	margin: 0 0 1rem;
+	font-weight: normal;
+}
+
+.top__mail {
+		color: #012D62;
+	}
+
+.content {
+	text-align: center;
+}
+
+footer {
+	margin: 3rem;
+	font-size: 14px;
+}
+
+.photo {
+	height: auto;
+	width: 100%;
+}
+
+a.search {
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 53em) {
+	.top {
+		display: grid;
+		padding: 3rem;
+		grid-template-columns: 50% 50%;
+	}
+	.top__logo {
+		justify-self: start;
+		margin: 0;
+	}
+	.top__mail {
+		justify-self: end;
+	}
+    .photo {
+	height: 55vh;
+	width: auto;
+    }
+}
