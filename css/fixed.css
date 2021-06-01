@@ -64,6 +64,7 @@ margin: 40px 0;
   height: 37vh;
   width: auto;
   margin-left: 2.979vh;
+  text-align: center;
 }
 
 @media screen and (min-width: 53em) {
