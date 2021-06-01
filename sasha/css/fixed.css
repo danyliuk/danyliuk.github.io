@@ -47,7 +47,8 @@ main {
 .image {
 	height: auto;
 	width: 100%;
-	text-align: center;
+	display:block;
+    margin:auto;
 }
 
 footer {
