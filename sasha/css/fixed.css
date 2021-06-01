@@ -1,24 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap&subset=cyrillic');
-
-h1,
-h2,
-h3 {
-	font-size: 18px;
-	margin: 0 0 0.5rem;
-}
-
-:root {
-	font-size: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+    font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #8ECBED;
 	line-height: 1;
-	font-size: 18px;
+	font-size: 14px;
 	color: #1A56AC;
 }
 
@@ -30,6 +21,10 @@ a {
 a:hover,
 a:focus {
 	text-decoration: none;
+}
+
+main {
+  padding: 36px;
 }
 
 .top {
@@ -65,16 +60,13 @@ footer {
 }
 
 @media screen and (min-width: 53em) {
-	h1,
-    h2,
-    h3 {
-	font-size: 21px;
-	margin: 0 0 0.5rem;
-    }
+
 	body {
 	font-size: 21px;
     }
-
+    main {
+    padding: 48px;
+    }
 	.top {
 		padding: 3rem;
 		display: grid;
