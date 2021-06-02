@@ -9,7 +9,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #8ECBED;
 	line-height: 1;
-	font-size: 14px;
+	font-size: 13px;
 	color: #1A56AC;
 }
 
@@ -27,21 +27,8 @@ main {
   padding: 36px;
 }
 
-.top {
-	padding: 2rem;
-}
-
-.top__logo {
-}
-
-.top__mail {
-	margin-top: 1rem;
-	font-size: 16px;
-	}
-
 .content {
-	padding: 0 2rem 3rem;
-	font-weight: 500;
+	padding: 36px;
 }
 
 .image {
@@ -51,42 +38,13 @@ main {
     margin:auto;
 }
 
-footer {
-	margin: 3rem;
-	font-size: 14px;
-}
-
-.photo {
-	height: auto;
-	width: 100%;
-}
-
 @media screen and (min-width: 53em) {
 
 	body {
-	font-size: 21px;
+	font-size: 15px;
     }
-    main {
-    padding: 48px;
-    }
-	.top {
-		padding: 3rem;
-		display: grid;
-		grid-template-columns: 50% 50%;
-	}
-	.top__logo {
-		justify-self: start;
-		text-align: left;
-	}
-	.top__mail {
-		justify-self: end;
-	}
 	.content {
-	padding: 0 3rem 3rem;
-    }
-    .photo {
-	height: 55vh;
-	width: auto;
+	padding: 48px;
     }
     .image {
 	height: 55vh;
