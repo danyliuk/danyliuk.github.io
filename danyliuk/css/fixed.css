@@ -11,49 +11,38 @@ body {
 	font-size: 14px;
 	line-height: 1.5;
   color: #000;
-  height: 100vh;
 }
 
 a {
 	color: #000;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
-main {
+.content {
   padding: 36px;
 }
 
-footer {
-    position: fixed;
-    left: 0; bottom: 0;
-    padding: 16px 24px;
-   }
-
-.links {
-margin: 40px 0;
-}
-
-.logo {
+.image {
   height: auto;
-  width: 65%;
-  margin-top: 90px;
+  width: 100%;
+  display:block;
+    margin:auto;
 }
 
 @media screen and (min-width: 53em) {
-    body {
-    line-height: 1.5;
-    }
-    main {
-    padding: 48px;
-    }
-    .logo {
-    height: 256px;
-    width: 256px;
-    margin-top: 120px;
-    }
+  body {
+  font-size: 15px;
+  }
+  .content {
+  padding: 48px;
+  }
+  .image {
+  height: 55vh;
+  width: auto;
+  }
 }
