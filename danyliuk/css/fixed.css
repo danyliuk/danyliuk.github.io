@@ -1,11 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   margin: 0;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-style: normal;
 	-webkit-font-smoothing: antialiased;
