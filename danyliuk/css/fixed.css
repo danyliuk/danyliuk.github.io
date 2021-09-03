@@ -49,6 +49,13 @@ h3 {
   padding: 36px;
 }
 
+.logo {
+  height: auto;
+  width: 256px;
+  display:block;
+  margin:auto;
+}
+
 .image {
   height: auto;
   width: 100%;
