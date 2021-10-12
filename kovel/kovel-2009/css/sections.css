@@ -42,10 +42,17 @@ h3 {
 }
 
 .content {
-  padding: 36px 0;
 }
 
-.block, .navi {
+.text {
+  padding: 36px;
+}
+
+.link {
+  padding: 36px;
+}
+
+.copy {
   padding: 36px;
 }
 
@@ -61,9 +68,14 @@ h3 {
   font-size: 14px;
   }
   .content {
-  padding: 48px 0;
   }
-  .block, .navi {
+  .text {
+  padding: 48px;
+  }
+  .link {
+  padding: 48px;
+  }
+  .copy {
   padding: 48px;
   }
   .logo {
