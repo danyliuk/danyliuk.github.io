@@ -44,6 +44,14 @@ h3 {
 .content {
 }
 
+.logo {
+  height: auto;
+  width: 90%;
+  display:block;
+  margin: auto;
+  padding: 5vw 0 0;
+}
+
 .text {
   padding: 36px;
 }
@@ -56,18 +64,16 @@ h3 {
   padding: 36px;
 }
 
-.logo {
-	height: auto;
-	width: 100%;
-	display:block;
-    margin:auto;
-}
-
 @media screen and (min-width: 53em) {
   body {
   font-size: 14px;
   }
   .content {
+  }
+  .logo {
+  height: 55vh;
+  width: auto;
+  padding: 48px 0 0;
   }
   .text {
   padding: 48px;
@@ -77,9 +83,5 @@ h3 {
   }
   .copy {
   padding: 48px;
-  }
-  .logo {
-  height: 55vh;
-  width: auto;
   }
 }
