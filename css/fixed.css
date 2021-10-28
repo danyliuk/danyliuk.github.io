@@ -33,7 +33,7 @@ a:focus {
   padding-left: 2.415vh;
 }
 
-.surname {
+.title {
   font-size: 32px;
   font-family: 'Roboto', sans-serif;
   margin: 8vh 0 1.5vh;
@@ -41,12 +41,26 @@ a:focus {
   text-align: center;
 }
 
+.navi {
+  padding: 24px;
+}
+
+.link {
+  margin: 36px;
+}
+
 .copyright {
   text-align: center;
 }
 
 @media screen and (min-width: 53em) {
-    .surname {
-    font-size: 40px;
-    }
+  .title {
+  font-size: 40px;
+  }
+  .navi {
+  padding: 36px;
+  }
+  .link {
+  margin: 48px;
+  }
 }
