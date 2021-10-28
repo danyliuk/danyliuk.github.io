@@ -15,53 +15,38 @@ body {
   color: #000;
 }
 
-.danyliuk {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-}
-
-.danyliuk__title {
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  margin: 8vh 0 1.5vh;
-  font-weight: 400;
-}
-
 a {
-	color: #000;
-	text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
-	text-decoration: underline;
-}
-
-main {
-  padding: 36px;
+  text-decoration: underline;
 }
 
 .logo {
   height: 37vh;
   width: auto;
-  margin-left: 2.979vh;
+  display: block;
+  margin: auto;
+  padding: 20vh 0 0 2.979vh;
+}
+
+.surname {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin: 8vh 0 1.5vh;
+  font-weight: 400;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
 }
 
 @media screen and (min-width: 53em) {
-    body {
-    font-size: 14px;
-    }
-    main {
-    padding: 48px;
-    }
-    .danyliuk__title {
+    .surname {
     font-size: 32px;
     }
 }
