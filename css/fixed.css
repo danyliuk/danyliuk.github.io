@@ -29,8 +29,8 @@ a:focus {
   height: 30vh;
   width: auto;
   display: block;
-  margin: auto;
-  padding: 25vh 0 0 2.415vh;
+  margin: 25vh auto 0 auto;
+  padding-left: 2.415vh;
 }
 
 .surname {
