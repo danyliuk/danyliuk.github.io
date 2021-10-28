@@ -25,6 +25,14 @@ a:focus {
   text-decoration: underline;
 }
 
+li {
+    list-style-type: none;
+}
+ul {
+margin-left: 0;
+padding-left: 0;
+}
+
 .logo {
   height: 30vh;
   width: auto;
@@ -47,6 +55,7 @@ a:focus {
 
 .link {
   margin: 36px;
+  font-size: 20px;
 }
 
 .copyright {
