@@ -1,0 +1,174 @@
+<svg id="Вокзал_міста_Ковель" data-name="Вокзал міста Ковель" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242 88.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6f5f3;
+      }
+
+      .cls-2 {
+        fill: #179adb;
+      }
+
+      .cls-3 {
+        fill: #1085bf;
+      }
+
+      .cls-4 {
+        fill: #e8e7e5;
+      }
+
+      .cls-5 {
+        fill: #333c43;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Сірі_стіни" data-name="Сірі стіни">
+    <rect class="cls-1" x="90" y="56.5" width="62" height="32"/>
+    <rect class="cls-1" x="102" y="39.5" width="38" height="10"/>
+    <rect class="cls-1" x="152" y="67.5" width="70" height="21"/>
+    <rect class="cls-1" x="222" y="66.5" width="17" height="22"/>
+    <rect class="cls-1" x="20" y="67.5" width="70" height="21"/>
+    <rect class="cls-1" x="3" y="66.5" width="17" height="22"/>
+  </g>
+  <g id="Дах_додатковий" data-name="Дах додатковий">
+    <g id="Дах_додатковий-2" data-name="Дах додатковий">
+      <polygon class="cls-2" points="242 63.5 231 59.5 204 59.5 204 63.5 242 63.5"/>
+      <polygon class="cls-2" points="0 63.5 11 59.5 38 59.5 38 63.5 0 63.5"/>
+    </g>
+    <g id="Водостіки_малі" data-name="Водостіки малі">
+      <rect class="cls-3" x="209" y="62.5" width="32" height="1"/>
+      <rect class="cls-3" x="1" y="62.5" width="32" height="1"/>
+    </g>
+  </g>
+  <g id="Дах_основний" data-name="Дах основний">
+    <polygon class="cls-2" points="154 53.5 88 53.5 102.56 49.5 139.44 49.5 154 53.5"/>
+    <polygon class="cls-2" points="142 36.5 100 36.5 118 30.5 125 30.5 142 36.5"/>
+    <polygon class="cls-2" points="125 21.5 122 9.5 121 9.5 118 21.5 125 21.5"/>
+    <polygon class="cls-2" points="152 64.5 152 54.5 194 54.5 225 64.5 152 64.5"/>
+    <polygon class="cls-2" points="90 64.5 90 54.5 48 54.5 17 64.5 90 64.5"/>
+  </g>
+  <g id="Сірі_контури" data-name="Сірі контури">
+    <polygon class="cls-4" points="23 66.5 2 66.5 0 63.5 23 63.5 23 66.5"/>
+    <g>
+      <polygon class="cls-4" points="142 37.5 100 37.5 101 39.5 141 39.5 142 37.5"/>
+      <rect class="cls-4" x="118" y="22.5" width="7" height="7"/>
+      <polygon class="cls-4" points="219 66.5 240 66.5 242 63.5 219 63.5 219 66.5"/>
+      <rect class="cls-4" x="219" y="67.5" width="3" height="21"/>
+      <rect class="cls-4" x="236" y="66.5" width="3" height="22"/>
+      <polygon class="cls-4" points="223 67.5 151 67.5 151 64.5 225 64.5 223 67.5"/>
+      <rect class="cls-4" x="20" y="67.5" width="3" height="21"/>
+      <rect class="cls-4" x="3" y="66.5" width="3" height="22"/>
+      <polygon class="cls-4" points="19 67.5 91 67.5 91 64.5 17 64.5 19 67.5"/>
+      <polygon class="cls-4" points="154 54.5 88 54.5 89 57.5 153 57.5 154 54.5"/>
+    </g>
+  </g>
+  <g id="Водостіки_великі" data-name="Водостіки великі">
+    <rect class="cls-3" x="100" y="36.5" width="42" height="1"/>
+    <rect class="cls-3" x="117" y="21.5" width="9" height="1"/>
+    <rect class="cls-2" x="118" y="29.5" width="7" height="1"/>
+    <rect class="cls-3" x="88" y="53.5" width="66" height="1"/>
+    <rect class="cls-3" x="151" y="63.5" width="73" height="1"/>
+    <rect class="cls-3" x="18" y="63.5" width="73" height="1"/>
+  </g>
+  <g id="Вікна_маленькі" data-name="Вікна маленькі">
+    <path class="cls-5" d="M123,42.5v6h-4v-6a2,2,0,0,1,4,0Z"/>
+    <path class="cls-5" d="M128,42.5v6h-4v-6a2,2,0,0,1,4,0Z"/>
+    <path class="cls-5" d="M133,42.5v6h-4v-6a2,2,0,0,1,4,0Z"/>
+    <path class="cls-5" d="M138,42.5v6h-4v-6a2,2,0,0,1,4,0Z"/>
+    <path class="cls-5" d="M118,42.5v6h-4v-6a2,2,0,0,1,4,0Z"/>
+    <path class="cls-5" d="M113,42.5v6h-4v-6a2,2,0,0,1,4,0Z"/>
+    <path class="cls-5" d="M108,42.5v6h-4v-6a2,2,0,0,1,4,0Z"/>
+  </g>
+  <g id="Вікна_маленькі-2" data-name="Вікна маленькі">
+    <path class="cls-6" d="M121,25.5v4h-2v-4a1,1,0,0,1,2,0Z"/>
+    <path class="cls-6" d="M124,25.5v4h-2v-4a1,1,0,0,1,2,0Z"/>
+  </g>
+  <g id="Герб">
+    <rect class="cls-1" x="121" y="3.5" width="1" height="6"/>
+    <g>
+      <circle class="cls-4" cx="121.5" cy="2" r="1.5"/>
+      <path class="cls-4" d="M121.5,0a2,2,0,0,0-.5,3.93,1.82,1.82,0,0,0,1,0A2,2,0,0,0,121.5,0Zm0,3a1,1,0,1,1,1-1A1,1,0,0,1,121.5,3Z"/>
+    </g>
+  </g>
+  <g id="Вікна_прямокутні" data-name="Вікна прямокутні">
+    <rect class="cls-5" x="196" y="81.5" width="4" height="7"/>
+    <rect class="cls-5" x="204" y="81.5" width="4" height="7"/>
+    <rect class="cls-5" x="196" y="70.5" width="4" height="7"/>
+    <rect class="cls-5" x="204" y="70.5" width="4" height="7"/>
+    <rect class="cls-5" x="42" y="81.5" width="4" height="7"/>
+    <rect class="cls-5" x="34" y="81.5" width="4" height="7"/>
+    <rect class="cls-5" x="42" y="70.5" width="4" height="7"/>
+    <rect class="cls-5" x="34" y="70.5" width="4" height="7"/>
+  </g>
+  <g id="Вікна_великі" data-name="Вікна великі">
+    <rect class="cls-4" x="153" y="75.5" width="4" height="2"/>
+    <rect class="cls-4" x="85" y="75.5" width="4" height="2"/>
+    <g>
+      <g id="Вікна_овальні" data-name="Вікна овальні">
+        <g>
+          <path class="cls-5" d="M164,75V88.5H154V75a5,5,0,0,1,10,0Z"/>
+          <path class="cls-4" d="M159.5,68.5A6.51,6.51,0,0,0,153,75V88.5h3V75a3.5,3.5,0,0,1,7,0V88.5h3V75A6.51,6.51,0,0,0,159.5,68.5Z"/>
+        </g>
+        <g>
+          <path class="cls-5" d="M177,75V88.5H167V75a5,5,0,0,1,10,0Z"/>
+          <path class="cls-4" d="M172.5,68.5A6.51,6.51,0,0,0,166,75V88.5h3V75a3.5,3.5,0,0,1,7,0V88.5h3V75A6.51,6.51,0,0,0,172.5,68.5Z"/>
+        </g>
+        <g>
+          <path class="cls-5" d="M190,75V88.5H180V75a5,5,0,0,1,10,0Z"/>
+          <path class="cls-4" d="M185.5,68.5A6.51,6.51,0,0,0,179,75V88.5h3V75a3.5,3.5,0,0,1,7,0V88.5h3V75A6.51,6.51,0,0,0,185.5,68.5Z"/>
+        </g>
+        <g>
+          <path class="cls-5" d="M87,75V88.5H77V75a5,5,0,0,1,10,0Z"/>
+          <path class="cls-4" d="M82.5,68.5A6.51,6.51,0,0,0,76,75V88.5h3V75a3.5,3.5,0,0,1,7,0V88.5h3V75A6.51,6.51,0,0,0,82.5,68.5Z"/>
+        </g>
+        <g>
+          <path class="cls-5" d="M74,75V88.5H64V75a5,5,0,0,1,10,0Z"/>
+          <path class="cls-4" d="M69.5,68.5A6.51,6.51,0,0,0,63,75V88.5h3V75a3.5,3.5,0,0,1,7,0V88.5h3V75A6.51,6.51,0,0,0,69.5,68.5Z"/>
+        </g>
+        <g>
+          <path class="cls-5" d="M61,75V88.5H51V75a5,5,0,0,1,10,0Z"/>
+          <path class="cls-4" d="M56.5,68.5A6.51,6.51,0,0,0,50,75V88.5h3V75a3.5,3.5,0,0,1,7,0V88.5h3V75A6.51,6.51,0,0,0,56.5,68.5Z"/>
+        </g>
+      </g>
+      <g id="Поперечнібалки">
+        <rect class="cls-4" x="175" y="75.5" width="8" height="2"/>
+        <rect class="cls-4" x="162" y="75.5" width="8" height="2"/>
+        <rect class="cls-4" x="188" y="75.5" width="4" height="2"/>
+        <rect class="cls-4" x="153" y="75.5" width="4" height="2"/>
+        <rect class="cls-4" x="59" y="75.5" width="8" height="2"/>
+        <rect class="cls-4" x="72" y="75.5" width="8" height="2"/>
+        <rect class="cls-4" x="50" y="75.5" width="4" height="2"/>
+        <rect class="cls-4" x="85" y="75.5" width="4" height="2"/>
+      </g>
+    </g>
+  </g>
+  <g id="Сині_вікна" data-name="Сині вікна">
+    <path class="cls-3" d="M169,62.5h-6a3,3,0,0,1,6,0Z"/>
+    <path class="cls-3" d="M199,62.5h-6a3,3,0,0,1,6,0Z"/>
+    <path class="cls-3" d="M73,62.5h6a3,3,0,0,0-6,0Z"/>
+    <path class="cls-3" d="M43,62.5h6a3,3,0,0,0-6,0Z"/>
+  </g>
+  <g id="Вхід">
+    <g>
+      <path class="cls-5" d="M131,71.5v17H112v-17c0-.34,0-.67,0-1a8.92,8.92,0,0,1,.44-2,8.73,8.73,0,0,1,.51-1.26,9.64,9.64,0,0,1,1.45-2.11,10.19,10.19,0,0,1,2.31-1.87A9.53,9.53,0,0,1,121.5,62a9.3,9.3,0,0,1,6.66,2.73,9.39,9.39,0,0,1,.84.94,9.29,9.29,0,0,1,1.51,2.83,8.92,8.92,0,0,1,.44,2C131,70.83,131,71.16,131,71.5Z"/>
+      <path class="cls-4" d="M132,70.5a10.37,10.37,0,0,0-.37-2,10.59,10.59,0,0,0-1.36-3,11,11,0,0,0-18.44,0,10.59,10.59,0,0,0-1.36,3,10.37,10.37,0,0,0-.37,2c0,.33,0,.66,0,1v17h3v-17a8,8,0,0,1,16,0v17h3v-17C132,71.16,132,70.83,132,70.5Z"/>
+    </g>
+    <rect class="cls-4" x="113" y="78.5" width="16" height="1"/>
+    <polygon class="cls-4" points="127 65.5 130 63.5 138 63.5 138 60.5 128 60.5 125 63.5 127 65.5"/>
+    <rect class="cls-4" x="129" y="65.5" width="9" height="3"/>
+    <rect class="cls-4" x="129" y="70.5" width="9" height="3"/>
+    <rect class="cls-4" x="129" y="75.5" width="9" height="3"/>
+    <rect class="cls-4" x="129" y="80.5" width="9" height="3"/>
+    <rect class="cls-4" x="129" y="85.5" width="9" height="3"/>
+    <polygon class="cls-4" points="115 65.5 112 63.5 104 63.5 104 60.5 114 60.5 117 63.5 115 65.5"/>
+    <rect class="cls-4" x="104" y="65.5" width="9" height="3"/>
+    <rect class="cls-4" x="104" y="70.5" width="9" height="3"/>
+    <rect class="cls-4" x="104" y="75.5" width="9" height="3"/>
+    <rect class="cls-4" x="104" y="80.5" width="9" height="3"/>
+    <rect class="cls-4" x="104" y="85.5" width="9" height="3"/>
+  </g>
+</svg>
