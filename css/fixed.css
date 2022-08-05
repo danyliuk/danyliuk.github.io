@@ -65,9 +65,8 @@ ul {
 }
 
 .copyright {
-  text-align: right;
-  margin-top: 30vh;
-  margin-right: 70px;
+  text-align: center;
+  margin-top: 26vh;
 }
 
 @media screen and (min-width: 53em) {
@@ -79,5 +78,10 @@ ul {
   }
   .link {
   margin: 48px;
+  }
+  .copyright {
+    text-align: right;
+    margin-top: 30vh;
+    margin-right: 70px;
   }
 }
