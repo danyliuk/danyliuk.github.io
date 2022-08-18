@@ -55,7 +55,7 @@ ul {
 }
 
 .navi {
-  padding: 24px;
+  padding: 32px;
 }
 
 .link {
@@ -70,7 +70,7 @@ ul {
 
 @media screen and (min-width: 53em) {
   .navi {
-  padding: 48px;
+  padding: 64px;
   }
   .link {
   margin: 48px;
