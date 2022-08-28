@@ -57,7 +57,9 @@ ul {
 }
 
 .link {
-  line-height: 1;
+  line-height: 1.5;
+  font-size: 21px;
+  font-weight: 300;
 }
 
 .copyright {
