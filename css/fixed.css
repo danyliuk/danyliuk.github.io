@@ -7,7 +7,10 @@ body {
 	font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-image: linear-gradient( 63.1deg,  rgba(5,23,111,1) 16.4%, rgba(24,95,240,1) 64.5% );  min-height: 100vh;
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height: 100vh;
 	font-size: 13px;
 	line-height: 1.5;
   color: #000;
