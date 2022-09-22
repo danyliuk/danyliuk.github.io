@@ -7,9 +7,9 @@ body {
 	font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: normal;
-  background: #03001e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fffc00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   min-height: 100vh;
 	font-size: 13px;
@@ -23,7 +23,7 @@ h1 {
 }
 
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
