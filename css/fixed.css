@@ -7,8 +7,8 @@ body {
 	font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #FF3CAC;
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-image: url(img/fon.jpg);
+  background-color: #c7b39b;
   
   
   min-height: 100vh;
