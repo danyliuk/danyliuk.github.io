@@ -7,15 +7,12 @@ body {
 	font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: normal;
-  background: url(https://danyliuk.net/pages/verbka/img/verbka.jpg) no-repeat;
-  -moz-background-size: 100%; /* Firefox 3.6+ */
-  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-  -o-background-size: 100%; /* Opera 9.6+ */
-  background-size: 100%; /* Современные браузеры */
+  background: rgb(9,34,121);
+  background: linear-gradient(128deg, rgba(9,34,121,1) 0%, rgba(152,39,199,1) 51%, rgba(0,159,255,1) 100%);
   min-height: 100vh;
 	font-size: 13px;
 	line-height: 1.5;
-  color: #000;
+  color: #fff;
 }
 
 h1 {
