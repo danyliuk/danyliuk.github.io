@@ -62,9 +62,15 @@ ul {
   font-weight: 300;
 }
 
+.menu {
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: 300;
+}
+
 .copyright {
   text-align: center;
-  padding-top: 90vh;
+  padding-top: 85vh;
 }
 
 @media screen and (min-width: 53em) {
@@ -73,7 +79,6 @@ ul {
   }
   .copyright {
     text-align: right;
-    padding-top: 90vh;
     margin-right: 70px;
   }
 }
