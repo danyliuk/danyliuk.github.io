@@ -8,8 +8,7 @@ body {
   font-weight: 300;
   font-style: normal;
   background: rgb(9,34,121);
-  background: linear-gradient(128deg, rgba(9,34,121,1) 0%, rgba(152,39,199,1) 51%, rgba(0,159,255,1) 100%);
-  min-height: 100vh;
+  background: linear-gradient(150deg, rgba(9,34,121,1) 0%, rgba(98,0,255,1) 60%, rgba(0,159,255,1) 100%);  min-height: 100vh;
 	font-size: 13px;
 	line-height: 1.5;
   color: #fff;
