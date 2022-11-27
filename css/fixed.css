@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #800080;
+ }
+
 a:hover,
 a:focus {
   text-decoration: underline;
