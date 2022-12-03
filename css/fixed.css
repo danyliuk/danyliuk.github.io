@@ -77,7 +77,7 @@ ul {
 
 .copyright {
   text-align: center;
-  padding-top: 88vh;
+  padding-top: 90vh;
 }
 
 .verbka {
@@ -97,7 +97,7 @@ img {
   }
   .copyright {
     text-align: right;
-    margin-right: 70px;
+    padding-right: 70px;
   }
   .verbka {
     height: 55vh;
