@@ -3,46 +3,46 @@
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	background-color: #FFF;
+	font-weight: 300;
+	font-style: normal;
+	background: #fff;
 	font-size: 13px;
 	line-height: 1.5;
     color: #000;
 }
 
 a {
-	color: #000;
-	text-decoration: none;
-}
-
-a:hover,
-a:focus {
+	color: #0000FF;
 	text-decoration: underline;
 }
-
-main {
-  padding: 35px;
-  text-align: right;
+  
+  a:visited {
+	color: #800080;
+}
+  
+  a:hover,
+  a:focus {
+	text-decoration: none;
+	color: #0000FF;
 }
 
-.links {
-margin: 40px 0;
+.content {
 }
 
-.image {
+.logo {
 	height: auto;
-	width: 100%;
-}
+	width: 90%;
+	display:block;
+	margin: auto;
+	padding: 5vw 0 0;
+  }
+
+
 
 @media screen and (min-width: 53em) {
-	main {
-    padding: 70px;
-    }
-    .image {
-	height: 430px;
-	width: 500px;
-    }
+	.logo {
+		height: 430px;
+		width: 500px;
+		padding: 48px 0 0;
+		}
 }
