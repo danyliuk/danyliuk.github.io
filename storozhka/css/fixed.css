@@ -35,14 +35,33 @@ a {
 	display:block;
 	margin: auto;
 	padding: 5vw 0 0;
-  }
+}
 
+.text {
+	padding: 36px 36px 0 36px;
+}
 
+.link {
+	padding: 36px 36px 0 36px;
+}
+
+.copy {
+	padding: 36px;
+}
 
 @media screen and (min-width: 53em) {
 	.logo {
 		height: 430px;
 		width: 500px;
 		padding: 48px 0 0;
+		}
+	.text {
+		padding: 48px 48px 0 48px;
+		}
+	.link {
+		padding: 48px 48px 0 48px;
+		}
+	.copy {
+		padding: 48px;
 		}
 }
