@@ -39,10 +39,10 @@ a {
 
 .logo {
 	height: auto;
-	width: 96%;
+	width: 100%;
 	display:block;
 	margin: auto;
-	padding: 2vw 0 0;
+	padding: 0;
 }
 
 .text {
