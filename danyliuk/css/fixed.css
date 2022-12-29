@@ -1,80 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,500&display=swap');
 
 body {
-  margin: 0;
+	margin: 0;
 	font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-style: normal;
+	font-weight: 300;
+	font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #FFF;
-	font-size: 14px;
+	background: #fff;
+	font-size: 13px;
 	line-height: 1.5;
-  color: #000;
-}
-
-a {
-	color: #000;
-	text-decoration: underline;
-}
-
-a:hover,
-a:focus {
-	text-decoration: none;
+    color: #000;
 }
 
 h1 {
-  font-size: 32px;
-  font-weight: 700;
-  font-style: normal;
+	font-size: 20px;
+	font-weight: 500;
 }
 
-h2 {
-  font-size: 24px;
-  font-weight: 500;
-  font-style: normal;
+a {
+	color: #0000FF;
+	text-decoration: underline;
 }
-
-h3 {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
+  
+  a:visited {
+	color: #800080;
+}
+  
+  a:hover,
+  a:focus {
+	text-decoration: none;
+	color: #0000FF;
 }
 
 .content {
-  padding: 36px 0;
-}
-
-.block, .navi {
-  padding: 36px;
 }
 
 .logo {
-  height: auto;
-  width: 256px;
-  display:block;
-  margin:auto;
+	height: auto;
+	width: 256px;
+	display:block;
+	margin:auto;
+  padding: 36px 0 0;
+  }
+
+.text {
+	padding: 36px 36px 0 36px;
 }
 
-.image {
-  height: auto;
-  width: 100%;
-  display:block;
-  margin:auto;
+.link {
+	padding: 36px 36px 0 36px;
+}
+
+.copy {
+	padding: 36px;
 }
 
 @media screen and (min-width: 53em) {
-  body {
-  font-size: 15px;
-  }
-  .content {
-  padding: 48px 0;
-  }
-  .block, .navi {
-  padding: 48px;
-  }
-  .image {
-  height: 55vh;
-  width: auto;
-  }
+	h1 {
+		font-size: 24px;
+	}
+	.logo {
+		padding: 48px 0 0;
+		}
+	.text {
+		padding: 48px 48px 0 48px;
+		}
+	.link {
+		padding: 48px 48px 0 48px;
+		}
+	.copy {
+		padding: 48px;
+		}
 }
