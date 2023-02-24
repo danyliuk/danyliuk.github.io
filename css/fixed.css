@@ -9,7 +9,7 @@ body {
   font-style: normal;
   background: #0000C5;
   min-height: 100vh;
-	font-size: 11px;
+	font-size: 10px;
 	line-height: 1.5;
   color: #fff;
 }
@@ -77,7 +77,7 @@ ul {
 
 .copyright {
   text-align: center;
-  padding-top: 90vh;
+  padding-top: 94vh;
 }
 
 .verbka {
@@ -97,8 +97,8 @@ img {
   }
   .copyright {
     text-align: right;
-    padding-right: 30px;
-    padding-top: 95vh;
+    padding-right: 35px;
+    padding-top: 94vh;
   }
   .verbka {
     height: 55vh;
