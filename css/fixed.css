@@ -7,11 +7,11 @@ body {
 	font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: normal;
-  background: #0000C5;
+  background: #fff;
   min-height: 100vh;
 	font-size: 11px;
 	line-height: 1.5;
-  color: #fff;
+  color: #0000C5;
 }
 
 h1 {
