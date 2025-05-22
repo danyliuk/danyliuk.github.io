@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background: #fff;
+  min-height: 100vh;
+	font-size: 12px;
+	line-height: 1.5;
+  color: #000;
+}
+
+h1 {
+  font-size: 21px;
+  font-weight: 300;
+}
+
+a {
+  color: #2785f7;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #C24197;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: #2785f7;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.content {
+}
+
+.logo {
+  height: 30vh;
+  width: auto;
+  display: block;
+  margin: 20vh auto 0 auto;
+  padding-left: 2.415vh;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.navi {
+  padding: 32px;
+}
+
+.link {
+  line-height: 2;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.menu {
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.advance {
+  text-align: center;
+  padding: 200px 32px;
+}
+
+.verbka {
+  height: auto;
+  width: 96%;
+  display:block;
+  margin: auto;
+}
+
+img {
+  border-radius: 5px; 
+}
+
+@media screen and (min-width: 53em) {
+  .navi {
+  padding: 64px;
+    }
+  .verbka {
+    height: 55vh;
+    width: auto;
+    }
+}
