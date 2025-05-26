@@ -78,6 +78,9 @@ ul {
 .advance {
   text-align: center;
   padding: 200px 32px;
+  line-height: 2;
+  font-size: 17px;
+  font-weight: 300;
 }
 
 .verbka {
