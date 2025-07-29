@@ -76,15 +76,14 @@ ul {
 }
 
 .advance {
-  text-align: center;
-  padding: 200px 32px;
-  font-size: 15px;
+  text-align: right;
+  padding: 46vh 15vw;
+  font-size: 32px;
   font-family: "Heebo", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .verbka {
