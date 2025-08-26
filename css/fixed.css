@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
   margin: 0;
@@ -76,14 +76,22 @@ ul {
 }
 
 .advance {
-  text-align: right;
-  padding: 46vh 15vw;
-  font-size: 24px;
-  font-family: "Heebo", sans-serif;
+  text-align: center;
+  padding: 35vh 5vw 5vh 5vw;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+.photo {
+	height: auto;
+	width: 128px;
+  border: 3px solid #ffffff;
+  outline: 10px solid #E7F2FF;
+  margin: 12px;
 }
 
 .verbka {
@@ -94,7 +102,7 @@ ul {
 }
 
 img {
-  border-radius: 5px; 
+  border-radius: 100%;
 }
 
 @media screen and (min-width: 53em) {
