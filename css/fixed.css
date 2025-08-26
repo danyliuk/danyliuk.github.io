@@ -89,9 +89,9 @@ ul {
 .photo {
 	height: auto;
 	width: 128px;
-  border: 3px solid #ffffff;
+  border: 2px solid #fff;
   outline: 10px solid #E7F2FF;
-  margin: 12px;
+  margin: 15px;
 }
 
 .verbka {
