@@ -89,8 +89,6 @@ ul {
 .photo {
 	height: auto;
 	width: 256px;
-  border: 2px solid #fff;
-  outline: 6px solid #E7F2FF;
   margin: 10px;
 }
 
