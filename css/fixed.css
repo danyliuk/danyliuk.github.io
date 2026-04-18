@@ -19,6 +19,7 @@ body {
 
 .main-text {
 font-family: 'MySegoeUI', sans-serif;
+letter-spacing: -0.03em;
 }
 
 .noto-sans-display {
