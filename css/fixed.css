@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  background: #fff;
+  min-height: 100vh;
+	line-height: 1.5;
+  color: #000;
+}
+
+.main-text {
+  font-family: "Noto Sans Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background: #fff;
-  min-height: 100vh;
-	font-size: 12px;
-	line-height: 1.5;
-  color: #000;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 h1 {
@@ -78,12 +82,7 @@ ul {
 .advance {
   text-align: center;
   padding: 35vh 5vw 5vh 5vw;
-  font-size: 20px;
-  font-family: "Lato", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-size: 18px;
 }
 
 .lato-regular {
