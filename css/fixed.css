@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
 @font-face {
     font-family: 'MySegoeUI';
     src: url('../fonts/segoeui.woff2') format('woff2'),
@@ -17,6 +19,15 @@ body {
 
 .main-text {
 font-family: 'MySegoeUI';
+}
+
+.noto-sans-display {
+  font-family: "Noto Sans Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 h1 {
