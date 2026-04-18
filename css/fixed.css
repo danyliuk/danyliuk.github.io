@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'MySegoeUI'; /* Назва, яку ви використовуватимете в коді */
-    src: 
-         url('/fonts/segoeui.ttf') format('truetype');
+    font-family: 'MySegoeUI';
+    src: url('../fonts/segoeui.woff2') format('woff2'),
+         url('../fonts/segoeui.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 .main-text {
-  font-family: 'MySegoeUI';
+font-family: 'MySegoeUI', Tahoma, sans-serif;
 }
 
 h1 {
